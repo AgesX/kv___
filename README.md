@@ -50,10 +50,17 @@ KVC 适合于属性，
 
 
 
+<hr>
 
 
 <hr>
 
+
+
+<hr>
+
+
+setValForK
 
 <hr>
 
@@ -66,6 +73,14 @@ KVC 适合于属性，
 
 <hr>
 
+
+<hr>
+
+
+
+<hr>
+
+vForK
 
 <hr>
 
