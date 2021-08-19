@@ -80,18 +80,14 @@
 
 
 
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    
-    
-    
+- (void) testTwo{
     // 这个例子，很神奇
     
     LGPerson *person = [[LGPerson alloc] init];
     
     Bull * ox = [[Bull alloc] init];
+    
+    
     
     person->_isName = @"_isName";
 
@@ -100,6 +96,24 @@
     ox->_isName = @"\n\n\n_isName 666\n\n\n_";
 
     NSLog(@"俺  取值:%@",[ox valueForKey:@"name"]);
+}
+
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    Bull * ox = [[Bull alloc] init];
+    Happy * sadness = [[Happy alloc] init];
+    
+    
+    ox->name = @"\n\n\n_isName 666\n\n\n_";
+
+    NSLog(@"俺  取值:%@",[ox valueForKey:@"name"]);
+    
+    sadness->name = @"来来来 name";
+    
+    NSLog(@"\n\n\n--额  取值:%@",[sadness valueForKey:@"name"]);
 }
 
 

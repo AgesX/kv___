@@ -58,6 +58,23 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
+
+@interface Happy : NSObject{
+    
+    @public                     //          按顺序，来处理，
+                                //          来赋值 , assign value
+        NSString *name;
+        NSString *isName;
+        
+// 注意这里
+    
+    
+}
+
+
+@end
+
+
 NS_ASSUME_NONNULL_END
 
 
