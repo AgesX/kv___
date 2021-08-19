@@ -11,14 +11,31 @@
 @implementation LGPerson
 
 #pragma mark - 关闭或开启实例变量赋值
+
+
 + (BOOL)accessInstanceVariablesDirectly{
     return YES;
 }
 
+
 //MARK: - setKey. 的流程分析
-//- (void)setName:(NSString *)name{
-//    NSLog(@"%s - %@",__func__,name);
-//}
+- (void)setDeng:(NSString *)dd{
+    NSLog(@"\n\n\n%s - %@\n\n\n_",__func__,dd);
+  //  self.deng = dd;     // 死循环
+    _deng = dd;
+}
+
+
+
+
+//MARK: - setKey. 的流程分析
+- (void)setName:(NSString *)name{
+    NSLog(@"%s - %@",__func__,name);
+    
+    
+    self->name = name;
+    
+}
 
 //- (void)_setName:(NSString *)name{
 //    NSLog(@"%s - %@",__func__,name);
@@ -28,10 +45,55 @@
 //    NSLog(@"%s - %@",__func__,name);
 //}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 没有调用
 //- (void)_setIsName:(NSString *)name{
 //    NSLog(@"%s - %@",__func__,name);
+
+
+
+
+
+
+//      这个方法，是 LG 的， 编的
+
+
+
+
+
+
 //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //MARK: - valueForKey 流程分析 - get<Key>, <key>, is<Key>, or _<key>,

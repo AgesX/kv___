@@ -9,6 +9,11 @@
 #import "ViewController.h"
 #import "LGPerson.h"
 
+
+
+
+
+
 @interface ViewController ()
 
 @end
@@ -33,10 +38,24 @@
     // _name
 //    person->_name = @"_name";
 //    person->_isName = @"_isName";
+    
+    
+    
+    
+    
+    
     person->name = @"name";
 //    person->isName = @"isName";
 
-    NSLog(@"取值:%@",[person valueForKey:@"name"]);
+    NSLog(@"Ta  取值:%@",[person valueForKey:@"name"]);
+    
+    
+    person.deng = @"Ha ha ha";
+
+    NSLog(@"deng 取值:%@",[person valueForKey:@"deng"]);
+    
+    
+    
     
     
     /**
@@ -54,6 +73,20 @@
 
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //MARK: - 集合类型的KVC 注意
 

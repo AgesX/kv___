@@ -23,6 +23,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray *arr;
 @property (nonatomic, strong) NSSet   *set;
 
+@property (nonatomic, copy) NSString   *deng;
+
 @end
 
 NS_ASSUME_NONNULL_END
+
+
+
+//  我还以为，这里会有啥协议
+
+
+
+
+
