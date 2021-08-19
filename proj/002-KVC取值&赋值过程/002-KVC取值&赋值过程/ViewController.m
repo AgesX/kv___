@@ -26,7 +26,7 @@
     LGPerson *person = [[LGPerson alloc] init];
     
     // 1: KVC - 设置值的过程 setValue 分析调用过程
-    // [person setValue:@"LG_Cooci" forKey:@"name"];
+     [person setValue:@"dd_LG_Cooci" forKey:@"name"];
 
 //     NSLog(@"%@-%@-%@-%@",person->_name,person->_isName,person->name,person->isName);
 //     NSLog(@"%@-%@-%@",person->_isName,person->name,person->isName);

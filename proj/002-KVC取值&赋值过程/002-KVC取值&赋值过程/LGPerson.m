@@ -13,6 +13,8 @@
 #pragma mark - 关闭或开启实例变量赋值
 
 
+
+// 这个，有意思
 + (BOOL)accessInstanceVariablesDirectly{
     return YES;
 }
@@ -32,8 +34,12 @@
 - (void)setName:(NSString *)name{
     NSLog(@"%s - %@",__func__,name);
     
+    //  这样就 gg
+    //  self->name = name;
     
-    self->name = name;
+    self->_name = name;  // 这样 OK
+    
+    //  _name = name;
     
 }
 
