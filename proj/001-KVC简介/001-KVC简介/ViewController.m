@@ -19,7 +19,7 @@
 
 
 
-- (void) testStart{
+- (void)testStart{
     int x = arc4random() % 11;
     NSLog(@"%d",x);
   
@@ -48,41 +48,15 @@
     mArray[0] = @"200";
     NSLog(@"%@",[person valueForKey:@"array"]);
 
-    // 3:KVC - 集合操作符
+    
 }
 
 
 
 
 
-
-
-
-- (void) testEnd{
-    LGPerson *person = [[LGPerson alloc] init];
+- (void)testMiddle{
     
-    
-    // 5:KVC - 层层访问 - keyPath
-    LGStudent *student = [LGStudent alloc];
-    student.subject    = @"大师班";
-    person.student     = student;
-    
-    [person setValue:@"Swift" forKeyPath:@"student.subject"];
-    NSLog(@"%@",[person valueForKeyPath:@"student.subject"]);
-}
-
-
-
-
-
-
-
-
-
-
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
     
     
     LGPerson *person = [[LGPerson alloc] init];
@@ -101,6 +75,26 @@
 
     
     NSLog(@"\n\n\n\n\n我写的 \n%f  -  %f  -  %f\n\n\n\n\n", person.threeFloats.x, person.threeFloats.y,  person.threeFloats.z);
+    
+    
+}
+
+
+
+
+- (void)testEnd{
+    LGPerson *person = [[LGPerson alloc] init];
+    
+    
+    // 5:KVC - 层层访问 - keyPath
+    LGStudent *student = [LGStudent alloc];
+    student.subject    = @"大 B";
+    
+    
+    person.student     = student;
+    NSLog(@"我写的  %@   \n\n\n",[person valueForKeyPath:@"student.subject"]);
+    [person setValue:@"Swift" forKeyPath:@"student.subject"];
+    NSLog(@"他写的  %@   \n\n\n",[person valueForKeyPath:@"student.subject"]);
 }
 
 
@@ -113,6 +107,23 @@
 
 
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self testEnd];
+    
+}
+
+
+
+
+
+
+
+
+
+
+// 3:KVC - 集合操作符
 
 #pragma mark - array取值
 - (void)arrayDemo{
@@ -257,7 +268,16 @@
     NSLog(@"arr1 = %@", arr1);
 }
 
+
+
+
+
+
+
+
 - (void)setNesting{
+    
+    
     
     NSMutableSet *personSet1 = [NSMutableSet set];
     for (int i = 0; i < 6; i++) {
@@ -273,6 +293,11 @@
     }
     NSLog(@"personSet1 = %@", [personSet1 valueForKey:@"length"]);
     
+    
+    
+    
+    
+    
     NSMutableSet *personSet2 = [NSMutableSet set];
     for (int i = 0; i < 6; i++) {
         LGPerson *person = [LGPerson new];
@@ -287,6 +312,10 @@
     }
     NSLog(@"personSet2 = %@", [personSet2 valueForKey:@"length"]);
 
+    
+    
+    
+    
     // 嵌套set
     NSSet* nestSet = [NSSet setWithObjects:personSet1, personSet2, nil];
     // 交集
