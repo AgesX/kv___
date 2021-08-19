@@ -18,11 +18,15 @@
 
 @end
 
+
+
+
+
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+
+
+- (void) testOne{
     LGPerson *person = [[LGPerson alloc] init];
     
     // 1: KVC - 设置值的过程 setValue 分析调用过程
@@ -69,9 +73,33 @@
      
      自定义一下KVC
      */
-
-
     
+    
+}
+
+
+
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    
+    
+    
+    // 这个例子，很神奇
+    
+    LGPerson *person = [[LGPerson alloc] init];
+    
+    Bull * ox = [[Bull alloc] init];
+    
+    person->_isName = @"_isName";
+
+    NSLog(@"Ta  取值:%@\n\n\n--",[person valueForKey:@"name"]);
+    
+    ox->_isName = @"\n\n\n_isName 666\n\n\n_";
+
+    NSLog(@"俺  取值:%@",[ox valueForKey:@"name"]);
 }
 
 

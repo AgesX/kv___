@@ -158,3 +158,32 @@
 
 
 @end
+
+
+
+
+
+//
+
+
+//
+
+
+//
+
+
+@implementation Bull
+
+#pragma mark - 关闭或开启实例变量赋值
+
+
+
+// 这个，有意思
++ (BOOL)accessInstanceVariablesDirectly{
+    return YES;
+}
+
+
+
+@end
+
