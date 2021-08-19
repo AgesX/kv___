@@ -49,3 +49,40 @@ KVC 适合于属性，
 
 
 
+
+
+
+<hr>
+
+
+<hr>
+
+1， setName, _setName, setIsName
+
+2, 直接访问类方法
+
+
+
+
+<hr>
+
+
+<hr>
+
+
+1， getName
+
+name
+
+isName
+
+_name
+
+
+
+2,  集合类型处理
+
+3， 直接类方法
+
+
+4， 成员变量

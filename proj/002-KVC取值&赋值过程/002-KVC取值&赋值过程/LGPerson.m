@@ -176,7 +176,7 @@
 
 #pragma mark - 关闭或开启实例变量赋值
 
-
+// 直接访问，实例变量
 
 // 这个，有意思
 + (BOOL)accessInstanceVariablesDirectly{
