@@ -28,7 +28,7 @@
     //  4.1 willchange 父类的setter  didChange 
     // 5: NSKVONotifying_LGPerson 是否移除 + isa 是否会回来 在移除观察的时候
     
-    [self printClasses:[LGPerson class]];
+   // [self printClasses:[LGPerson class]];
     self.person = [[LGPerson alloc] init];
     
     
@@ -39,9 +39,14 @@
     
     
     [self.person addObserver:self forKeyPath:@"name" options:(NSKeyValueObservingOptionNew) context:NULL];
-    [self printClasses:[LGPerson class]];
-//    [self printClassAllMethod:objc_getClass("NSKVONotifying_LGPerson")];
-//    [self printClassAllMethod:[LGStudent class]];
+   // [self printClasses:[LGPerson class]];
+    
+    NSLog(@"\n\n\nLGPerson");
+    [self printClassAllMethod:[LGPerson class]];
+    NSLog(@"\n\n\nNSKVONotifying_LGPerson");
+    [self printClassAllMethod:objc_getClass("NSKVONotifying_LGPerson")];
+    NSLog(@"\n\n\nLGStudent");
+    [self printClassAllMethod:[LGStudent class]];
 
 }
 
@@ -66,6 +71,21 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #pragma mark - 遍历方法-ivar-property
 - (void)printClassAllMethod:(Class)cls{
     unsigned int count = 0;
@@ -74,11 +94,14 @@
         Method method = methodList[i];
         SEL sel = method_getName(method);
         IMP imp = class_getMethodImplementation(cls, sel);
-        NSLog(@"%@-%p",NSStringFromSelector(sel),imp);
+        NSLog(@"\n\n\n%d,  %@   \n-  %p", i, NSStringFromSelector(sel), imp);
     }
     free(methodList);
 }
 
+
+
+// 通过地址，判断对于方法，是继承，还是重写
 
 
 
@@ -101,7 +124,7 @@
     Class* classes = (Class*)malloc(sizeof(Class)*count);
     
     // 获取所有已注册的类
-    //  count  = 21789  
+    //  count  = 21789
     objc_getClassList(classes, count);
     
     
