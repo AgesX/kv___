@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LGViewController : ViewController
 
+
+- (void)printClasses:(Class)cls;
+
 @end
 
 NS_ASSUME_NONNULL_END

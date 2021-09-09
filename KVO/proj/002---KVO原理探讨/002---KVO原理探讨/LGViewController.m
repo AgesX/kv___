@@ -28,7 +28,7 @@
     //  4.1 willchange 父类的setter  didChange 
     // 5: NSKVONotifying_LGPerson 是否移除 + isa 是否会回来 在移除观察的时候
     
-    // [self printClasses:[LGPerson class]];
+    [self printClasses:[LGPerson class]];
     self.person = [[LGPerson alloc] init];
     
     
@@ -39,7 +39,7 @@
     
     
     [self.person addObserver:self forKeyPath:@"name" options:(NSKeyValueObservingOptionNew) context:NULL];
-//    [self printClasses:[LGPerson class]];
+    [self printClasses:[LGPerson class]];
 //    [self printClassAllMethod:objc_getClass("NSKVONotifying_LGPerson")];
 //    [self printClassAllMethod:[LGStudent class]];
 
@@ -97,16 +97,22 @@
     int count = objc_getClassList(NULL, 0);
     // 创建一个数组， 其中包含给定对象
     NSMutableArray *mArray = [NSMutableArray arrayWithObject:cls];
-    // 获取所有已注册的类
+    
     Class* classes = (Class*)malloc(sizeof(Class)*count);
+    
+    // 获取所有已注册的类
+    //  count  = 21789  
     objc_getClassList(classes, count);
+    
+    
+    
     for (int i = 0; i<count; i++) {
         if (cls == class_getSuperclass(classes[i])) {
             [mArray addObject:classes[i]];
         }
     }
     free(classes);
-    NSLog(@"classes = %@", mArray);
+    NSLog(@"count  = %d  \n\n,classes = %@", count, mArray);
 }
 
 
