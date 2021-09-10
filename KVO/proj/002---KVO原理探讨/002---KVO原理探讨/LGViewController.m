@@ -22,10 +22,16 @@
     // KVO 底层原理
     // 1: 只对属性观察 setter
     // 2: 中间类 - self.person -> LGPerson isa 发生了变化 NSKVONotifying_LGPerson (LGPerson 子类)
+    
+    
     // 3: 有什么东西 - 方法 - 属性 setNickName - class - dealloc - _isKVOA
     //  3.1 继承 - 重写 - 实实在在的 实现
+    
+    
     // 4: setter 子类 - 父类改变 nickName 传值
-    //  4.1 willchange 父类的setter  didChange 
+    //  4.1 willchange 父类的setter  didChange
+    
+    
     // 5: NSKVONotifying_LGPerson 是否移除 + isa 是否会回来 在移除观察的时候
     
    // [self printClasses:[LGPerson class]];
@@ -38,8 +44,12 @@
     
     
     
-    [self.person addObserver:self forKeyPath:@"name" options:(NSKeyValueObservingOptionNew) context:NULL];
-   // [self printClasses:[LGPerson class]];
+  //  [self.person addObserver:self forKeyPath:@"name" options:(NSKeyValueObservingOptionNew) context:NULL];
+    [self printClasses:[LGPerson class]];
+    
+    
+    
+#if 0
     
     NSLog(@"\n\n\nLGPerson");
     [self printClassAllMethod:[LGPerson class]];
@@ -47,6 +57,10 @@
     [self printClassAllMethod:objc_getClass("NSKVONotifying_LGPerson")];
     NSLog(@"\n\n\nLGStudent");
     [self printClassAllMethod:[LGStudent class]];
+     
+
+#endif
+    
 
 }
 
@@ -58,6 +72,7 @@
     NSLog(@"实际情况:%@-%@",self.person.nickName,self.person->name);
     self.person.nickName = @"KC";
     self.person->name    = @"Cooci";
+    [self printClasses:[LGPerson class]];
 }
 
 #pragma mark - KVO回调
@@ -67,7 +82,16 @@
 
 - (void)dealloc{
 //    [self.person removeObserver:self forKeyPath:@"name"];
-    [self.person removeObserver:self forKeyPath:@"nickName"];
+    
+    
+    
+    
+    
+     [self.person removeObserver:self forKeyPath:@"nickName"];
+    
+    
+    
+    
 }
 
 

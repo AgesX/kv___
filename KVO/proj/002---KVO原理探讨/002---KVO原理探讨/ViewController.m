@@ -21,9 +21,16 @@
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
+
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self printClasses:[LGPerson class]];
 }
+
+
+
+
+
 #pragma mark - 遍历类以及子类
 - (void)printClasses:(Class)cls{
     
