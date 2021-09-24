@@ -21,7 +21,11 @@
     [super viewDidLoad];
     
     self.person = [[LGPerson alloc] init];
+    
+    
     [self.person lg_addObserver:self forKeyPath:@"nickName" options:(NSKeyValueObservingOptionNew) context:NULL];
+    
+    
     [self printClassAllMethod:NSClassFromString(@"NSKVONotifying_LGPerson")];
     [self printClasses:[LGPerson class]];
     self.person.nickName = @"KC";

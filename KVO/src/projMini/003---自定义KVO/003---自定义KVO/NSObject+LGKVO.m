@@ -92,7 +92,9 @@ static void lg_setter(id self,SEL _cmd,id newValue){
     // void /* struct objc_super *super, SEL op, ... */
     struct objc_super superStruct = {
         .receiver = self,                                 // 具体的对象
-        .super_class = class_getSuperclass(object_getClass(self))   // 类里面，有方法列表
+       // .super_class = class_getSuperclass([self class])               // 闪退大法， [self class] ， 伪
+      //  .super_class = class_getSuperclass(object_getClass(self))   // 类里面，有方法列表
+        .super_class = [self class]                         // 这里有一个，等价
     };
     //objc_msgSendSuper(&superStruct,_cmd,newValue)
     lg_msgSendSuper(&superStruct,_cmd,newValue);
