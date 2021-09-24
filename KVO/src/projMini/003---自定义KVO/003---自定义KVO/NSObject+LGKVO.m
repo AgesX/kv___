@@ -120,10 +120,16 @@ static void lg_setter(id self,SEL _cmd,id newValue){
 
 //  用来，鱼目混珠
 Class lg_class(id self,SEL _cmd){
+    
+    
+    // object, 通过对象
     return class_getSuperclass(object_getClass(self));
     
     
     
+    
+    // objc , 通过名字
+    //  objc_getClass(const char * _Nonnull name)
     
     
     
