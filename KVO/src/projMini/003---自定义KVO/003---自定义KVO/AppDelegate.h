@@ -1,5 +1,5 @@
 //
-//  LGViewController.h
+//  AppDelegate.h
 //  003---自定义KVO
 //
 //  Created by cooci on 2019/1/5.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@interface LGViewController: UIViewController
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end
 
-NS_ASSUME_NONNULL_END
