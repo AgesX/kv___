@@ -22,8 +22,11 @@
     
     self.person = [[LGPerson alloc] init];
     
-    // 通过哈希表，关联
+    // 通过哈希表，关联。使用表，保存
+    
     // 并没有进行持有
+    
+    // 并不是同一张表， 我感觉，没有魔法
     
     // 这里没有，强引用，循环引用
     [self.person lg_addObserver:self forKeyPath:@"nickName" options:(NSKeyValueObservingOptionNew) context:NULL];
