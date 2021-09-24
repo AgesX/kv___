@@ -88,7 +88,16 @@ static void lg_setter(id self,SEL _cmd,id newValue){
     // 4: 消息转发 : 转发给父类
     // 改变父类的值 --- 可以强制类型转换
     
+    
+    
+    
+    
+    // 给父类发消息，比起直接发消息
+    // 据说，可以解决依赖性
     void (*lg_msgSendSuper)(void *,SEL , id) = (void *)objc_msgSendSuper;
+    
+    
+    
     // void /* struct objc_super *super, SEL op, ... */
     struct objc_super superStruct = {
         .receiver = self,                                 // 具体的对象
