@@ -81,8 +81,8 @@ static void lg_setter(id self,SEL _cmd,id newValue){
     void (*lg_msgSendSuper)(void *,SEL , id) = (void *)objc_msgSendSuper;
     // void /* struct objc_super *super, SEL op, ... */
     struct objc_super superStruct = {
-        .receiver = self,
-        .super_class = class_getSuperclass(object_getClass(self)),
+        .receiver = self,                                 // 具体的对象
+        .super_class = class_getSuperclass(object_getClass(self))   // 类里面，有方法列表
     };
     //objc_msgSendSuper(&superStruct,_cmd,newValue)
     lg_msgSendSuper(&superStruct,_cmd,newValue);
