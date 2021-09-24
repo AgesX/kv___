@@ -30,12 +30,12 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     self.person.nickName = [NSString stringWithFormat: @"%@ ->", self.person.nickName];
-    NSLog(@"实际情况:%@-%@",self.person.nickName,self.person->name);
+    NSLog(@"实际情况:%@    :    -%@",self.person.nickName,self.person->name);
 }
 
 #pragma mark - KVO回调
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
-    NSLog(@"%@",change);
+    NSLog(@"观察方法:  %@",change);
 }
 
 - (void)dealloc{
@@ -50,7 +50,6 @@
     for (int i = 0; i<count; i++) {
         Method method = methodList[i];
         SEL sel = method_getName(method);
-        IMP imp = class_getMethodImplementation(cls, sel);
         NSLog(@"%@",NSStringFromSelector(sel));
     }
     free(methodList);
