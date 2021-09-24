@@ -73,6 +73,16 @@ static NSString *const kLGKVOAssiociateKey = @"kLGKVO_AssiociateKey";
     return newClass;
 }
 
+
+
+
+
+
+
+
+
+
+
 static void lg_setter(id self,SEL _cmd,id newValue){
     NSLog(@"来了:%@",newValue);
     // 4: 消息转发 : 转发给父类
@@ -103,9 +113,48 @@ static void lg_setter(id self,SEL _cmd,id newValue){
     
 }
 
+
+
+
+
+
+//  用来，鱼目混珠
 Class lg_class(id self,SEL _cmd){
     return class_getSuperclass(object_getClass(self));
+    
+    
+    
+    
+    
+    
+    
+    /*
+     
+     
+     
+     error: Execution was interrupted,
+     
+     
+     reason: EXC_BAD_ACCESS (code=2, address=0x16bb37fe0).
+     
+     
+     The process has been returned to the state before expression evaluation.
+     
+     
+     */
+    
+    
+    //  死循环，大法
+    
+    
+    //  return class_getSuperclass([self class]);
 }
+
+
+
+
+
+
 
 #pragma mark - 从get方法获取set方法的名称 key ===>>> setKey:
 static NSString *setterForGetter(NSString *getter){
