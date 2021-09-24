@@ -21,6 +21,18 @@
     [super viewDidLoad];
     
     self.person = [[LGPerson alloc] init];
+    
+    
+    
+    // 循环引用，不是分析出来的
+    
+    
+    
+    // 循环引用，是一套技术
+    // 是具体的手段涉及出来的
+    
+    
+    
     [self.person lg_addObserver:self forKeyPath:@"nickName" options:(NSKeyValueObservingOptionNew) context:NULL];
     [self printClassAllMethod:NSClassFromString(@"NSKVONotifying_LGPerson")];
     [self printClasses:[LGPerson class]];
@@ -34,7 +46,7 @@
 }
 
 #pragma mark - KVO回调
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
+- (void)xxXXobserveValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
     NSLog(@"观察方法:  %@",change);
 }
 

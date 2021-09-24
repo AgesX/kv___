@@ -93,15 +93,18 @@ static void lg_setter(id self,SEL _cmd,id newValue){
     id observer = objc_getAssociatedObject(self, (__bridge const void * _Nonnull)(kLGKVOAssiociateKey));
     
     // 2: 消息发送给观察者
-    SEL observerSEL = @selector(observeValueForKeyPath:ofObject:change:context:);
+    SEL observerSEL = @selector(xxXXobserveValueForKeyPath:ofObject:change:context:);
     NSString *keyPath = getterForSetter(NSStringFromSelector(_cmd));
-    
-    
-    void (*deng_objc_msgSend)(id, SEL , id, id, id, id) = (void *)objc_msgSend;
-    
-    deng_objc_msgSend(observer,observerSEL,keyPath,self, @{keyPath:newValue}, NULL);
-    
+    if (observer && [observer respondsToSelector:observerSEL]) {
+        [observer xxXXobserveValueForKeyPath:keyPath ofObject:self change:@{keyPath: newValue} context: NULL];
+    }
 }
+
+
+
+
+
+
 
 Class lg_class(id self,SEL _cmd){
     return class_getSuperclass(object_getClass(self));
@@ -129,5 +132,5 @@ static NSString *getterForSetter(NSString *setter){
     return  [getter stringByReplacingCharactersInRange:NSMakeRange(0, 1) withString:firstString];
 }
 
-
+- (void)xxXXobserveValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{}
 @end
