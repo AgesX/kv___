@@ -16,6 +16,59 @@ static NSString *const kLGKVOAssiociateKey = @"kLGKVO_AssiociateKey";
 
 - (void)lg_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options context:(nullable void *)context{
     
+    
+    
+    //
+    
+    //
+    
+    
+    //
+    // 方法交换
+    
+    static dispatch_once_t token;
+    dispatch_once(&token, ^{
+        // 父类的方法， NSObject
+        
+        // [self class]， Person, 自己的类，方法没实现，就交换父类的方法
+        SEL sSmall = NSSelectorFromString(@"dealloc");
+        Method mSmall = class_getInstanceMethod([self class], sSmall);
+        
+        // 父类的方法， NSObject 分类
+        SEL sSmallAfter = @selector(deallocX);
+        Method mSmallAfter = class_getInstanceMethod([self class], sSmallAfter);
+        
+        NSLog(@"aaa %d", mSmall == nil);
+        method_exchangeImplementations(mSmall, mSmallAfter);
+        
+        // 出现递归，我觉得是，没交换成功
+        // 呵呵
+        // 父类的方法列表，与子类的方法列表
+        //原来的类没有实现指定的方法，那么我们就得先做判断，把方法添加进去，然后进行替换
+        
+        
+        if (class_addMethod([self class], sSmall, method_getImplementation(mSmallAfter) , method_getTypeEncoding(mSmallAfter))){
+            
+            class_replaceMethod([self class], sSmallAfter, method_getImplementation(mSmall),  method_getTypeEncoding(mSmall));
+        }
+        
+        
+        
+        // 本类的方法列表，与父类的方法列表
+    });
+    
+    
+    // 标准流程，不能添加，就交换
+    
+    //
+    
+    //
+    //
+    
+    //
+    
+    
+    
     // 1: 验证是否存在setter方法 : 不让实例进来
     [self judgeSetterMethodFromKeyPath:keyPath];
     // 2: 动态生成子类
@@ -29,30 +82,7 @@ static NSString *const kLGKVOAssiociateKey = @"kLGKVO_AssiociateKey";
     
     //
     
-    // 方法交换
-    
-    static dispatch_once_t token;
-    dispatch_once(&token, ^{
-        // 父类的方法， NSObject
-        
-        // [self class]， Person, 自己的类，方法没实现，就交换父类的方法
-        
-        Method mSmall = class_getInstanceMethod([self class], NSSelectorFromString(@"dealloc"));
-        
-        // 父类的方法， NSObject 分类
-        Method mSmallAfter = class_getInstanceMethod([self class], @selector(deallocX));
-        
-        NSLog(@"aaa %d", mSmall == nil);
-        method_exchangeImplementations(mSmall, mSmallAfter);
-        
-        // 出现递归，我觉得是，没交换成功
-        // 呵呵
-        // 父类的方法列表，与子类的方法列表
-    });
-    
-    
-    // 标准流程，不能添加，就交换
-    
+
 }
 
 
