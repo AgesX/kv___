@@ -214,7 +214,7 @@ static NSString * const kClockAccentColorKey = @"clockAccentColor";
 
 - (void)_rotateHandLayers
 {
-  NSDateComponents *dateComponents = [[NSCalendar currentCalendar] components:NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit fromDate:_date];
+    NSDateComponents * dateComponents = [[NSCalendar currentCalendar] components: NSCalendarUnitHour|NSCalendarUnitMinute|NSCalendarUnitSecond fromDate:  _date];
   NSInteger minutesIntoDay = dateComponents.hour * 60 + dateComponents.minute;
   CGFloat percentMinutesIntoDay = (CGFloat)minutesIntoDay / (12.0 * 60.0);
   CGFloat percentMinutesIntoHour = (CGFloat)dateComponents.minute / 60.0;
