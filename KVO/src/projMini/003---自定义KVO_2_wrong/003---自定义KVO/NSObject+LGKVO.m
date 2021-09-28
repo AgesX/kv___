@@ -24,7 +24,31 @@ static NSString *const kLGKVOAssiociateKey = @"kLGKVO_AssiociateKey";
     object_setClass(self, newClass);
     // 4: 保存观察者
     objc_setAssociatedObject(self, (__bridge const void * _Nonnull)(kLGKVOAssiociateKey), observer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    
+    //
+    
+    //
+    
+    // 方法交换
+    
+    dispatch_once_t token;
+    dispatch_once(&token, ^{
+        // 父类的方法， NSObject
+        Method mSmall = class_getInstanceMethod([self class], NSSelectorFromString(@"dealloc"));
+        
+        // 父类的方法， NSObject 分类
+        Method mSmallAfter = class_getInstanceMethod([self class], @selector(deallocX));
+        
+        NSLog(@"aaa %d", mSmall == nil);
+        method_exchangeImplementations(mSmall, mSmallAfter);
+    });
+    
+    
 }
+
+
+
+
 
 - (void)lg_removeObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath{
     // 指回给父类
@@ -132,5 +156,19 @@ static NSString *getterForSetter(NSString *setter){
     return  [getter stringByReplacingCharactersInRange:NSMakeRange(0, 1) withString:firstString];
 }
 
+
+
+// 这个就，意思下
 - (void)xxXXobserveValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{}
+
+
+
+
+- (void)deallocX{
+    [self deallocX];
+    
+    // 产生了递归
+    NSLog(@"gg ");
+}
+
 @end
