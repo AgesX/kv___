@@ -1,0 +1,1777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00006B967E3E1BC615A177018F909D3F /* MKTOngoingStubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2D9A754301E2D772F2D5A3A7BF426 /* MKTOngoingStubbing.m */; };
+		004B3573A2662CA5A09FE6D7F7CAC2FA /* MKTExactTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5D2919E480968A620ED0B2F997B75B /* MKTExactTimes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0063B1651C7F4C01E4EA2BB07D18A7F7 /* MKTThrowsException.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EBE6A6D65B417F889AF08604661031 /* MKTThrowsException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00BD1709101E064AE703110F34724816 /* HCIs.m in Sources */ = {isa = PBXBuildFile; fileRef = A06818B220470857A92F1B382EA06C97 /* HCIs.m */; };
+		00D4FE026845ED36D0F14988F6E0C665 /* HCAssertThat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0501E4FAA95A3FDA038A2FEADC183260 /* HCAssertThat.m */; };
+		00F2DFA3437431D0B167D33CC17326A0 /* MKTUnsignedLongLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B39F424F1F689AD1BEF1FBCA2ADCF /* MKTUnsignedLongLongReturnSetter.m */; };
+		01A317A924A0C7D9551D3B1E188086BB /* HCTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2122CDA03AA94F505E95B5051389E43E /* HCTestFailureReporter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02E2E4F92374E01AF3FCEDD455383077 /* HCIsCollectionContainingInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BED9F3A817192C1EFD8B2EB24D22513 /* HCIsCollectionContainingInOrder.m */; };
+		03AAD167F88728463A57E4B55D6C892F /* MKTUnsignedShortArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8E56F10358A3AD37053B1D7D1D0158 /* MKTUnsignedShortArgumentGetter.m */; };
+		062BDD4BBFC220F9070F31DDF12AEB0D /* MKTClassReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E5005B7A14B89D07B02EE57DA3FF50 /* MKTClassReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		066D3BF5B2034D8DECB64A89C616A126 /* HCUnsignedCharReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C068D9B6AEE21620D739EA7B4CD62026 /* HCUnsignedCharReturnGetter.m */; };
+		07DB2B67778583AFB6CC4FCB463321EE /* HCHasProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 854F403A92E8E0B764A4527329BBBCDF /* HCHasProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		086BC33DC62E6FD710118854DACA5690 /* HCUnsignedLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EB75C13A9002A01EED2ABF6349FE99 /* HCUnsignedLongReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0934186DD28D9469BAD83501580684E5 /* MKTUnsignedIntReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5520734814A72B4F4AFEFB6A9999C59 /* MKTUnsignedIntReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AC6C64FADEE21E9C1EDE6411205688A /* MKTIntReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3242D1DAE82501FD33BA818EFC646A3 /* MKTIntReturnSetter.m */; };
+		0C1569799EB826E2CC71F300B36DC803 /* MKTUnsignedLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF272F07026590B37CCC3CE4A26270E /* MKTUnsignedLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CDAE4E848FB6CA901FC991CFCD3D13E /* HCAllOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBE16754FDAE22666A9D2F873282C9A /* HCAllOf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D2278696B4C2E3E996D1B1A72E36E3E /* MKTIntArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B32EAD932E66F0F235A0B25DF5785 /* MKTIntArgumentGetter.m */; };
+		0D70A5B9FF892F0C6C31779F3011080B /* HCObjectReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E86ABD07224A7A931B34188388AD4B /* HCObjectReturnGetter.m */; };
+		0DB6B7C7F6D871F795F57BA67916AE2E /* HCEvery.m in Sources */ = {isa = PBXBuildFile; fileRef = AF839556A4CA695DA22D77BEDE3FBAAC /* HCEvery.m */; };
+		0E040F20F69FC891BD9F9745CE9193EC /* HCIsTrueFalse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0213B527FB0EF9BFA1F8E540BE94BC76 /* HCIsTrueFalse.m */; };
+		0EB55C5E00FD1554F20D3519F75784F8 /* HCIsCollectionContainingInOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DA5467B8778FAB18BEB26857E1996F /* HCIsCollectionContainingInOrder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10A15C5052D5AF0B7AF0B5A9DDC09920 /* MKTArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B11D9466A795DA525F3639778EC079CF /* MKTArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10E62AFE7052D497EA46E41252930542 /* MKTDoubleReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE1612FBC72549716E5569D2C4D2DC1 /* MKTDoubleReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11438854F2CC82407CBC85F83AB86D2D /* HCDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 2956D45F9A5E9FB9D45EC8065D59C0ED /* HCDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11DBF3C4232558AAE0B2596B31ABEC50 /* HCLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08ACF247922B3973244D64BFF3D1AB /* HCLongLongReturnGetter.m */; };
+		11F7E6E0C8879562C5A2C55D5EC46D08 /* MKTPointerArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3A924C4B7DFBBB99DF88FED317A2E /* MKTPointerArgumentGetter.m */; };
+		134914AD0C7B588E93C81B0575961C46 /* HCConformsToProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8E98C96AF59AAD1E54709DED999171 /* HCConformsToProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		143DA4D09C70C8E093428396246B1B54 /* MKTPrimitiveArgumentMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 081A5C0AB330567E33C180CE9F22E7EB /* MKTPrimitiveArgumentMatching.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18991A39E92EB8864332503A15DDFECD /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2CAAC83C84BC76B83A27600826CFD2 /* HCIsDictionaryContainingKey.m */; };
+		1901B8D0A2ECD6B52AC08014DA50990E /* HCIsEqualIgnoringWhiteSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8F20D9D31C8248B6458F34F1378A7D /* HCIsEqualIgnoringWhiteSpace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19BE62AD6CABFDCD677484EE7A954B82 /* HCUnsignedIntReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8BBAEF12A929F1BCA657F43FD90BB /* HCUnsignedIntReturnGetter.m */; };
+		1A109A7B6AE86C6842D29AD03F43300C /* MKTClassReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B702092EA1D3258C5054AD4ADEF04C /* MKTClassReturnSetter.m */; };
+		1B2B9FB0A1A1E05CBDAB433E452D110E /* HCHasDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A0417022507A9BFA9E7B5BAB1C023A52 /* HCHasDescription.m */; };
+		1C1803A3C862F917BF318AC8389A75A6 /* HCWrapInMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC74EE9E59EF18B00D4FFD39214887D /* HCWrapInMatcher.m */; };
+		1C5F94C9DBE5297C0A84E3E5C24A045A /* HCIsDictionaryContainingValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FDAADC8046004518D061A4D799C073 /* HCIsDictionaryContainingValue.m */; };
+		1D2109FA50B6B2C9240C91F334DE5583 /* MKTStructArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = E165C0CB07EA5DA4FC209D51C5CE813E /* MKTStructArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DA255A355C9E27D170E2E652A2547BA /* MKTCapturingMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A2993E6F76F4CC08AA4F8D2873C7F290 /* MKTCapturingMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E4BEBC4A4954623A0A78DEA546D1D53 /* HCOrderingComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A31F8543AB4C1731305566475C1E72 /* HCOrderingComparison.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E7E8C64B10A78DAAB4528E49F3884C8 /* MKTAtLeastTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 43111A87FABFE5727ED58F50A7E93A9D /* MKTAtLeastTimes.m */; };
+		1F10730E0E2810D46CDD2673A2D5342C /* MKTIntReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E595F7AEEF4ABD8CBECFA271F6F5BF /* MKTIntReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F3D55021E0D326C9F83BD82FE9FDAC5 /* MKTCharReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC67BC4895A1DA0B5202E4D7CCF5401 /* MKTCharReturnSetter.m */; };
+		1FAE938B741B6C0F4A626CD8F4C3F101 /* HCIs.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FDC495B90120BB2274AFBDAA38415A /* HCIs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		208AFF45347799206D00C8DB1C5FE0D0 /* MKTObjectMock.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B3FE3C5E76A6A393BDA48AB540C4F1 /* MKTObjectMock.m */; };
+		21DB2A045177DC96812940181CB2B6C1 /* HCNumberAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE0C0C14E3C4433C5D259F919757EC8 /* HCNumberAssert.m */; };
+		225E0D482B2E36B6EC5B504781FA61CB /* MKTClassArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB083C37740AB0ED39C6E7AB8A84CC2C /* MKTClassArgumentGetter.m */; };
+		2492B0B459400C4D82C6A50DE75E7B79 /* MKTUnsignedCharArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5118A17D8632BF16CF67E8A99BF23AF7 /* MKTUnsignedCharArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		250E4BFBA7B936A522DF185C40BD72D5 /* MKTFloatReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC6CFE7BEEF434E561FB084BD23306D /* MKTFloatReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2515F2A68C72357A3B74695ADCD00325 /* HCClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C351664CC9F63883E0CF19E1AB04FE /* HCClassMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2693F7C2D284F560811CB0B073FC9746 /* MKTExecutesBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD79E5A3560AC5D5643779F1014E355 /* MKTExecutesBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29A25D4503CAA0393E40C9EBB1AE8EE3 /* HCIsEqualToNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CD8183A81A814DCE2DD1CA9DF0EF38 /* HCIsEqualToNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29B9DEBF75F9F9A1E59E9423C06B8510 /* MKTReturnsValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265395A2C5184824A8B76A8B5A726A6 /* MKTReturnsValue.m */; };
+		2A948B740A7DCB34CC5C9216C2E1A911 /* HCInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCA5BA526D15F49F7D97587767E5DB2 /* HCInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2ABB260F36520C31DB4414852FFDCCAB /* HCIsNil.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DA22427B5769FDD3FE4D4DCA97C2D5 /* HCIsNil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C213F00944FF7866323099A4A254EB2 /* HCRequireNonNilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EEC0429361CEC93B3C0E5F61FA4D46 /* HCRequireNonNilObject.m */; };
+		2D7FCAD52E2A70B7839DAB77FA08D67D /* MKTLongLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C590608158920208B65BBEA2B3FB25BF /* MKTLongLongReturnSetter.m */; };
+		2DB52A2E22841D424EF0A8CF910432B1 /* MKTStructReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F73949CCF24B5D6116F9397D1C08E5 /* MKTStructReturnSetter.m */; };
+		2E21C42B5B2047448336FB7C4F351254 /* MKTObjectArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77703AAD69F73815E7BAF1A7E00A6902 /* MKTObjectArgumentGetter.m */; };
+		3076099C9029001B5D60632191A8C9B0 /* MKTStructReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5637E6641D128AF46B861F33A74385 /* MKTStructReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30AF26F3D1BC00377CC02266AE672446 /* NSInvocation+OCMockito.m in Sources */ = {isa = PBXBuildFile; fileRef = 42811EC0A1075581581811CFBD44AB23 /* NSInvocation+OCMockito.m */; };
+		30C1CABCFC1F90450111B1186E014854 /* MKTBoolReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD2B4C96362A288F4D8135A21B9C3E /* MKTBoolReturnSetter.m */; };
+		30C277EBDF8B56940A1C893C07EA948E /* MKTBaseMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA1E851B0DA2A14F2A53EB721EFBA6 /* MKTBaseMockObject.m */; };
+		31900B43FF39381B06AACA9BF219E778 /* MKTMockingProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F02E052C10CFFF2AC41AF776EF7EE7 /* MKTMockingProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32AD85674BEBA377F33D7512D3F657D6 /* MKTObjectArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 235B52B2045FE5F8C47DCEA16D8E585B /* MKTObjectArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32DC83B713957F78108536741BD1A6BF /* HCThrowsException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2984040932A0A81C1E8209DC1F80B5C0 /* HCThrowsException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33CB886AD2077057A84F38D7B9D6F479 /* MKTAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68133063FBBEF49104AA05A4AEF74BF6 /* MKTAnswer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34500C70335D67EEA41857F190085A5E /* MKTUnsignedCharArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE679235B757A8C5CF4D3BF141A1D8C0 /* MKTUnsignedCharArgumentGetter.m */; };
+		34A63FF6FF807ED7A0EA231B97C4C7CE /* MKTCharArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 599551897B832F41C0E0DD7BF3853084 /* MKTCharArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3509214BC98D31AA308524C9DFB02B9C /* MKTThrowsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180A15989E593F38979EA12D5DDBAAB /* MKTThrowsException.m */; };
+		35CE8358B921A0D582767CC664F1995B /* HCIsCollectionContaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 92799383EAB15EA58932346A0B5035F5 /* HCIsCollectionContaining.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36821FF79F32C9C3FAFE0CF31BB410BE /* HCHasDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = B41F046719B73659FB195890A6ED1615 /* HCHasDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39268E6ADFBAB714F1FE75AC14927687 /* HCBaseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E5E9AEAE5DEDCEE8D52CA21A532EDF /* HCBaseMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		398ED6F2056CF51CF3CE9CCD545AC93B /* HCUnsignedCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7D9B091F5973751C554BAE2499FAF5 /* HCUnsignedCharReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A6B88A3495FD40A9330C20517E11A41 /* HCIsNot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B8AEFBC83B54D106A281BDBB4F5F4 /* HCIsNot.m */; };
+		3A7F6A61E7F8A11E93951BA772F32281 /* HCStringStartsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = D15A60FB3F55A756EEDACB26EEE11AB5 /* HCStringStartsWith.m */; };
+		3C21C73062BC132E6961741C02690F08 /* MKTArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C180E91114927F77B0A9258EA9FD402 /* MKTArgumentGetter.m */; };
+		3C475C53C2FFE6DDD38D93A7BCFB8A40 /* HCCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AC94E6143E22BB4A1DF35740F80C62 /* HCCharReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F3001CF85BCDFEB473631E95BAB55BE /* HCShortReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = E59E45A9D1DBA368854DFBC229CB3E5B /* HCShortReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41421DEF1D7D81E25E2B66F2E06B9D44 /* HCBaseDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = EC08D62EAC37F760DF3B8071C81DC6F3 /* HCBaseDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41ABDE14E4814FF5BA1B89CFC579D721 /* MKTUnsignedIntArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10932177D9D5082A58EB395F98C4892D /* MKTUnsignedIntArgumentGetter.m */; };
+		427CDD2A1B7AFE9D7F98C7E0912705AA /* HCShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC0F5A436CE951D8B3F540077EAFEF /* HCShortReturnGetter.m */; };
+		4523739501B73D77525BCFDC987FC7E3 /* MKTClassObjectMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8ADD6A12D95B554469FB5F873A7603 /* MKTClassObjectMock.m */; };
+		46A420AF02B90DF8BDB9F9FA96C5E5B4 /* HCCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = CED78703203C5295EB746932916F167C /* HCCollect.m */; };
+		488FFEA9838B20D6476983148A9BCC83 /* MKTDoubleArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC5D52BA4D04C76F777A3B3F7592C89 /* MKTDoubleArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4929CEFB5785F323835921C2F610D307 /* HCSenTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FE7934A05E723F40200863E01DFE39 /* HCSenTestFailureReporter.m */; };
+		497E5EF25C16412A865EDEAB8AF7BE42 /* MKTUnsignedLongLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF671B47036E32BA2BDD685605C5805 /* MKTUnsignedLongLongArgumentGetter.m */; };
+		4A0198C079CD8497032E439E4EE8AA34 /* MKTReturnValueSetterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D74F66EEA8517CED758A7D86835B3B /* MKTReturnValueSetterChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B315603861B7286438D76BED3DBC72C /* HCIsAnything.m in Sources */ = {isa = PBXBuildFile; fileRef = C82814FED927CC6212246D94ECFEAA55 /* HCIsAnything.m */; };
+		4C5A07B1BDE1E8BDE58C61CF37FF290F /* HCIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B12EC599A4B6A9FC6561A8E26963EEAB /* HCIntReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CD410BDF19B893D4E72B32F39161A9C /* HCIsEqual.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A47B9AC7307DC96A40B7D23ECCD1628 /* HCIsEqual.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CE08A1C5CD5B2A9AD1AF332C62F40BC /* HCLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = E52EF0FBE171D5F7791BDC36B100CF77 /* HCLongReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FAFC54F1FE759884046CD8613FC70BF /* MKTAtLeastTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9A76D04890E4ADBB757BCB127878B1 /* MKTAtLeastTimes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FDEE6E01E957EE8747E3E903D917551 /* HCBoolReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D84BBAF8393D02CDB2A77514CFE85 /* HCBoolReturnGetter.m */; };
+		52DB1E73503A93E38ED871A29BF6D7A7 /* MKTInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8304A77C42D805FFD08C2FC982C15 /* MKTInvocationMatcher.m */; };
+		53B09F64F702AD53D7C4E929932C1CA3 /* MKTVerificationData.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F7A6B14FA811A7B5446736304F2AA6 /* MKTVerificationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		555339242734CE77FD0D308F94D8BEAB /* HCIsEqualIgnoringCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA978D249C9945A755D11C1C0111891 /* HCIsEqualIgnoringCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		555F4764B980094AF0B7EEA3D26BB936 /* HCStringDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 967281E0D0BA896553E123AB75EC3A5F /* HCStringDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55782873AD9768670A121F0A6DD4A5B0 /* OCMockito-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C15D53DA64021C87FA5602424D5547 /* OCMockito-dummy.m */; };
+		55AA813C5EFB743661D4ECB9F75ED85B /* HCCollect.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E2C32F35A113107ECED655550A0258 /* HCCollect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		562F2DC995772C33D26855C656DBEDFC /* HCConformsToProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 78723F4643A6032A1C2A23FA27BDA8AC /* HCConformsToProtocol.m */; };
+		57D03FDC9ED90FACB84ED7CA7CEF5470 /* MKTSelectorArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1268F91C26BD04CDE8D3A9A79E6E3991 /* MKTSelectorArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		586E525CC04E5EBBDAD18FC6183B9E43 /* HCBaseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 05759887048BF50BB3C3B5CB77CBBB59 /* HCBaseDescription.m */; };
+		5A03D8076A06E09E6D3136287DC23FB0 /* MKTShortReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D030EFB6A9EFD0CCD27536DE95D09D /* MKTShortReturnSetter.m */; };
+		5A0A814718756C2139071E5FAF1FE8E0 /* MKTBoolArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC249460D384EAAA6EBFD084D5A22F69 /* MKTBoolArgumentGetter.m */; };
+		5AE7D17E8204C77596F94853B89EF8CE /* MKTUnsignedShortReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1BBF02F2AAD3362E549401EF15306B /* MKTUnsignedShortReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C19A120BE19883941165BEACC0DBFE9 /* MKTExactTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7C9FB0D94A63D4A68D448507D5443 /* MKTExactTimes.m */; };
+		5E3A041F5F30CAC466F87A036D322A08 /* MKTClassArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5439C5A117B185389481C1999F385B58 /* MKTClassArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E999DCE9ACFC5D30C79795AE6F0D193 /* MKTFloatArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E8634EFCEE721CFDAE53C663EE0914 /* MKTFloatArgumentGetter.m */; };
+		5FC8AD5ED8CBB002BA5AE874FB60DD51 /* HCIsSame.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E59233F45B0C04FF99C48AFCAB32F7 /* HCIsSame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		600ED8074693D0F5BF7E4EB786CE7D5E /* OCHamcrest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3931F80F6946F4DEA6331EA86C401FF0 /* OCHamcrest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61015CA6319CF2D0D16B43B0AE652A9C /* HCStringDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E9543AE9927AEEF4CCBBF26E414FF82C /* HCStringDescription.m */; };
+		610F1E5BD932F7EBD223F97200E7A1A5 /* HCUnsignedIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = D957EC283FA757FC8CE8453FE5C28456 /* HCUnsignedIntReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		614D4B0EB8A9BFA8E4286D901521E7CA /* HCIsCollectionContainingInAnyOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = EFAD12129F5D1CC6063DF079DD69DD64 /* HCIsCollectionContainingInAnyOrder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		635CE899E6A0EA7766694B0522E12881 /* HCReturnTypeHandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B791D4EEC9D34D025C27FD512F2BCE /* HCReturnTypeHandlerChain.m */; };
+		64965FAB587D10990588B72E968B4C17 /* NSInvocation+OCHamcrest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD7BB19290605C65DCC3F36C0165B7 /* NSInvocation+OCHamcrest.m */; };
+		6637D478060C519CBC1AB06B1439BC3A /* HCDescribedAs.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C9A4A24642F510405B881351FF27AA /* HCDescribedAs.m */; };
+		66DDB65A8C0DA60733FDA3C3ED7CE664 /* HCTestFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED1DECE5D14770DB689F5AD359E42B4 /* HCTestFailure.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6721F54B366BD0DEBC061AE24C8C13D5 /* HCStringContainsInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ECA84E1A9DBF35F19A53D4697413EA /* HCStringContainsInOrder.m */; };
+		68724E79F15CCB2DCDFA78BBC465E588 /* MKTInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1198ECBF8CCAC8993EDAA852AB714020 /* MKTInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69F527AE78BCBA8EE57EC13B290AEAC4 /* HCGenericTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5D24FFDEE03AFE5D9F8F8B9CEC25DA /* HCGenericTestFailureReporter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C1409233B1A016EA630386F0D1C000A /* HCTestFailureHandlerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A177AB9137F10A886951D2EA2F776FD5 /* HCTestFailureHandlerChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CA2B25DA21F37844FE8ED350E333B68 /* MKTObjectAndProtocolMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3980731D2B614DFF55B80D34B7542A /* MKTObjectAndProtocolMock.m */; };
+		6CF0E42FAF51039BCBCBC8E65C7D1323 /* HCIsCollectionOnlyContaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 494EAB3CBB769D25585B163552C7DAAD /* HCIsCollectionOnlyContaining.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E03112F460D9B009E54CE098F602742 /* MKTVerificationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D142DDA479DF8D17B3214BC95DE7F22 /* MKTVerificationData.m */; };
+		6FE95F42BA61C89427CE3DF3EEC6162D /* MKTShortArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4B065BFECCF3BDD9BD68543EB2240B /* MKTShortArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		702787E357CFBF66344F31C879E099B3 /* HCXCTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B99EF144007D347F240F2BC80771BF0 /* HCXCTestFailureReporter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		755364FC69C9C1E63F91F3B36D6A4A39 /* MKTClassObjectMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BBEA0028D2E64685B9D90E3AD7350D /* MKTClassObjectMock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76713ADE02B3CD4A867232E25AFD8213 /* MKTFloatReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A41B38D4903DC891C148CBD2BBCCB57 /* MKTFloatReturnSetter.m */; };
+		7768D53172D9C196CE35E644CB133409 /* HCCharReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5023C2975BC7F5DF5E5E6D4329E768 /* HCCharReturnGetter.m */; };
+		783061C84C1C186B2B66EA148F50CD76 /* HCInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8AE64C5C96D64DC679D1AFE736577 /* HCInvocationMatcher.m */; };
+		783B0F354323C9A87A14AB01B66D5BD2 /* MKTTestLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCB101AC328341393AE64DB12E42830 /* MKTTestLocation.m */; };
+		796ACB51D0B5AF166DE4B015E0F123CB /* MKTLongLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3953C1C262CE365F27DCC952615FB98C /* MKTLongLongArgumentGetter.m */; };
+		7C1135A49827AEB5F83AE934AC656CE4 /* HCAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F46C2FFE6E83CAB93E67B646CC40D55 /* HCAnyOf.m */; };
+		7C6A6339947494F2AC267DCE3B593BC4 /* HCIsDictionaryContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 7255B5BA982B31208BC48CFDE93E26E7 /* HCIsDictionaryContaining.m */; };
+		7CF95667E38F68A9538D6AFED8EF9E6F /* MKTCharReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD98D90FB67621852E36634B807A28F /* MKTCharReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DB0E59549CB47B455B08F9F874C8BD5 /* HCIsDictionaryContainingValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B293A1F34B3671412937F699938E60 /* HCIsDictionaryContainingValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E01DF9A06747E8A461BD91E2503E99B /* HCBoolReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9992BA9CEFAA24D8AD6BBABC130907 /* HCBoolReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E12619F89BA4C302108C7C05FC39343 /* HCHasCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7521E69DC331E2A072088A34D3D732DC /* HCHasCount.m */; };
+		7E16B81EA50849E779F0AB3A83A95D11 /* MKTObjectReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4229D6D45AB277D890AE4A3DCAB827C /* MKTObjectReturnSetter.m */; };
+		7F2A8F37B2AA920F19A816491379C251 /* HCIsEmptyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0629D86D25C030F3C80AD48E16261423 /* HCIsEmptyCollection.m */; };
+		7F3528DEB9C22AD76225D74A70AB3FD6 /* HCReturnTypeHandlerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = A29C4E986BE4B5857552DBCFB9A1A181 /* HCReturnTypeHandlerChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F4B754454CCCD28333E2A68AE7537BA /* HCIsCollectionContainingInRelativeOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CD10404939D27F486F88B8C2D0F68 /* HCIsCollectionContainingInRelativeOrder.m */; };
+		7FD918BF76D896C64BDB2E74471889C0 /* MKTProtocolMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F204CDFBFC41C8ED99E7C44ED715DB3 /* MKTProtocolMock.m */; };
+		8026A471C7C87099686F9B76124BD79A /* MKTUnsignedCharReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B8FA2C118CD50ECD601573E1E3DC51 /* MKTUnsignedCharReturnSetter.m */; };
+		811E52963587EEEA8CC9277F2F8D13CD /* MKTLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DD698C52F7D5723B63205541D3C3B1 /* MKTLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		813CE306AAB11240F08109E456A73BA2 /* MKTLongLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E2D3EEAA725F383E5235A2366C73B4 /* MKTLongLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8146D55D131122E694265809A7C3EE21 /* MKTUnsignedLongLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 557CA22E606A0F6864ED68854296E0F4 /* MKTUnsignedLongLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		814E917268C7D2A5D2AC24356B1876D1 /* MKTLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E64C2B118BBA968C9203E686C0E1888 /* MKTLongArgumentGetter.m */; };
+		83B0010F2224F803215F5E68D7651AAF /* HCFloatReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = F574501EF05D371FC5EB2EC61DC19305 /* HCFloatReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8430EE3C042404572B4D24A5E75CF3F0 /* HCIsCollectionContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3233FDFBAA62CDEDF70412540777E5 /* HCIsCollectionContaining.m */; };
+		85D1162AF394A3A2D978BDE44992DB31 /* HCUnsignedLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 809862EAE323E3B8419788EDA475D81C /* HCUnsignedLongReturnGetter.m */; };
+		85DE2704A697800879ACB82BA2FE0227 /* HCTestFailureReporterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = C98EB95A8F255705247C6A43E52FD794 /* HCTestFailureReporterChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85F759A861C8C8CF7E91427989C3325B /* MKTUnsignedLongLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA10814176F9742BDFCDD78452F392B /* MKTUnsignedLongLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89D2D8C7E887DE6BE29DF89DD852A7EE /* OCHamcrest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE064993907EC4D2A0BAB9CE96C1B17 /* OCHamcrest-dummy.m */; };
+		8A47CF3631F129E07F386FD4D90BD298 /* HCIsCollectionContainingInAnyOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 835F072BF1CD4BBE9E000B6912BA3AC4 /* HCIsCollectionContainingInAnyOrder.m */; };
+		8CDFAC6175C8FEED2218082088AD4589 /* HCIntReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A35514BA8D5D25773F5CD9F32ADB8E69 /* HCIntReturnGetter.m */; };
+		8EF665CBDA0C2813F65C49227120805E /* HCLongLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD679DBE077004EE3A11E9DB11A8D90 /* HCLongLongReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FE0A3BD3279F21561C31B3E0911B1C6 /* MKTDynamicProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D6BE51EEEEC792E9D6CAEE0EEC04B7 /* MKTDynamicProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		902162C756FA4CFD716C8A28EB4FB5CC /* HCIsEqualIgnoringWhiteSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CBC25505BC9853A0BE15D8E8DB98D /* HCIsEqualIgnoringWhiteSpace.m */; };
+		90D3C83E2AE857B5AFC0EC81B388894D /* HCSenTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCD5144F2DE2D898F434C448456E5CC /* HCSenTestFailureReporter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92538870E9AE697B2C36E768C681F57E /* MKTBoolArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBA3AB3429A1A670AF724244D5633FA /* MKTBoolArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		928B9BA1EEE1BC942A37306748C9B8B2 /* MKTCapturingMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD26FCC83AE9BFCA50B611ABD4AD3EF /* MKTCapturingMatcher.m */; };
+		92BBF2ECF73AA0C24589103426915DA6 /* MKTBlockArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAEEA5F9A6817E2EA961842A27DCAE7 /* MKTBlockArgumentGetter.m */; };
+		92EF2C6DEE0CD2F975FE55383921882A /* MKTTestLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFEECC0DBCF94B53B100C6D4164BA8D /* MKTTestLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93C7AC9D3B7BE54CB8801B3FCDFD75AF /* MKTReturnValueSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 430C5FC8D4DCDFA5F4229BAD2AD66931 /* MKTReturnValueSetter.m */; };
+		960F29D2A05006BDB9A34A4DB49C1E53 /* HCTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836788E75E0C794C07460C3485F8A71 /* HCTestFailureReporter.m */; };
+		974C24178F323EDAF305A5DDED0BFB47 /* HCDoubleReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB515FF3396A2EAF21681ACD4CB255F0 /* HCDoubleReturnGetter.m */; };
+		98F615DB12B2D7F7E02E1C344B70B397 /* HCIsSame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0023D5DC5956C9F664193BBFEBF68E55 /* HCIsSame.m */; };
+		9934B20FADAA760FDB228DA781B57869 /* HCFloatReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6668F0E885C59D5512A903B26AD4EF18 /* HCFloatReturnGetter.m */; };
+		99B7F34199AE41A9EF9F8FBDF7ECA99B /* MKTDoubleReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F81CEAB55BA9D1E33F2A2D93D7D00F3C /* MKTDoubleReturnSetter.m */; };
+		9A4CF37DF314EB0E4031BEC13A79F013 /* HCIsInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 363D63C553AEFF2199F81B1296259158 /* HCIsInstanceOf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BDF941A9AF95498F4A3F47295E28E11 /* HCBaseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A36C77FD2194FA67F7F3DE97221D73 /* HCBaseMatcher.m */; };
+		9BF529294BEB5B6F616C94ED4819AB86 /* HCArgumentCaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A96791263D2D60A33A4AFB7FF792D63 /* HCArgumentCaptor.m */; };
+		9C72EA57A9522E3003AF391F92D7E55A /* HCIsEmptyCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B82C0B1D589BB200668D3439F0ACA7 /* HCIsEmptyCollection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E928967D4036D56944AAD63D74F2938 /* MKTExecutesBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D905DF24DBFB4CF5E90CDCAF2F633230 /* MKTExecutesBlock.m */; };
+		9EAEF20A787D5C22112717A840C9ECE8 /* MKTUnsignedLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A4C3D143D0F35002FFB2FA41AF0A04 /* MKTUnsignedLongArgumentGetter.m */; };
+		9ECAE9A919BD495776EBE0D2BEA6806E /* MKTStubbedInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5B717E91491945D9F320B6AD81D2A1 /* MKTStubbedInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F13DFA1EAA4A842F76372FA4CCEF39A /* MKTBoolReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FB565DAD8CF88AE523202E95D83B7A /* MKTBoolReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F59184BFA95B9AE4EE0260EAB903CA8 /* HCTestFailureReporterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D419742BF0A886213845FC033EF252 /* HCTestFailureReporterChain.m */; };
+		A0262E41604A6DB4FE0AAD4A40F554F3 /* MKTUnsignedIntArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = F539766CE9E89544881E84D25286F1BB /* MKTUnsignedIntArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0793163FF0D30D32D24622DF392D590 /* HCStringContains.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C59FEDA0A66CCB3EFCE465D2A2C6B19 /* HCStringContains.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0B236332563762259C18DEDC3A60920 /* HCIsDictionaryContainingKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D53855030DF5DEE023817967C07B520 /* HCIsDictionaryContainingKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4060D72F2A4595D208DADBE4E464687 /* HCObjectReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E2647E153D3507A1EA8F2A7DED1275 /* HCObjectReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A483A956C2C655667CBCC8BC9BFC39AD /* MKTMockingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 996470DC84A6BB4C61AE3B405394C6EC /* MKTMockingProgress.m */; };
+		A4D87B48D01FA0C0A8406F27DD7DCA33 /* HCIsNot.h in Headers */ = {isa = PBXBuildFile; fileRef = C23CEFF7F386AC31BAC9E7B472CC0401 /* HCIsNot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A595D3E9A19DB9AE0BF0339CC9013698 /* MKTPointerArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A48B3E319ADC585DC18EC5FE9DDC00 /* MKTPointerArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6F2A586935EDC7B26444593A9844C6B /* HCSubstringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BB85A41A54384EDE1E4596F05D9FF22F /* HCSubstringMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A81D5F9D0EBF512484172B60726F3F38 /* MKTUnsignedLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8808A3FDAB7BB0086E0999E2213C52A /* MKTUnsignedLongReturnSetter.m */; };
+		A81E25178FC7DEA7C9FB0FAAF7E1B9C4 /* MKTUnsignedShortArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FEB10853C8EAD6831F8B52AAEBE93D5 /* MKTUnsignedShortArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A84385508810F1C67AE5D73791322854 /* MKTVerificationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D103D2E98AF89C9ED2851A5D8AC7228 /* MKTVerificationMode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8E2ACA7B7193794A9FB6B654AB7CE47 /* HCIsAnything.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A5FD0A208B22BE509690F169CE0E05 /* HCIsAnything.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9775536AE97E18004B35C8278B3F35C /* HCUnsignedShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D81FC073304F1A15DFA9D739A321F5 /* HCUnsignedShortReturnGetter.m */; };
+		AAB61E79C6A98AA4829007D0A4D6FA19 /* MKTInvocationContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0A21B1BA37252E593A3337DD4F68A8 /* MKTInvocationContainer.m */; };
+		AAC981701C796C3C07A787DE3D590FA8 /* MKT_TPDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4489EF936B61BD5DDA97103A1374EAC /* MKT_TPDWeakProxy.m */; };
+		AE4985129D711A68772A07FB7CADBB04 /* MKTMockitoCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9019F02A21D10CAA15EB698FC7179 /* MKTMockitoCore.m */; };
+		B09F2229E2BA6041CF5C23BF36211ECF /* HCAssertThat.h in Headers */ = {isa = PBXBuildFile; fileRef = BD223BF4D7DD9423ECF8BB08C24638CD /* HCAssertThat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0AB0C7ED06DB801EB54795293AED508 /* HCIsTrueFalse.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EF0D4C68705873535645D77D7F26E0 /* HCIsTrueFalse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0FC434C45B3875A4EC68675D6826873 /* HCIsNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF69E38073A4B680D62786F80BC57EB /* HCIsNil.m */; };
+		B258B77599A713F1D1C7C59A1384BE5F /* MKTMockitoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F261EF1EA19F911A12CD64CB07FD7A /* MKTMockitoCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3D9A26B0FD39E98513E928C177E6C55 /* MKTUnsignedShortReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8C0A9A1E6F4834F4CD0082747F739 /* MKTUnsignedShortReturnSetter.m */; };
+		B58BFE6ADD0A9D87CBCE162C613973FC /* MKTOngoingStubbing.h in Headers */ = {isa = PBXBuildFile; fileRef = CCECF3F9443E5531B8385AA561F7BCF6 /* MKTOngoingStubbing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5B0AD0404689901B01298E4A1C3AF6F /* HCIsDictionaryContaining.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FE2738A61B8AD2DEC40F4217D8A9BC /* HCIsDictionaryContaining.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B66E3D2FB77CC46A49206A79F851BD60 /* HCXCTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 761DA0F303FDAC5E7CD7C3FEA4D020BD /* HCXCTestFailureReporter.m */; };
+		B8195D4EF24FCBF4279A367FC80D294D /* HCOrderingComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EFC6CC569C8DA140D0853C5BB494FC /* HCOrderingComparison.m */; };
+		B98525CCB7C1E9D7BEC99FBA4BBBC132 /* MKTStructArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FC3192BB802B78F0AB541B7D18F4B7 /* MKTStructArgumentGetter.m */; };
+		BA55560DEAE97B9AA4500EFDEFFEE0A4 /* MKTDoubleArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C90AD8E351D4D81566A68A63B09CE220 /* MKTDoubleArgumentGetter.m */; };
+		BD32A3BFEFCEA3F7B5EC774A1E1BD2B7 /* HCDiagnosingMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E418E2C6B89E3F89C900C02D0DA4870F /* HCDiagnosingMatcher.m */; };
+		BE7FF55CFA08059E3F8623D88783C24F /* HCSubstringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650C3E1CF9D46EAF7301CDADC518F2D /* HCSubstringMatcher.m */; };
+		BEA227B6353E7643EFAFD087A51BF535 /* MKTBlockArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB94B425E3EF4E25BBE1116DB322E89 /* MKTBlockArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF74E3D6EA47978CE858FB1AE0257579 /* HCStringStartsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 0435B5F28017197618C6BAC95D4E318D /* HCStringStartsWith.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF84EDEF3E8634962A7C1FB8269E46D8 /* MKTObjectReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = C683311D22387C011DDF60DE5DD25985 /* MKTObjectReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF98491D127ACF430A7897B41CB3C987 /* MKTShortArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 688EE4BCC2DD416844827C84DD776D82 /* MKTShortArgumentGetter.m */; };
+		BFD35710F537FEC7D4C5E9A094D60DFD /* HCIsEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 022317A4FCD94F07EC719AA6CA2AD2F1 /* HCIsEqual.m */; };
+		C0002C300214B9026A05931D0EB0179F /* HCReturnValueGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 841783ACE76E0184790ADD053A22ED03 /* HCReturnValueGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C264BDF9E17D93E243ABD4460FB2C7C4 /* MKTDynamicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA87BC0CD1EE722724CFFE803FEC9D /* MKTDynamicProperties.m */; };
+		C28017058637034ABBAD8611AFF86083 /* MKTArgumentCaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB888E9C8E444F7371852F6CD743B71E /* MKTArgumentCaptor.m */; };
+		C2A0658AD8DB661BDA9138F9855529F4 /* MKTIntArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EF64A81138C226948C3CFFA820B2C5 /* MKTIntArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2CBFCBC3037E28A824E4C36B2B870F2 /* MKTFloatArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBBFEC4EB20036F77F80AB34B072CE9 /* MKTFloatArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C346F5A25C254382E257819D52864776 /* NSInvocation+OCHamcrest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4336DF91DEF112D1DE0A9ABD4DEE4000 /* NSInvocation+OCHamcrest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C407F03F8207CC69ACCB627B811D3650 /* MKTArgumentGetterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F23351BD4803FE0AC8F6641B125A5 /* MKTArgumentGetterChain.m */; };
+		C4A440C242EA00A43B6FE78C7172985A /* HCGenericTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7BA26890B7362F78B899F108A5C49 /* HCGenericTestFailureReporter.m */; };
+		C4E586DD5FAD533BD103B05E49D29793 /* MKTUnsignedLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = C967866E9D29C13C46CDCC938B4221E0 /* MKTUnsignedLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5E3BEAC8DBEDD038344CCA9F7FB6267 /* HCIsInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B7048F205EEAFCF80680CC5D42CFCCC4 /* HCIsInstanceOf.m */; };
+		C5F951FF0C5B243EAB7F9404300745ED /* HCTestFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 04426D5A7DAC9A16FC55FC96E3B7DFD1 /* HCTestFailure.m */; };
+		C8105888F8941806425DF1C0CD08D8F3 /* HCArgumentCaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6939098DC6100ECC0A7261EA0A35FDE4 /* HCArgumentCaptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C82683661D1B3F2CA7ADEB07F717B4A0 /* HCStringEndsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F0779A8235A83D5EB6BBBEBE813E80 /* HCStringEndsWith.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8E324BC19F8455B8306C72868592A01 /* MKTObjectAndProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEEF4F1A1C5255851C76E253114CBF7 /* MKTObjectAndProtocolMock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C970564CCDA6197348C7F4325237F560 /* HCUnsignedLongLongReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 86AD94BC9AEADC124302CA9D6FAB7694 /* HCUnsignedLongLongReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA55859250318B0A299D422383965256 /* HCClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500FA2BB1960121912865DD5AC5E12D /* HCClassMatcher.m */; };
+		CA8626F589193465563E9BB60F11E086 /* HCSelfDescribing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5264197C7835C97D9227C72ADCF65426 /* HCSelfDescribing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAD8245B4262777C8B7B7AEBB5DE63A9 /* HCIsEqualIgnoringCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A612DF7118E12A8E716015B1F88CA8A /* HCIsEqualIgnoringCase.m */; };
+		CB83E2392E793174523F8C0215326F58 /* MKTArgumentCaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2920057EFDBF64970E69B39B55DD3348 /* MKTArgumentCaptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC5F24AE026C28BFA9A4A2588C7769EB /* MKTShortReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E53A8C2D60A837AEA2F592E3E9944E /* MKTShortReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD948D1943F21968B909332A6EA719B1 /* HCStringEndsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DEF92F060924C96BF46B153F153139 /* HCStringEndsWith.m */; };
+		CE1D07C0BFE92416148F6ED17CAEC86A /* HCIsCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A11F8AB0EF4EAFEE4BB145EF70F6D6 /* HCIsCloseTo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE2E41BC80881528B9EF80C801BB3BFA /* MKTLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4813213796F57E5728A51E346DD4286C /* MKTLongReturnSetter.m */; };
+		CEB4D98A83F601D5224B29EF994573D0 /* HCNumberAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = E7238FBDE4A67D5E6E6CA0E064247B47 /* HCNumberAssert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D054A696A5DE154642161BBED4998ADA /* NSInvocation+OCMockito.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7BFCEC35A7CE2A4EA227478A283753 /* NSInvocation+OCMockito.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1356585B2BD10DA58409452ABC70CDC /* MKTArgumentGetterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3502692FA8F0F0CC6A873E0871C961B8 /* MKTArgumentGetterChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D439BDFCB248749A37D450E930451B60 /* HCIsCollectionContainingInRelativeOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7E4FFBE7A24D1073C7930FA0A3374C /* HCIsCollectionContainingInRelativeOrder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4737A6E9E6D061AA1E4FBA3ECB1C6F7 /* HCThrowsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B15C5238353A883052E28ED3431CDE /* HCThrowsException.m */; };
+		D67EED8FC556B59FA1E9A6E6D1EFC51E /* OCMockito.m in Sources */ = {isa = PBXBuildFile; fileRef = 3286FC10BB6BB65F48E0E9564EDEBC50 /* OCMockito.m */; };
+		D857BD0DCCE7C0AC4A505EAA67C033A8 /* MKTBaseMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3E43C874AB10BB36F58EC1A7B41D5D /* MKTBaseMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D884F30AA2674D3807E5531A2C1B0005 /* HCIsDictionaryContainingEntries.h in Headers */ = {isa = PBXBuildFile; fileRef = 57863ED00FD6E1A03E0173AE9E43B78C /* HCIsDictionaryContainingEntries.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA93BDBDFF8F44B4B2A8B3A5FCDDD374 /* HCTestFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C1BF13606F492BB92C12C6096C820A /* HCTestFailureHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DAFC16B2CAC3C046908D8FD56C6E38D4 /* HCAnyOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 165F26B976C03455C5681B437CB544F1 /* HCAnyOf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB36B006FA633AD58AE222FFC72C6768 /* MKTUnsignedIntReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = E20999AF9733EE426B4839CDD7821F1E /* MKTUnsignedIntReturnSetter.m */; };
+		DC90BAA2CBCB3A5D2E200A21BB796E42 /* HCUnsignedLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5474F124CA85D6881511EB649A4799 /* HCUnsignedLongLongReturnGetter.m */; };
+		DDCC62B41156E8EC2AEE494320E5662C /* MKTSelectorArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A81DE159AAB44472C2E642254C6722AE /* MKTSelectorArgumentGetter.m */; };
+		DEC93FBEFB0F982E2FCD172A21DA83F8 /* HCWrapInMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 14369E73C3A8A4D7CDC17942788E09F2 /* HCWrapInMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E01EDA3B9633117EDFCD6B0CEDA87101 /* HCDiagnosingMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFCD5B58B72570CDDBA2AF28DFC1287 /* HCDiagnosingMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E11BFF702042583C1DF7D8D67F9EA838 /* HCIsDictionaryContainingEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = D53729C5442D1E903A07278C5B7AA4A2 /* HCIsDictionaryContainingEntries.m */; };
+		E12797421B9F5BF8A01AA4DCE34B0D8E /* HCIsIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6D72411AAC6FF6BA5B30AAEC6E199E /* HCIsIn.m */; };
+		E17486893774009B3704D537685B8C53 /* MKTProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = EE4429CC47EF89F4FAF31C5122ACD252 /* MKTProtocolMock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E18089E442CE4EF68B7C52624ED525A6 /* MKTLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D35C73BBBE4F107A39F2BE5108AD08D /* MKTLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E18C5D9E421A27E2443F034C3ADC9A7B /* MKTLongLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 74791547026EB61A4C777E2085451D97 /* MKTLongLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4057AFC5660E94991847E1839D796E1 /* HCStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = D3647A941409684FFAEABCA0C95EF440 /* HCStringContains.m */; };
+		E55278D4CC7BC84D57CF5B2E58AC9F44 /* MKT_TPDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A4D4B0C329DF948B6677F0EF8506C0 /* MKT_TPDWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E552C69A420E455E5E1A0E689FA7DDB3 /* Pods-FBKVOControllerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF421AF8D0279F305DCEE38F3DD040F6 /* Pods-FBKVOControllerTests-dummy.m */; };
+		E5B56505F7938A774C0F61451B2D6C5B /* HCStringContainsInOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 792A45061B5BFB52C984AD97A53167C4 /* HCStringContainsInOrder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E68FACED7766BC973BC68F9AE759159A /* HCIsIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7C8ABD1C5B2F15E06511662EEED886 /* HCIsIn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6F99D5D6E4DC2C648ACF8B90F109C4E /* HCDoubleReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EEDD81D4CAD21476B1A46FC5397D8C /* HCDoubleReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E71561EAC7C7D71AE54484FC609C70AF /* HCHasCount.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0FEAAD17957B986244F1ACA3392A3C /* HCHasCount.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E811A2917B7A3965819912EE5A896D98 /* HCLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338CAEC3872F72DD810E185BA549218 /* HCLongReturnGetter.m */; };
+		E9377CF91A8F0ADD8954D27B8E33110F /* HCEvery.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB830B71A50342907A5C699ECA03A81 /* HCEvery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9A9E924C96E786192F64C8499AF334E /* HCDescribedAs.h in Headers */ = {isa = PBXBuildFile; fileRef = 59841BBAF8931EC7BF6C408CE1D94809 /* HCDescribedAs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA3A03A0F797312B01B7A5BA2216B3D1 /* HCIsCollectionOnlyContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ABD222FF5C840368FEA242E2F9F53B /* HCIsCollectionOnlyContaining.m */; };
+		EAA7E0D4F8CBEC35F8FAFF093ED57787 /* HCIsEqualToNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1FEA472D64684E05829C16F0F6B6FE /* HCIsEqualToNumber.m */; };
+		EB49E618C356BB7DFA087B6C9FC72ED3 /* MKTReturnsValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A3EE2987B2861BE04DA753B5675C5A /* MKTReturnsValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC5E327B0C5CA471C54C1C8CCE5B81F6 /* MKTCharArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8614448AF70565F399991857EF291591 /* MKTCharArgumentGetter.m */; };
+		ECC45B7C8A1CEA8E8D491BA5C2B1853A /* MKTUnsignedCharReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CF0A91875CC279E5EE0DD8AB9D277D /* MKTUnsignedCharReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED958C5897854590B159439649FC242F /* MKTObjectMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0180551D66AE23A660E5B35D1DC02A /* MKTObjectMock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDA1432BE90B2F490FED45DFE30BC420 /* HCMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE96D0433D50A588C9369C5D7D07079 /* HCMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDD0BFFCF09EB9708550782C6F26AAEB /* MKTInvocationContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5461B1067E4D36BC27B73D69D7CB4049 /* MKTInvocationContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE554DDDFD842DA749E303FA05083F04 /* HCUnsignedShortReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = F1412D3AF2D0A8581000CB447BFA6A2F /* HCUnsignedShortReturnGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EED296C2E1419ECF03776F2B26EFEB3B /* HCTestFailureHandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5766F177DEAF3A6A7378AA5666BFAF76 /* HCTestFailureHandlerChain.m */; };
+		EF750CFF574C10A5033CF72D3C94CB8D /* HCReturnValueGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C992CA3A8EB886AE34AD7CD9EF7BD3 /* HCReturnValueGetter.m */; };
+		F11AA31EE74B1A8610676CF9B1848381 /* HCHasProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EF687B09E2C13B69B0AD6AF759702B /* HCHasProperty.m */; };
+		F35311B1F8E1C889BAA6499C1EBCC55B /* MKTReturnValueSetterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D20751F00F44A2088EB2233DC41BF /* MKTReturnValueSetterChain.m */; };
+		F5561C9ED17C956C063039F10A2547F0 /* OCMockito.h in Headers */ = {isa = PBXBuildFile; fileRef = 983AAA90B9B64C392A95C37B45104916 /* OCMockito.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F60F3C63665EC26F62E6D89C57FE438B /* HCAllOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 658A9A9AFC61310947C35C4E78A4CD15 /* HCAllOf.m */; };
+		F723A4A25486F3FD68C647D25723B1BD /* MKTStubbedInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EB32179E10E70E032ABEF57B2589E7 /* MKTStubbedInvocationMatcher.m */; };
+		F745EDEAA4A6B32F5D3C317AB9076C74 /* HCIsTypeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B61F68E7028D4A69531EC1CA7F573A4 /* HCIsTypeOf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7F52A051369F33D42846910417F9C9A /* HCRequireNonNilObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDF66B1C434A742E39AAF815B7C717D /* HCRequireNonNilObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F996F148DBF099084A8983C2F586B92C /* HCIsTypeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3FE2334228DC36D2E759E35D455083 /* HCIsTypeOf.m */; };
+		F9DD67EBFECEB4D28B67E4068E4A8E30 /* HCIsCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C281DE32B917529A2B5D5420FCBEBE /* HCIsCloseTo.m */; };
+		FDF7CB89B74F7CFFF910CED8DC4210FB /* MKTReturnValueSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7B191FD81EFBD48132B762DE667A34 /* MKTReturnValueSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		253296056CD9411D266B4C459C6B4792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8094467761B2E923813531849AE7B97A;
+			remoteInfo = OCHamcrest;
+		};
+		91E63D13F908E39A1102E173EA23FD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8094467761B2E923813531849AE7B97A;
+			remoteInfo = OCHamcrest;
+		};
+		E749EB040019D36A4E6D65E1FF8A4D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACA30CC7F0FBF6ECAE6A3C4719640F1;
+			remoteInfo = OCMockito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0023D5DC5956C9F664193BBFEBF68E55 /* HCIsSame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsSame.m; path = Source/Library/Object/HCIsSame.m; sourceTree = "<group>"; };
+		0213B527FB0EF9BFA1F8E540BE94BC76 /* HCIsTrueFalse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsTrueFalse.m; path = Source/Library/Number/HCIsTrueFalse.m; sourceTree = "<group>"; };
+		022317A4FCD94F07EC719AA6CA2AD2F1 /* HCIsEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqual.m; path = Source/Library/Object/HCIsEqual.m; sourceTree = "<group>"; };
+		02AC94E6143E22BB4A1DF35740F80C62 /* HCCharReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCharReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCCharReturnGetter.h; sourceTree = "<group>"; };
+		0338CAEC3872F72DD810E185BA549218 /* HCLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongReturnGetter.m; sourceTree = "<group>"; };
+		0435B5F28017197618C6BAC95D4E318D /* HCStringStartsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringStartsWith.h; path = Source/Library/Text/HCStringStartsWith.h; sourceTree = "<group>"; };
+		0440D922FAC30FEFDD37914A877EDADB /* OCHamcrest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCHamcrest-prefix.pch"; sourceTree = "<group>"; };
+		04426D5A7DAC9A16FC55FC96E3B7DFD1 /* HCTestFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailure.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailure.m; sourceTree = "<group>"; };
+		0501E4FAA95A3FDA038A2FEADC183260 /* HCAssertThat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAssertThat.m; path = Source/Core/HCAssertThat.m; sourceTree = "<group>"; };
+		05759887048BF50BB3C3B5CB77CBBB59 /* HCBaseDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBaseDescription.m; path = Source/Core/HCBaseDescription.m; sourceTree = "<group>"; };
+		0629D86D25C030F3C80AD48E16261423 /* HCIsEmptyCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEmptyCollection.m; path = Source/Library/Collection/HCIsEmptyCollection.m; sourceTree = "<group>"; };
+		07C351664CC9F63883E0CF19E1AB04FE /* HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCClassMatcher.h; path = Source/Library/Object/HCClassMatcher.h; sourceTree = "<group>"; };
+		081A5C0AB330567E33C180CE9F22E7EB /* MKTPrimitiveArgumentMatching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPrimitiveArgumentMatching.h; path = Source/OCMockito/MKTPrimitiveArgumentMatching.h; sourceTree = "<group>"; };
+		08E5005B7A14B89D07B02EE57DA3FF50 /* MKTClassReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTClassReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTClassReturnSetter.h; sourceTree = "<group>"; };
+		09DD698C52F7D5723B63205541D3C3B1 /* MKTLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongArgumentGetter.h; sourceTree = "<group>"; };
+		09EF687B09E2C13B69B0AD6AF759702B /* HCHasProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasProperty.m; path = Source/Library/Object/HCHasProperty.m; sourceTree = "<group>"; };
+		0A4F23351BD4803FE0AC8F6641B125A5 /* MKTArgumentGetterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentGetterChain.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetterChain.m; sourceTree = "<group>"; };
+		0A7B8AEFBC83B54D106A281BDBB4F5F4 /* HCIsNot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsNot.m; path = Source/Library/Logical/HCIsNot.m; sourceTree = "<group>"; };
+		0B61F68E7028D4A69531EC1CA7F573A4 /* HCIsTypeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsTypeOf.h; path = Source/Library/Object/HCIsTypeOf.h; sourceTree = "<group>"; };
+		0BA10814176F9742BDFCDD78452F392B /* MKTUnsignedLongLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongLongArgumentGetter.h; sourceTree = "<group>"; };
+		0C7BFCEC35A7CE2A4EA227478A283753 /* NSInvocation+OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMockito.h"; path = "Source/OCMockito/NSInvocation+OCMockito.h"; sourceTree = "<group>"; };
+		0D103D2E98AF89C9ED2851A5D8AC7228 /* MKTVerificationMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTVerificationMode.h; path = Source/OCMockito/MKTVerificationMode.h; sourceTree = "<group>"; };
+		0F204CDFBFC41C8ED99E7C44ED715DB3 /* MKTProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTProtocolMock.m; path = Source/OCMockito/MKTProtocolMock.m; sourceTree = "<group>"; };
+		0FE064993907EC4D2A0BAB9CE96C1B17 /* OCHamcrest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCHamcrest-dummy.m"; sourceTree = "<group>"; };
+		10932177D9D5082A58EB395F98C4892D /* MKTUnsignedIntArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedIntArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedIntArgumentGetter.m; sourceTree = "<group>"; };
+		1198ECBF8CCAC8993EDAA852AB714020 /* MKTInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTInvocationMatcher.h; path = Source/OCMockito/MKTInvocationMatcher.h; sourceTree = "<group>"; };
+		1268F91C26BD04CDE8D3A9A79E6E3991 /* MKTSelectorArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTSelectorArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTSelectorArgumentGetter.h; sourceTree = "<group>"; };
+		14369E73C3A8A4D7CDC17942788E09F2 /* HCWrapInMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCWrapInMatcher.h; path = Source/Core/Helpers/HCWrapInMatcher.h; sourceTree = "<group>"; };
+		14A7C9FB0D94A63D4A68D448507D5443 /* MKTExactTimes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTExactTimes.m; path = Source/OCMockito/MKTExactTimes.m; sourceTree = "<group>"; };
+		14B8FA2C118CD50ECD601573E1E3DC51 /* MKTUnsignedCharReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.m; sourceTree = "<group>"; };
+		165F26B976C03455C5681B437CB544F1 /* HCAnyOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCAnyOf.h; path = Source/Library/Logical/HCAnyOf.h; sourceTree = "<group>"; };
+		19A4D4B0C329DF948B6677F0EF8506C0 /* MKT_TPDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKT_TPDWeakProxy.h; path = "Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.h"; sourceTree = "<group>"; };
+		1A8E98C96AF59AAD1E54709DED999171 /* HCConformsToProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCConformsToProtocol.h; path = Source/Library/Object/HCConformsToProtocol.h; sourceTree = "<group>"; };
+		1BB830B71A50342907A5C699ECA03A81 /* HCEvery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCEvery.h; path = Source/Library/Collection/HCEvery.h; sourceTree = "<group>"; };
+		1D5B717E91491945D9F320B6AD81D2A1 /* MKTStubbedInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStubbedInvocationMatcher.h; path = Source/OCMockito/MKTStubbedInvocationMatcher.h; sourceTree = "<group>"; };
+		1DE9019F02A21D10CAA15EB698FC7179 /* MKTMockitoCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMockitoCore.m; path = Source/OCMockito/MKTMockitoCore.m; sourceTree = "<group>"; };
+		1EB8BBAEF12A929F1BCA657F43FD90BB /* HCUnsignedIntReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedIntReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedIntReturnGetter.m; sourceTree = "<group>"; };
+		2122CDA03AA94F505E95B5051389E43E /* HCTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporter.h; sourceTree = "<group>"; };
+		21FDAADC8046004518D061A4D799C073 /* HCIsDictionaryContainingValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingValue.m; path = Source/Library/Collection/HCIsDictionaryContainingValue.m; sourceTree = "<group>"; };
+		235B52B2045FE5F8C47DCEA16D8E585B /* MKTObjectArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTObjectArgumentGetter.h; sourceTree = "<group>"; };
+		23AD7BB19290605C65DCC3F36C0165B7 /* NSInvocation+OCHamcrest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCHamcrest.m"; path = "Source/Core/Helpers/NSInvocation+OCHamcrest.m"; sourceTree = "<group>"; };
+		23E5E9AEAE5DEDCEE8D52CA21A532EDF /* HCBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBaseMatcher.h; path = Source/Core/HCBaseMatcher.h; sourceTree = "<group>"; };
+		23E86ABD07224A7A931B34188388AD4B /* HCObjectReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCObjectReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.m; sourceTree = "<group>"; };
+		24D74F66EEA8517CED758A7D86835B3B /* MKTReturnValueSetterChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTReturnValueSetterChain.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTReturnValueSetterChain.h; sourceTree = "<group>"; };
+		2920057EFDBF64970E69B39B55DD3348 /* MKTArgumentCaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTArgumentCaptor.h; path = Source/OCMockito/MKTArgumentCaptor.h; sourceTree = "<group>"; };
+		2956D45F9A5E9FB9D45EC8065D59C0ED /* HCDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDescription.h; path = Source/Core/HCDescription.h; sourceTree = "<group>"; };
+		2984040932A0A81C1E8209DC1F80B5C0 /* HCThrowsException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCThrowsException.h; path = Source/Library/Object/HCThrowsException.h; sourceTree = "<group>"; };
+		2B9992BA9CEFAA24D8AD6BBABC130907 /* HCBoolReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBoolReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.h; sourceTree = "<group>"; };
+		2C5D2919E480968A620ED0B2F997B75B /* MKTExactTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTExactTimes.h; path = Source/OCMockito/MKTExactTimes.h; sourceTree = "<group>"; };
+		2CF69E38073A4B680D62786F80BC57EB /* HCIsNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsNil.m; path = Source/Library/Object/HCIsNil.m; sourceTree = "<group>"; };
+		30A3EE2987B2861BE04DA753B5675C5A /* MKTReturnsValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTReturnsValue.h; path = Source/OCMockito/MKTReturnsValue.h; sourceTree = "<group>"; };
+		3286FC10BB6BB65F48E0E9564EDEBC50 /* OCMockito.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockito.m; path = Source/OCMockito/OCMockito.m; sourceTree = "<group>"; };
+		32C9A4A24642F510405B881351FF27AA /* HCDescribedAs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDescribedAs.m; path = Source/Library/Decorator/HCDescribedAs.m; sourceTree = "<group>"; };
+		32DA5467B8778FAB18BEB26857E1996F /* HCIsCollectionContainingInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContainingInOrder.h; path = Source/Library/Collection/HCIsCollectionContainingInOrder.h; sourceTree = "<group>"; };
+		33FE2738A61B8AD2DEC40F4217D8A9BC /* HCIsDictionaryContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContaining.h; path = Source/Library/Collection/HCIsDictionaryContaining.h; sourceTree = "<group>"; };
+		34B15C5238353A883052E28ED3431CDE /* HCThrowsException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCThrowsException.m; path = Source/Library/Object/HCThrowsException.m; sourceTree = "<group>"; };
+		3502692FA8F0F0CC6A873E0871C961B8 /* MKTArgumentGetterChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTArgumentGetterChain.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetterChain.h; sourceTree = "<group>"; };
+		363D63C553AEFF2199F81B1296259158 /* HCIsInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsInstanceOf.h; path = Source/Library/Object/HCIsInstanceOf.h; sourceTree = "<group>"; };
+		3931F80F6946F4DEA6331EA86C401FF0 /* OCHamcrest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCHamcrest.h; path = Source/OCHamcrest.h; sourceTree = "<group>"; };
+		3953C1C262CE365F27DCC952615FB98C /* MKTLongLongArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLongLongArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongLongArgumentGetter.m; sourceTree = "<group>"; };
+		3A47B9AC7307DC96A40B7D23ECCD1628 /* HCIsEqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqual.h; path = Source/Library/Object/HCIsEqual.h; sourceTree = "<group>"; };
+		3BD679DBE077004EE3A11E9DB11A8D90 /* HCLongLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLongLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCLongLongReturnGetter.h; sourceTree = "<group>"; };
+		3BED9F3A817192C1EFD8B2EB24D22513 /* HCIsCollectionContainingInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInOrder.m; sourceTree = "<group>"; };
+		3D53855030DF5DEE023817967C07B520 /* HCIsDictionaryContainingKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingKey.h; path = Source/Library/Collection/HCIsDictionaryContainingKey.h; sourceTree = "<group>"; };
+		3E64C2B118BBA968C9203E686C0E1888 /* MKTLongArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLongArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongArgumentGetter.m; sourceTree = "<group>"; };
+		4180A15989E593F38979EA12D5DDBAAB /* MKTThrowsException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTThrowsException.m; path = Source/OCMockito/MKTThrowsException.m; sourceTree = "<group>"; };
+		42811EC0A1075581581811CFBD44AB23 /* NSInvocation+OCMockito.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMockito.m"; path = "Source/OCMockito/NSInvocation+OCMockito.m"; sourceTree = "<group>"; };
+		430C5FC8D4DCDFA5F4229BAD2AD66931 /* MKTReturnValueSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnValueSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTReturnValueSetter.m; sourceTree = "<group>"; };
+		43111A87FABFE5727ED58F50A7E93A9D /* MKTAtLeastTimes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTAtLeastTimes.m; path = Source/OCMockito/MKTAtLeastTimes.m; sourceTree = "<group>"; };
+		4336DF91DEF112D1DE0A9ABD4DEE4000 /* NSInvocation+OCHamcrest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCHamcrest.h"; path = "Source/Core/Helpers/NSInvocation+OCHamcrest.h"; sourceTree = "<group>"; };
+		43CF0A91875CC279E5EE0DD8AB9D277D /* MKTUnsignedCharReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedCharReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.h; sourceTree = "<group>"; };
+		46E9DB656AB852B52134EA8B5DE55D5C /* libOCHamcrest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCHamcrest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F261EF1EA19F911A12CD64CB07FD7A /* MKTMockitoCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTMockitoCore.h; path = Source/OCMockito/MKTMockitoCore.h; sourceTree = "<group>"; };
+		4813213796F57E5728A51E346DD4286C /* MKTLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongReturnSetter.m; sourceTree = "<group>"; };
+		48E595F7AEEF4ABD8CBECFA271F6F5BF /* MKTIntReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTIntReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTIntReturnSetter.h; sourceTree = "<group>"; };
+		494EAB3CBB769D25585B163552C7DAAD /* HCIsCollectionOnlyContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionOnlyContaining.h; path = Source/Library/Collection/HCIsCollectionOnlyContaining.h; sourceTree = "<group>"; };
+		49A5FD0A208B22BE509690F169CE0E05 /* HCIsAnything.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsAnything.h; path = Source/Library/Logical/HCIsAnything.h; sourceTree = "<group>"; };
+		49C281DE32B917529A2B5D5420FCBEBE /* HCIsCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCloseTo.m; path = Source/Library/Number/HCIsCloseTo.m; sourceTree = "<group>"; };
+		4A5474F124CA85D6881511EB649A4799 /* HCUnsignedLongLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedLongLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongLongReturnGetter.m; sourceTree = "<group>"; };
+		4AB94B425E3EF4E25BBE1116DB322E89 /* MKTBlockArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBlockArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTBlockArgumentGetter.h; sourceTree = "<group>"; };
+		4C31AFAF3EE79C4EADDC7D72A9B9B950 /* Pods-FBKVOControllerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBKVOControllerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EEEF4F1A1C5255851C76E253114CBF7 /* MKTObjectAndProtocolMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectAndProtocolMock.h; path = Source/OCMockito/MKTObjectAndProtocolMock.h; sourceTree = "<group>"; };
+		4FDF66B1C434A742E39AAF815B7C717D /* HCRequireNonNilObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCRequireNonNilObject.h; path = Source/Core/Helpers/HCRequireNonNilObject.h; sourceTree = "<group>"; };
+		50F7BA26890B7362F78B899F108A5C49 /* HCGenericTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCGenericTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.m; sourceTree = "<group>"; };
+		5118A17D8632BF16CF67E8A99BF23AF7 /* MKTUnsignedCharArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedCharArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedCharArgumentGetter.h; sourceTree = "<group>"; };
+		5264197C7835C97D9227C72ADCF65426 /* HCSelfDescribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSelfDescribing.h; path = Source/Core/HCSelfDescribing.h; sourceTree = "<group>"; };
+		5265395A2C5184824A8B76A8B5A726A6 /* MKTReturnsValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnsValue.m; path = Source/OCMockito/MKTReturnsValue.m; sourceTree = "<group>"; };
+		5439C5A117B185389481C1999F385B58 /* MKTClassArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTClassArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTClassArgumentGetter.h; sourceTree = "<group>"; };
+		5461B1067E4D36BC27B73D69D7CB4049 /* MKTInvocationContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTInvocationContainer.h; path = Source/OCMockito/MKTInvocationContainer.h; sourceTree = "<group>"; };
+		54ECA84E1A9DBF35F19A53D4697413EA /* HCStringContainsInOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringContainsInOrder.m; path = Source/Library/Text/HCStringContainsInOrder.m; sourceTree = "<group>"; };
+		557CA22E606A0F6864ED68854296E0F4 /* MKTUnsignedLongLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongLongReturnSetter.h; sourceTree = "<group>"; };
+		56BBEA0028D2E64685B9D90E3AD7350D /* MKTClassObjectMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTClassObjectMock.h; path = Source/OCMockito/MKTClassObjectMock.h; sourceTree = "<group>"; };
+		56D030EFB6A9EFD0CCD27536DE95D09D /* MKTShortReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTShortReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTShortReturnSetter.m; sourceTree = "<group>"; };
+		5766F177DEAF3A6A7378AA5666BFAF76 /* HCTestFailureHandlerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureHandlerChain.m; path = Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandlerChain.m; sourceTree = "<group>"; };
+		57863ED00FD6E1A03E0173AE9E43B78C /* HCIsDictionaryContainingEntries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingEntries.h; path = Source/Library/Collection/HCIsDictionaryContainingEntries.h; sourceTree = "<group>"; };
+		59841BBAF8931EC7BF6C408CE1D94809 /* HCDescribedAs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDescribedAs.h; path = Source/Library/Decorator/HCDescribedAs.h; sourceTree = "<group>"; };
+		599551897B832F41C0E0DD7BF3853084 /* MKTCharArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTCharArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTCharArgumentGetter.h; sourceTree = "<group>"; };
+		5A612DF7118E12A8E716015B1F88CA8A /* HCIsEqualIgnoringCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualIgnoringCase.m; path = Source/Library/Text/HCIsEqualIgnoringCase.m; sourceTree = "<group>"; };
+		5B3233FDFBAA62CDEDF70412540777E5 /* HCIsCollectionContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContaining.m; path = Source/Library/Collection/HCIsCollectionContaining.m; sourceTree = "<group>"; };
+		5B3E43C874AB10BB36F58EC1A7B41D5D /* MKTBaseMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBaseMockObject.h; path = Source/OCMockito/MKTBaseMockObject.h; sourceTree = "<group>"; };
+		5CC5D52BA4D04C76F777A3B3F7592C89 /* MKTDoubleArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDoubleArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTDoubleArgumentGetter.h; sourceTree = "<group>"; };
+		5D35C73BBBE4F107A39F2BE5108AD08D /* MKTLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongReturnSetter.h; sourceTree = "<group>"; };
+		5D8ADD6A12D95B554469FB5F873A7603 /* MKTClassObjectMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassObjectMock.m; path = Source/OCMockito/MKTClassObjectMock.m; sourceTree = "<group>"; };
+		5E4B065BFECCF3BDD9BD68543EB2240B /* MKTShortArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTShortArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTShortArgumentGetter.h; sourceTree = "<group>"; };
+		5ED1DECE5D14770DB689F5AD359E42B4 /* HCTestFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailure.h; path = Source/Core/Helpers/TestFailureReporters/HCTestFailure.h; sourceTree = "<group>"; };
+		5F88C44EAF8C621FF4C7B5A47B31F075 /* Pods-FBKVOControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBKVOControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FAC0F5A436CE951D8B3F540077EAFEF /* HCShortReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCShortReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCShortReturnGetter.m; sourceTree = "<group>"; };
+		654D84BBAF8393D02CDB2A77514CFE85 /* HCBoolReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBoolReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.m; sourceTree = "<group>"; };
+		658A9A9AFC61310947C35C4E78A4CD15 /* HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAllOf.m; path = Source/Library/Logical/HCAllOf.m; sourceTree = "<group>"; };
+		6650C3E1CF9D46EAF7301CDADC518F2D /* HCSubstringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSubstringMatcher.m; path = Source/Library/Text/HCSubstringMatcher.m; sourceTree = "<group>"; };
+		6668F0E885C59D5512A903B26AD4EF18 /* HCFloatReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCFloatReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.m; sourceTree = "<group>"; };
+		66E2D3EEAA725F383E5235A2366C73B4 /* MKTLongLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongLongReturnSetter.h; sourceTree = "<group>"; };
+		68133063FBBEF49104AA05A4AEF74BF6 /* MKTAnswer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAnswer.h; path = Source/OCMockito/MKTAnswer.h; sourceTree = "<group>"; };
+		6836788E75E0C794C07460C3485F8A71 /* HCTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporter.m; sourceTree = "<group>"; };
+		688EE4BCC2DD416844827C84DD776D82 /* MKTShortArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTShortArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTShortArgumentGetter.m; sourceTree = "<group>"; };
+		6939098DC6100ECC0A7261EA0A35FDE4 /* HCArgumentCaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCArgumentCaptor.h; path = Source/Library/Object/HCArgumentCaptor.h; sourceTree = "<group>"; };
+		6B5D24FFDEE03AFE5D9F8F8B9CEC25DA /* HCGenericTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCGenericTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCGenericTestFailureReporter.h; sourceTree = "<group>"; };
+		6CBE16754FDAE22666A9D2F873282C9A /* HCAllOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCAllOf.h; path = Source/Library/Logical/HCAllOf.h; sourceTree = "<group>"; };
+		6FBA3AB3429A1A670AF724244D5633FA /* MKTBoolArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBoolArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTBoolArgumentGetter.h; sourceTree = "<group>"; };
+		70FB565DAD8CF88AE523202E95D83B7A /* MKTBoolReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBoolReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.h; sourceTree = "<group>"; };
+		724CD10404939D27F486F88B8C2D0F68 /* HCIsCollectionContainingInRelativeOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInRelativeOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInRelativeOrder.m; sourceTree = "<group>"; };
+		7255B5BA982B31208BC48CFDE93E26E7 /* HCIsDictionaryContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContaining.m; path = Source/Library/Collection/HCIsDictionaryContaining.m; sourceTree = "<group>"; };
+		74791547026EB61A4C777E2085451D97 /* MKTLongLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTLongLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTLongLongArgumentGetter.h; sourceTree = "<group>"; };
+		7521E69DC331E2A072088A34D3D732DC /* HCHasCount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasCount.m; path = Source/Library/Collection/HCHasCount.m; sourceTree = "<group>"; };
+		761DA0F303FDAC5E7CD7C3FEA4D020BD /* HCXCTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCXCTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.m; sourceTree = "<group>"; };
+		77703AAD69F73815E7BAF1A7E00A6902 /* MKTObjectArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTObjectArgumentGetter.m; sourceTree = "<group>"; };
+		78723F4643A6032A1C2A23FA27BDA8AC /* HCConformsToProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCConformsToProtocol.m; path = Source/Library/Object/HCConformsToProtocol.m; sourceTree = "<group>"; };
+		78B791D4EEC9D34D025C27FD512F2BCE /* HCReturnTypeHandlerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCReturnTypeHandlerChain.m; path = Source/Core/Helpers/ReturnValueGetters/HCReturnTypeHandlerChain.m; sourceTree = "<group>"; };
+		792A45061B5BFB52C984AD97A53167C4 /* HCStringContainsInOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringContainsInOrder.h; path = Source/Library/Text/HCStringContainsInOrder.h; sourceTree = "<group>"; };
+		79A31F8543AB4C1731305566475C1E72 /* HCOrderingComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCOrderingComparison.h; path = Source/Library/Number/HCOrderingComparison.h; sourceTree = "<group>"; };
+		7BDC02C339776B48ED709BC7323B6B23 /* Pods-FBKVOControllerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBKVOControllerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C7C8ABD1C5B2F15E06511662EEED886 /* HCIsIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsIn.h; path = Source/Library/Collection/HCIsIn.h; sourceTree = "<group>"; };
+		7DDE13FAD087C4C94416C87926291DA9 /* libOCMockito.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCMockito.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0180551D66AE23A660E5B35D1DC02A /* MKTObjectMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectMock.h; path = Source/OCMockito/MKTObjectMock.h; sourceTree = "<group>"; };
+		7F5637E6641D128AF46B861F33A74385 /* MKTStructReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.h; sourceTree = "<group>"; };
+		7FEB10853C8EAD6831F8B52AAEBE93D5 /* MKTUnsignedShortArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedShortArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedShortArgumentGetter.h; sourceTree = "<group>"; };
+		809862EAE323E3B8419788EDA475D81C /* HCUnsignedLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.m; sourceTree = "<group>"; };
+		827A41D8297DB5AE8902CE5F536DA915 /* Pods-FBKVOControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBKVOControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		835F072BF1CD4BBE9E000B6912BA3AC4 /* HCIsCollectionContainingInAnyOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInAnyOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m; sourceTree = "<group>"; };
+		841783ACE76E0184790ADD053A22ED03 /* HCReturnValueGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCReturnValueGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCReturnValueGetter.h; sourceTree = "<group>"; };
+		84F02E052C10CFFF2AC41AF776EF7EE7 /* MKTMockingProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTMockingProgress.h; path = Source/OCMockito/MKTMockingProgress.h; sourceTree = "<group>"; };
+		8500FA2BB1960121912865DD5AC5E12D /* HCClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCClassMatcher.m; path = Source/Library/Object/HCClassMatcher.m; sourceTree = "<group>"; };
+		854F403A92E8E0B764A4527329BBBCDF /* HCHasProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCHasProperty.h; path = Source/Library/Object/HCHasProperty.h; sourceTree = "<group>"; };
+		8614448AF70565F399991857EF291591 /* MKTCharArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTCharArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTCharArgumentGetter.m; sourceTree = "<group>"; };
+		86AD94BC9AEADC124302CA9D6FAB7694 /* HCUnsignedLongLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedLongLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongLongReturnGetter.h; sourceTree = "<group>"; };
+		88EEC0429361CEC93B3C0E5F61FA4D46 /* HCRequireNonNilObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCRequireNonNilObject.m; path = Source/Core/Helpers/HCRequireNonNilObject.m; sourceTree = "<group>"; };
+		89B293A1F34B3671412937F699938E60 /* HCIsDictionaryContainingValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsDictionaryContainingValue.h; path = Source/Library/Collection/HCIsDictionaryContainingValue.h; sourceTree = "<group>"; };
+		8A96791263D2D60A33A4AFB7FF792D63 /* HCArgumentCaptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCArgumentCaptor.m; path = Source/Library/Object/HCArgumentCaptor.m; sourceTree = "<group>"; };
+		8AEA1E851B0DA2A14F2A53EB721EFBA6 /* MKTBaseMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBaseMockObject.m; path = Source/OCMockito/MKTBaseMockObject.m; sourceTree = "<group>"; };
+		8CAEEA5F9A6817E2EA961842A27DCAE7 /* MKTBlockArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBlockArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTBlockArgumentGetter.m; sourceTree = "<group>"; };
+		8CBBFEC4EB20036F77F80AB34B072CE9 /* MKTFloatArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTFloatArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTFloatArgumentGetter.h; sourceTree = "<group>"; };
+		8E1BBF02F2AAD3362E549401EF15306B /* MKTUnsignedShortReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedShortReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedShortReturnSetter.h; sourceTree = "<group>"; };
+		8E3980731D2B614DFF55B80D34B7542A /* MKTObjectAndProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectAndProtocolMock.m; path = Source/OCMockito/MKTObjectAndProtocolMock.m; sourceTree = "<group>"; };
+		8F46C2FFE6E83CAB93E67B646CC40D55 /* HCAnyOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAnyOf.m; path = Source/Library/Logical/HCAnyOf.m; sourceTree = "<group>"; };
+		90A36C77FD2194FA67F7F3DE97221D73 /* HCBaseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBaseMatcher.m; path = Source/Core/HCBaseMatcher.m; sourceTree = "<group>"; };
+		92799383EAB15EA58932346A0B5035F5 /* HCIsCollectionContaining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContaining.h; path = Source/Library/Collection/HCIsCollectionContaining.h; sourceTree = "<group>"; };
+		92EB32179E10E70E032ABEF57B2589E7 /* MKTStubbedInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStubbedInvocationMatcher.m; path = Source/OCMockito/MKTStubbedInvocationMatcher.m; sourceTree = "<group>"; };
+		934D20751F00F44A2088EB2233DC41BF /* MKTReturnValueSetterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnValueSetterChain.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTReturnValueSetterChain.m; sourceTree = "<group>"; };
+		94B82C0B1D589BB200668D3439F0ACA7 /* HCIsEmptyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEmptyCollection.h; path = Source/Library/Collection/HCIsEmptyCollection.h; sourceTree = "<group>"; };
+		967281E0D0BA896553E123AB75EC3A5F /* HCStringDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringDescription.h; path = Source/Core/HCStringDescription.h; sourceTree = "<group>"; };
+		96C1BF13606F492BB92C12C6096C820A /* HCTestFailureHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailureHandler.h; path = Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandler.h; sourceTree = "<group>"; };
+		983AAA90B9B64C392A95C37B45104916 /* OCMockito.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockito.h; path = Source/OCMockito/OCMockito.h; sourceTree = "<group>"; };
+		996470DC84A6BB4C61AE3B405394C6EC /* MKTMockingProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTMockingProgress.m; path = Source/OCMockito/MKTMockingProgress.m; sourceTree = "<group>"; };
+		9A41B38D4903DC891C148CBD2BBCCB57 /* MKTFloatReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTFloatReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTFloatReturnSetter.m; sourceTree = "<group>"; };
+		9A8F20D9D31C8248B6458F34F1378A7D /* HCIsEqualIgnoringWhiteSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualIgnoringWhiteSpace.h; path = Source/Library/Text/HCIsEqualIgnoringWhiteSpace.h; sourceTree = "<group>"; };
+		9AE2D9A754301E2D772F2D5A3A7BF426 /* MKTOngoingStubbing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTOngoingStubbing.m; path = Source/OCMockito/MKTOngoingStubbing.m; sourceTree = "<group>"; };
+		9B4B32EAD932E66F0F235A0B25DF5785 /* MKTIntArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTIntArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTIntArgumentGetter.m; sourceTree = "<group>"; };
+		9B99EF144007D347F240F2BC80771BF0 /* HCXCTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCXCTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCXCTestFailureReporter.h; sourceTree = "<group>"; };
+		9C180E91114927F77B0A9258EA9FD402 /* MKTArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.m; sourceTree = "<group>"; };
+		9C5023C2975BC7F5DF5E5E6D4329E768 /* HCCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCCharReturnGetter.m; sourceTree = "<group>"; };
+		9C59FEDA0A66CCB3EFCE465D2A2C6B19 /* HCStringContains.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringContains.h; path = Source/Library/Text/HCStringContains.h; sourceTree = "<group>"; };
+		9CF671B47036E32BA2BDD685605C5805 /* MKTUnsignedLongLongArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongLongArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongLongArgumentGetter.m; sourceTree = "<group>"; };
+		9D142DDA479DF8D17B3214BC95DE7F22 /* MKTVerificationData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTVerificationData.m; path = Source/OCMockito/MKTVerificationData.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAD2B4C96362A288F4D8135A21B9C3E /* MKTBoolReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBoolReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTBoolReturnSetter.m; sourceTree = "<group>"; };
+		9DC8AE64C5C96D64DC679D1AFE736577 /* HCInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCInvocationMatcher.m; path = Source/Core/Helpers/HCInvocationMatcher.m; sourceTree = "<group>"; };
+		A0417022507A9BFA9E7B5BAB1C023A52 /* HCHasDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCHasDescription.m; path = Source/Library/Object/HCHasDescription.m; sourceTree = "<group>"; };
+		A06818B220470857A92F1B382EA06C97 /* HCIs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIs.m; path = Source/Library/Decorator/HCIs.m; sourceTree = "<group>"; };
+		A0D419742BF0A886213845FC033EF252 /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
+		A0EB75C13A9002A01EED2ABF6349FE99 /* HCUnsignedLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedLongReturnGetter.h; sourceTree = "<group>"; };
+		A177AB9137F10A886951D2EA2F776FD5 /* HCTestFailureHandlerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailureHandlerChain.h; path = Source/Core/Helpers/TestFailureHandlers/HCTestFailureHandlerChain.h; sourceTree = "<group>"; };
+		A2993E6F76F4CC08AA4F8D2873C7F290 /* MKTCapturingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTCapturingMatcher.h; path = Source/OCMockito/MKTCapturingMatcher.h; sourceTree = "<group>"; };
+		A29C4E986BE4B5857552DBCFB9A1A181 /* HCReturnTypeHandlerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCReturnTypeHandlerChain.h; path = Source/Core/Helpers/ReturnValueGetters/HCReturnTypeHandlerChain.h; sourceTree = "<group>"; };
+		A35514BA8D5D25773F5CD9F32ADB8E69 /* HCIntReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIntReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCIntReturnGetter.m; sourceTree = "<group>"; };
+		A71846965864CD490A8BFC061EA2AF53 /* OCHamcrest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCHamcrest.debug.xcconfig; sourceTree = "<group>"; };
+		A81DE159AAB44472C2E642254C6722AE /* MKTSelectorArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTSelectorArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTSelectorArgumentGetter.m; sourceTree = "<group>"; };
+		A9EF64A81138C226948C3CFFA820B2C5 /* MKTIntArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTIntArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTIntArgumentGetter.h; sourceTree = "<group>"; };
+		AA4A4F61FDFF77601BE477BAA071B98E /* OCMockito-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMockito-prefix.pch"; sourceTree = "<group>"; };
+		AA7B191FD81EFBD48132B762DE667A34 /* MKTReturnValueSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTReturnValueSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTReturnValueSetter.h; sourceTree = "<group>"; };
+		AAE1612FBC72549716E5569D2C4D2DC1 /* MKTDoubleReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDoubleReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTDoubleReturnSetter.h; sourceTree = "<group>"; };
+		ABE96D0433D50A588C9369C5D7D07079 /* HCMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCMatcher.h; path = Source/Core/HCMatcher.h; sourceTree = "<group>"; };
+		ACD98D90FB67621852E36634B807A28F /* MKTCharReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTCharReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTCharReturnSetter.h; sourceTree = "<group>"; };
+		AF42FC544E0FABCD4624733FF541AA74 /* OCHamcrest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCHamcrest.release.xcconfig; sourceTree = "<group>"; };
+		AF839556A4CA695DA22D77BEDE3FBAAC /* HCEvery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCEvery.m; path = Source/Library/Collection/HCEvery.m; sourceTree = "<group>"; };
+		AFC6CFE7BEEF434E561FB084BD23306D /* MKTFloatReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTFloatReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTFloatReturnSetter.h; sourceTree = "<group>"; };
+		B0B702092EA1D3258C5054AD4ADEF04C /* MKTClassReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTClassReturnSetter.m; sourceTree = "<group>"; };
+		B0FDC495B90120BB2274AFBDAA38415A /* HCIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIs.h; path = Source/Library/Decorator/HCIs.h; sourceTree = "<group>"; };
+		B11D9466A795DA525F3639778EC079CF /* MKTArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.h; sourceTree = "<group>"; };
+		B12EC599A4B6A9FC6561A8E26963EEAB /* HCIntReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIntReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCIntReturnGetter.h; sourceTree = "<group>"; };
+		B19CBC25505BC9853A0BE15D8E8DB98D /* HCIsEqualIgnoringWhiteSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualIgnoringWhiteSpace.m; path = Source/Library/Text/HCIsEqualIgnoringWhiteSpace.m; sourceTree = "<group>"; };
+		B264DA698831F051D5955F26FDC2D3C6 /* libPods-FBKVOControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBKVOControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A4C3D143D0F35002FFB2FA41AF0A04 /* MKTUnsignedLongArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongArgumentGetter.m; sourceTree = "<group>"; };
+		B41F046719B73659FB195890A6ED1615 /* HCHasDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCHasDescription.h; path = Source/Library/Object/HCHasDescription.h; sourceTree = "<group>"; };
+		B4229D6D45AB277D890AE4A3DCAB827C /* MKTObjectReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTObjectReturnSetter.m; sourceTree = "<group>"; };
+		B5E2647E153D3507A1EA8F2A7DED1275 /* HCObjectReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCObjectReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCObjectReturnGetter.h; sourceTree = "<group>"; };
+		B7048F205EEAFCF80680CC5D42CFCCC4 /* HCIsInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsInstanceOf.m; path = Source/Library/Object/HCIsInstanceOf.m; sourceTree = "<group>"; };
+		B8808A3FDAB7BB0086E0999E2213C52A /* MKTUnsignedLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongReturnSetter.m; sourceTree = "<group>"; };
+		BB85A41A54384EDE1E4596F05D9FF22F /* HCSubstringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSubstringMatcher.h; path = Source/Library/Text/HCSubstringMatcher.h; sourceTree = "<group>"; };
+		BD223BF4D7DD9423ECF8BB08C24638CD /* HCAssertThat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCAssertThat.h; path = Source/Core/HCAssertThat.h; sourceTree = "<group>"; };
+		BE679235B757A8C5CF4D3BF141A1D8C0 /* MKTUnsignedCharArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedCharArgumentGetter.m; sourceTree = "<group>"; };
+		BEA978D249C9945A755D11C1C0111891 /* HCIsEqualIgnoringCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualIgnoringCase.h; path = Source/Library/Text/HCIsEqualIgnoringCase.h; sourceTree = "<group>"; };
+		C068D9B6AEE21620D739EA7B4CD62026 /* HCUnsignedCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.m; sourceTree = "<group>"; };
+		C1A11F8AB0EF4EAFEE4BB145EF70F6D6 /* HCIsCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCloseTo.h; path = Source/Library/Number/HCIsCloseTo.h; sourceTree = "<group>"; };
+		C1FE7934A05E723F40200863E01DFE39 /* HCSenTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSenTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.m; sourceTree = "<group>"; };
+		C23CEFF7F386AC31BAC9E7B472CC0401 /* HCIsNot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsNot.h; path = Source/Library/Logical/HCIsNot.h; sourceTree = "<group>"; };
+		C2DA22427B5769FDD3FE4D4DCA97C2D5 /* HCIsNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsNil.h; path = Source/Library/Object/HCIsNil.h; sourceTree = "<group>"; };
+		C2EF0D4C68705873535645D77D7F26E0 /* HCIsTrueFalse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsTrueFalse.h; path = Source/Library/Number/HCIsTrueFalse.h; sourceTree = "<group>"; };
+		C4EEDD81D4CAD21476B1A46FC5397D8C /* HCDoubleReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDoubleReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCDoubleReturnGetter.h; sourceTree = "<group>"; };
+		C590608158920208B65BBEA2B3FB25BF /* MKTLongLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTLongLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTLongLongReturnSetter.m; sourceTree = "<group>"; };
+		C683311D22387C011DDF60DE5DD25985 /* MKTObjectReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTObjectReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTObjectReturnSetter.h; sourceTree = "<group>"; };
+		C82814FED927CC6212246D94ECFEAA55 /* HCIsAnything.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsAnything.m; path = Source/Library/Logical/HCIsAnything.m; sourceTree = "<group>"; };
+		C8DB60AD9009EE9FDF931AC9F0A03AA7 /* OCMockito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMockito.debug.xcconfig; sourceTree = "<group>"; };
+		C8E2C32F35A113107ECED655550A0258 /* HCCollect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCCollect.h; path = Source/Core/Helpers/HCCollect.h; sourceTree = "<group>"; };
+		C90AD8E351D4D81566A68A63B09CE220 /* MKTDoubleArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTDoubleArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTDoubleArgumentGetter.m; sourceTree = "<group>"; };
+		C967866E9D29C13C46CDCC938B4221E0 /* MKTUnsignedLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongReturnSetter.h; sourceTree = "<group>"; };
+		C98EB95A8F255705247C6A43E52FD794 /* HCTestFailureReporterChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTestFailureReporterChain.h; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.h; sourceTree = "<group>"; };
+		C9FC3192BB802B78F0AB541B7D18F4B7 /* MKTStructArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStructArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTStructArgumentGetter.m; sourceTree = "<group>"; };
+		CB0A21B1BA37252E593A3337DD4F68A8 /* MKTInvocationContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocationContainer.m; path = Source/OCMockito/MKTInvocationContainer.m; sourceTree = "<group>"; };
+		CB0FEAAD17957B986244F1ACA3392A3C /* HCHasCount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCHasCount.h; path = Source/Library/Collection/HCHasCount.h; sourceTree = "<group>"; };
+		CCECF3F9443E5531B8385AA561F7BCF6 /* MKTOngoingStubbing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTOngoingStubbing.h; path = Source/OCMockito/MKTOngoingStubbing.h; sourceTree = "<group>"; };
+		CCF272F07026590B37CCC3CE4A26270E /* MKTUnsignedLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongArgumentGetter.h; sourceTree = "<group>"; };
+		CED78703203C5295EB746932916F167C /* HCCollect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCCollect.m; path = Source/Core/Helpers/HCCollect.m; sourceTree = "<group>"; };
+		CF421AF8D0279F305DCEE38F3DD040F6 /* Pods-FBKVOControllerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBKVOControllerTests-dummy.m"; sourceTree = "<group>"; };
+		CFCB101AC328341393AE64DB12E42830 /* MKTTestLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTTestLocation.m; path = Source/OCMockito/MKTTestLocation.m; sourceTree = "<group>"; };
+		D15A60FB3F55A756EEDACB26EEE11AB5 /* HCStringStartsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringStartsWith.m; path = Source/Library/Text/HCStringStartsWith.m; sourceTree = "<group>"; };
+		D1B3FE3C5E76A6A393BDA48AB540C4F1 /* MKTObjectMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectMock.m; path = Source/OCMockito/MKTObjectMock.m; sourceTree = "<group>"; };
+		D3647A941409684FFAEABCA0C95EF440 /* HCStringContains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringContains.m; path = Source/Library/Text/HCStringContains.m; sourceTree = "<group>"; };
+		D4ABD222FF5C840368FEA242E2F9F53B /* HCIsCollectionOnlyContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionOnlyContaining.m; path = Source/Library/Collection/HCIsCollectionOnlyContaining.m; sourceTree = "<group>"; };
+		D4EFC6CC569C8DA140D0853C5BB494FC /* HCOrderingComparison.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCOrderingComparison.m; path = Source/Library/Number/HCOrderingComparison.m; sourceTree = "<group>"; };
+		D53729C5442D1E903A07278C5B7AA4A2 /* HCIsDictionaryContainingEntries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingEntries.m; path = Source/Library/Collection/HCIsDictionaryContainingEntries.m; sourceTree = "<group>"; };
+		D5E53A8C2D60A837AEA2F592E3E9944E /* MKTShortReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTShortReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTShortReturnSetter.h; sourceTree = "<group>"; };
+		D8AA87BC0CD1EE722724CFFE803FEC9D /* MKTDynamicProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTDynamicProperties.m; path = Source/OCMockito/Helpers/MKTDynamicProperties.m; sourceTree = "<group>"; };
+		D8D6BE51EEEEC792E9D6CAEE0EEC04B7 /* MKTDynamicProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDynamicProperties.h; path = Source/OCMockito/Helpers/MKTDynamicProperties.h; sourceTree = "<group>"; };
+		D905DF24DBFB4CF5E90CDCAF2F633230 /* MKTExecutesBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTExecutesBlock.m; path = Source/OCMockito/MKTExecutesBlock.m; sourceTree = "<group>"; };
+		D957EC283FA757FC8CE8453FE5C28456 /* HCUnsignedIntReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedIntReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedIntReturnGetter.h; sourceTree = "<group>"; };
+		DA3FE2334228DC36D2E759E35D455083 /* HCIsTypeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsTypeOf.m; path = Source/Library/Object/HCIsTypeOf.m; sourceTree = "<group>"; };
+		DAA8304A77C42D805FFD08C2FC982C15 /* MKTInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTInvocationMatcher.m; path = Source/OCMockito/MKTInvocationMatcher.m; sourceTree = "<group>"; };
+		DAD26FCC83AE9BFCA50B611ABD4AD3EF /* MKTCapturingMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTCapturingMatcher.m; path = Source/OCMockito/MKTCapturingMatcher.m; sourceTree = "<group>"; };
+		DB083C37740AB0ED39C6E7AB8A84CC2C /* MKTClassArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTClassArgumentGetter.m; sourceTree = "<group>"; };
+		DB515FF3396A2EAF21681ACD4CB255F0 /* HCDoubleReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDoubleReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCDoubleReturnGetter.m; sourceTree = "<group>"; };
+		DCC67BC4895A1DA0B5202E4D7CCF5401 /* MKTCharReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTCharReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTCharReturnSetter.m; sourceTree = "<group>"; };
+		DCCD5144F2DE2D898F434C448456E5CC /* HCSenTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSenTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.h; sourceTree = "<group>"; };
+		DD2CAAC83C84BC76B83A27600826CFD2 /* HCIsDictionaryContainingKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContainingKey.m; path = Source/Library/Collection/HCIsDictionaryContainingKey.m; sourceTree = "<group>"; };
+		DD8E56F10358A3AD37053B1D7D1D0158 /* MKTUnsignedShortArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedShortArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedShortArgumentGetter.m; sourceTree = "<group>"; };
+		E165C0CB07EA5DA4FC209D51C5CE813E /* MKTStructArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStructArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTStructArgumentGetter.h; sourceTree = "<group>"; };
+		E1F0779A8235A83D5EB6BBBEBE813E80 /* HCStringEndsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringEndsWith.h; path = Source/Library/Text/HCStringEndsWith.h; sourceTree = "<group>"; };
+		E20999AF9733EE426B4839CDD7821F1E /* MKTUnsignedIntReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedIntReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedIntReturnSetter.m; sourceTree = "<group>"; };
+		E2CD8183A81A814DCE2DD1CA9DF0EF38 /* HCIsEqualToNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualToNumber.h; path = Source/Library/Number/HCIsEqualToNumber.h; sourceTree = "<group>"; };
+		E2F0C1001D11A5FCDB819C9A0ED8A07B /* OCMockito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMockito.release.xcconfig; sourceTree = "<group>"; };
+		E3E59233F45B0C04FF99C48AFCAB32F7 /* HCIsSame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsSame.h; path = Source/Library/Object/HCIsSame.h; sourceTree = "<group>"; };
+		E418E2C6B89E3F89C900C02D0DA4870F /* HCDiagnosingMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCDiagnosingMatcher.m; path = Source/Core/HCDiagnosingMatcher.m; sourceTree = "<group>"; };
+		E4F7A6B14FA811A7B5446736304F2AA6 /* MKTVerificationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTVerificationData.h; path = Source/OCMockito/MKTVerificationData.h; sourceTree = "<group>"; };
+		E52EF0FBE171D5F7791BDC36B100CF77 /* HCLongReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCLongReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCLongReturnGetter.h; sourceTree = "<group>"; };
+		E59E45A9D1DBA368854DFBC229CB3E5B /* HCShortReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCShortReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCShortReturnGetter.h; sourceTree = "<group>"; };
+		E6C15D53DA64021C87FA5602424D5547 /* OCMockito-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMockito-dummy.m"; sourceTree = "<group>"; };
+		E7238FBDE4A67D5E6E6CA0E064247B47 /* HCNumberAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCNumberAssert.h; path = Source/Library/Number/HCNumberAssert.h; sourceTree = "<group>"; };
+		E9543AE9927AEEF4CCBBF26E414FF82C /* HCStringDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringDescription.m; path = Source/Core/HCStringDescription.m; sourceTree = "<group>"; };
+		E9A48B3E319ADC585DC18EC5FE9DDC00 /* MKTPointerArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPointerArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTPointerArgumentGetter.h; sourceTree = "<group>"; };
+		EA08ACF247922B3973244D64BFF3D1AB /* HCLongLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongLongReturnGetter.m; sourceTree = "<group>"; };
+		EB6D72411AAC6FF6BA5B30AAEC6E199E /* HCIsIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsIn.m; path = Source/Library/Collection/HCIsIn.m; sourceTree = "<group>"; };
+		EB888E9C8E444F7371852F6CD743B71E /* MKTArgumentCaptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTArgumentCaptor.m; path = Source/OCMockito/MKTArgumentCaptor.m; sourceTree = "<group>"; };
+		EBC74EE9E59EF18B00D4FFD39214887D /* HCWrapInMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCWrapInMatcher.m; path = Source/Core/Helpers/HCWrapInMatcher.m; sourceTree = "<group>"; };
+		EC08D62EAC37F760DF3B8071C81DC6F3 /* HCBaseDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBaseDescription.h; path = Source/Core/HCBaseDescription.h; sourceTree = "<group>"; };
+		EC249460D384EAAA6EBFD084D5A22F69 /* MKTBoolArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBoolArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTBoolArgumentGetter.m; sourceTree = "<group>"; };
+		ED9A76D04890E4ADBB757BCB127878B1 /* MKTAtLeastTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtLeastTimes.h; path = Source/OCMockito/MKTAtLeastTimes.h; sourceTree = "<group>"; };
+		EE4429CC47EF89F4FAF31C5122ACD252 /* MKTProtocolMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTProtocolMock.h; path = Source/OCMockito/MKTProtocolMock.h; sourceTree = "<group>"; };
+		EE7D9B091F5973751C554BAE2499FAF5 /* HCUnsignedCharReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedCharReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.h; sourceTree = "<group>"; };
+		EFAD12129F5D1CC6063DF079DD69DD64 /* HCIsCollectionContainingInAnyOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContainingInAnyOrder.h; path = Source/Library/Collection/HCIsCollectionContainingInAnyOrder.h; sourceTree = "<group>"; };
+		EFCA5BA526D15F49F7D97587767E5DB2 /* HCInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCInvocationMatcher.h; path = Source/Core/Helpers/HCInvocationMatcher.h; sourceTree = "<group>"; };
+		F1412D3AF2D0A8581000CB447BFA6A2F /* HCUnsignedShortReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCUnsignedShortReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.h; sourceTree = "<group>"; };
+		F1DEF92F060924C96BF46B153F153139 /* HCStringEndsWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCStringEndsWith.m; path = Source/Library/Text/HCStringEndsWith.m; sourceTree = "<group>"; };
+		F3242D1DAE82501FD33BA818EFC646A3 /* MKTIntReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTIntReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTIntReturnSetter.m; sourceTree = "<group>"; };
+		F3EBE6A6D65B417F889AF08604661031 /* MKTThrowsException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTThrowsException.h; path = Source/OCMockito/MKTThrowsException.h; sourceTree = "<group>"; };
+		F4489EF936B61BD5DDA97103A1374EAC /* MKT_TPDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKT_TPDWeakProxy.m; path = "Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.m"; sourceTree = "<group>"; };
+		F4D8C0A9A1E6F4834F4CD0082747F739 /* MKTUnsignedShortReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedShortReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedShortReturnSetter.m; sourceTree = "<group>"; };
+		F539766CE9E89544881E84D25286F1BB /* MKTUnsignedIntArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedIntArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedIntArgumentGetter.h; sourceTree = "<group>"; };
+		F5520734814A72B4F4AFEFB6A9999C59 /* MKTUnsignedIntReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedIntReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedIntReturnSetter.h; sourceTree = "<group>"; };
+		F574501EF05D371FC5EB2EC61DC19305 /* HCFloatReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCFloatReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCFloatReturnGetter.h; sourceTree = "<group>"; };
+		F6E3A924C4B7DFBBB99DF88FED317A2E /* MKTPointerArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTPointerArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTPointerArgumentGetter.m; sourceTree = "<group>"; };
+		F7C992CA3A8EB886AE34AD7CD9EF7BD3 /* HCReturnValueGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCReturnValueGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCReturnValueGetter.m; sourceTree = "<group>"; };
+		F81CEAB55BA9D1E33F2A2D93D7D00F3C /* MKTDoubleReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTDoubleReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTDoubleReturnSetter.m; sourceTree = "<group>"; };
+		F8D81FC073304F1A15DFA9D739A321F5 /* HCUnsignedShortReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedShortReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedShortReturnGetter.m; sourceTree = "<group>"; };
+		F8F73949CCF24B5D6116F9397D1C08E5 /* MKTStructReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStructReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.m; sourceTree = "<group>"; };
+		F9E8634EFCEE721CFDAE53C663EE0914 /* MKTFloatArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTFloatArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTFloatArgumentGetter.m; sourceTree = "<group>"; };
+		FAD79E5A3560AC5D5643779F1014E355 /* MKTExecutesBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTExecutesBlock.h; path = Source/OCMockito/MKTExecutesBlock.h; sourceTree = "<group>"; };
+		FAFCD5B58B72570CDDBA2AF28DFC1287 /* HCDiagnosingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDiagnosingMatcher.h; path = Source/Core/HCDiagnosingMatcher.h; sourceTree = "<group>"; };
+		FC1FEA472D64684E05829C16F0F6B6FE /* HCIsEqualToNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualToNumber.m; path = Source/Library/Number/HCIsEqualToNumber.m; sourceTree = "<group>"; };
+		FC2B39F424F1F689AD1BEF1FBCA2ADCF /* MKTUnsignedLongLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongLongReturnSetter.m; sourceTree = "<group>"; };
+		FCFEECC0DBCF94B53B100C6D4164BA8D /* MKTTestLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTTestLocation.h; path = Source/OCMockito/MKTTestLocation.h; sourceTree = "<group>"; };
+		FDE0C0C14E3C4433C5D259F919757EC8 /* HCNumberAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCNumberAssert.m; path = Source/Library/Number/HCNumberAssert.m; sourceTree = "<group>"; };
+		FF7E4FFBE7A24D1073C7930FA0A3374C /* HCIsCollectionContainingInRelativeOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsCollectionContainingInRelativeOrder.h; path = Source/Library/Collection/HCIsCollectionContainingInRelativeOrder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E22637617E90D6AD4D6AC246B75FC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA9DEE3E0824100C4A9A3C79D38488A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAE67F00C09621A01D38C4BF06B8CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC410C6BA6F1547B0707B2D61629DBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FE064993907EC4D2A0BAB9CE96C1B17 /* OCHamcrest-dummy.m */,
+				0440D922FAC30FEFDD37914A877EDADB /* OCHamcrest-prefix.pch */,
+				A71846965864CD490A8BFC061EA2AF53 /* OCHamcrest.debug.xcconfig */,
+				AF42FC544E0FABCD4624733FF541AA74 /* OCHamcrest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCHamcrest";
+			sourceTree = "<group>";
+		};
+		1B0EA85286D6EC61A7EDE86F7E2C7882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F10BF5B846A43C0CCF2721B79CDDC69 /* OCHamcrest */,
+				6ABCA2C9A9F477FA3A7A1AC68D4E21BF /* OCMockito */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3395A9285684C07226ED040791A69EEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2A1120316C4F68100BCE4C51F4E555 /* Pods-FBKVOControllerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6ABCA2C9A9F477FA3A7A1AC68D4E21BF /* OCMockito */ = {
+			isa = PBXGroup;
+			children = (
+				19A4D4B0C329DF948B6677F0EF8506C0 /* MKT_TPDWeakProxy.h */,
+				F4489EF936B61BD5DDA97103A1374EAC /* MKT_TPDWeakProxy.m */,
+				68133063FBBEF49104AA05A4AEF74BF6 /* MKTAnswer.h */,
+				2920057EFDBF64970E69B39B55DD3348 /* MKTArgumentCaptor.h */,
+				EB888E9C8E444F7371852F6CD743B71E /* MKTArgumentCaptor.m */,
+				B11D9466A795DA525F3639778EC079CF /* MKTArgumentGetter.h */,
+				9C180E91114927F77B0A9258EA9FD402 /* MKTArgumentGetter.m */,
+				3502692FA8F0F0CC6A873E0871C961B8 /* MKTArgumentGetterChain.h */,
+				0A4F23351BD4803FE0AC8F6641B125A5 /* MKTArgumentGetterChain.m */,
+				ED9A76D04890E4ADBB757BCB127878B1 /* MKTAtLeastTimes.h */,
+				43111A87FABFE5727ED58F50A7E93A9D /* MKTAtLeastTimes.m */,
+				5B3E43C874AB10BB36F58EC1A7B41D5D /* MKTBaseMockObject.h */,
+				8AEA1E851B0DA2A14F2A53EB721EFBA6 /* MKTBaseMockObject.m */,
+				4AB94B425E3EF4E25BBE1116DB322E89 /* MKTBlockArgumentGetter.h */,
+				8CAEEA5F9A6817E2EA961842A27DCAE7 /* MKTBlockArgumentGetter.m */,
+				6FBA3AB3429A1A670AF724244D5633FA /* MKTBoolArgumentGetter.h */,
+				EC249460D384EAAA6EBFD084D5A22F69 /* MKTBoolArgumentGetter.m */,
+				70FB565DAD8CF88AE523202E95D83B7A /* MKTBoolReturnSetter.h */,
+				9DAD2B4C96362A288F4D8135A21B9C3E /* MKTBoolReturnSetter.m */,
+				A2993E6F76F4CC08AA4F8D2873C7F290 /* MKTCapturingMatcher.h */,
+				DAD26FCC83AE9BFCA50B611ABD4AD3EF /* MKTCapturingMatcher.m */,
+				599551897B832F41C0E0DD7BF3853084 /* MKTCharArgumentGetter.h */,
+				8614448AF70565F399991857EF291591 /* MKTCharArgumentGetter.m */,
+				ACD98D90FB67621852E36634B807A28F /* MKTCharReturnSetter.h */,
+				DCC67BC4895A1DA0B5202E4D7CCF5401 /* MKTCharReturnSetter.m */,
+				5439C5A117B185389481C1999F385B58 /* MKTClassArgumentGetter.h */,
+				DB083C37740AB0ED39C6E7AB8A84CC2C /* MKTClassArgumentGetter.m */,
+				56BBEA0028D2E64685B9D90E3AD7350D /* MKTClassObjectMock.h */,
+				5D8ADD6A12D95B554469FB5F873A7603 /* MKTClassObjectMock.m */,
+				08E5005B7A14B89D07B02EE57DA3FF50 /* MKTClassReturnSetter.h */,
+				B0B702092EA1D3258C5054AD4ADEF04C /* MKTClassReturnSetter.m */,
+				5CC5D52BA4D04C76F777A3B3F7592C89 /* MKTDoubleArgumentGetter.h */,
+				C90AD8E351D4D81566A68A63B09CE220 /* MKTDoubleArgumentGetter.m */,
+				AAE1612FBC72549716E5569D2C4D2DC1 /* MKTDoubleReturnSetter.h */,
+				F81CEAB55BA9D1E33F2A2D93D7D00F3C /* MKTDoubleReturnSetter.m */,
+				D8D6BE51EEEEC792E9D6CAEE0EEC04B7 /* MKTDynamicProperties.h */,
+				D8AA87BC0CD1EE722724CFFE803FEC9D /* MKTDynamicProperties.m */,
+				2C5D2919E480968A620ED0B2F997B75B /* MKTExactTimes.h */,
+				14A7C9FB0D94A63D4A68D448507D5443 /* MKTExactTimes.m */,
+				FAD79E5A3560AC5D5643779F1014E355 /* MKTExecutesBlock.h */,
+				D905DF24DBFB4CF5E90CDCAF2F633230 /* MKTExecutesBlock.m */,
+				8CBBFEC4EB20036F77F80AB34B072CE9 /* MKTFloatArgumentGetter.h */,
+				F9E8634EFCEE721CFDAE53C663EE0914 /* MKTFloatArgumentGetter.m */,
+				AFC6CFE7BEEF434E561FB084BD23306D /* MKTFloatReturnSetter.h */,
+				9A41B38D4903DC891C148CBD2BBCCB57 /* MKTFloatReturnSetter.m */,
+				A9EF64A81138C226948C3CFFA820B2C5 /* MKTIntArgumentGetter.h */,
+				9B4B32EAD932E66F0F235A0B25DF5785 /* MKTIntArgumentGetter.m */,
+				48E595F7AEEF4ABD8CBECFA271F6F5BF /* MKTIntReturnSetter.h */,
+				F3242D1DAE82501FD33BA818EFC646A3 /* MKTIntReturnSetter.m */,
+				5461B1067E4D36BC27B73D69D7CB4049 /* MKTInvocationContainer.h */,
+				CB0A21B1BA37252E593A3337DD4F68A8 /* MKTInvocationContainer.m */,
+				1198ECBF8CCAC8993EDAA852AB714020 /* MKTInvocationMatcher.h */,
+				DAA8304A77C42D805FFD08C2FC982C15 /* MKTInvocationMatcher.m */,
+				09DD698C52F7D5723B63205541D3C3B1 /* MKTLongArgumentGetter.h */,
+				3E64C2B118BBA968C9203E686C0E1888 /* MKTLongArgumentGetter.m */,
+				74791547026EB61A4C777E2085451D97 /* MKTLongLongArgumentGetter.h */,
+				3953C1C262CE365F27DCC952615FB98C /* MKTLongLongArgumentGetter.m */,
+				66E2D3EEAA725F383E5235A2366C73B4 /* MKTLongLongReturnSetter.h */,
+				C590608158920208B65BBEA2B3FB25BF /* MKTLongLongReturnSetter.m */,
+				5D35C73BBBE4F107A39F2BE5108AD08D /* MKTLongReturnSetter.h */,
+				4813213796F57E5728A51E346DD4286C /* MKTLongReturnSetter.m */,
+				84F02E052C10CFFF2AC41AF776EF7EE7 /* MKTMockingProgress.h */,
+				996470DC84A6BB4C61AE3B405394C6EC /* MKTMockingProgress.m */,
+				46F261EF1EA19F911A12CD64CB07FD7A /* MKTMockitoCore.h */,
+				1DE9019F02A21D10CAA15EB698FC7179 /* MKTMockitoCore.m */,
+				4EEEF4F1A1C5255851C76E253114CBF7 /* MKTObjectAndProtocolMock.h */,
+				8E3980731D2B614DFF55B80D34B7542A /* MKTObjectAndProtocolMock.m */,
+				235B52B2045FE5F8C47DCEA16D8E585B /* MKTObjectArgumentGetter.h */,
+				77703AAD69F73815E7BAF1A7E00A6902 /* MKTObjectArgumentGetter.m */,
+				7F0180551D66AE23A660E5B35D1DC02A /* MKTObjectMock.h */,
+				D1B3FE3C5E76A6A393BDA48AB540C4F1 /* MKTObjectMock.m */,
+				C683311D22387C011DDF60DE5DD25985 /* MKTObjectReturnSetter.h */,
+				B4229D6D45AB277D890AE4A3DCAB827C /* MKTObjectReturnSetter.m */,
+				CCECF3F9443E5531B8385AA561F7BCF6 /* MKTOngoingStubbing.h */,
+				9AE2D9A754301E2D772F2D5A3A7BF426 /* MKTOngoingStubbing.m */,
+				E9A48B3E319ADC585DC18EC5FE9DDC00 /* MKTPointerArgumentGetter.h */,
+				F6E3A924C4B7DFBBB99DF88FED317A2E /* MKTPointerArgumentGetter.m */,
+				081A5C0AB330567E33C180CE9F22E7EB /* MKTPrimitiveArgumentMatching.h */,
+				EE4429CC47EF89F4FAF31C5122ACD252 /* MKTProtocolMock.h */,
+				0F204CDFBFC41C8ED99E7C44ED715DB3 /* MKTProtocolMock.m */,
+				30A3EE2987B2861BE04DA753B5675C5A /* MKTReturnsValue.h */,
+				5265395A2C5184824A8B76A8B5A726A6 /* MKTReturnsValue.m */,
+				AA7B191FD81EFBD48132B762DE667A34 /* MKTReturnValueSetter.h */,
+				430C5FC8D4DCDFA5F4229BAD2AD66931 /* MKTReturnValueSetter.m */,
+				24D74F66EEA8517CED758A7D86835B3B /* MKTReturnValueSetterChain.h */,
+				934D20751F00F44A2088EB2233DC41BF /* MKTReturnValueSetterChain.m */,
+				1268F91C26BD04CDE8D3A9A79E6E3991 /* MKTSelectorArgumentGetter.h */,
+				A81DE159AAB44472C2E642254C6722AE /* MKTSelectorArgumentGetter.m */,
+				5E4B065BFECCF3BDD9BD68543EB2240B /* MKTShortArgumentGetter.h */,
+				688EE4BCC2DD416844827C84DD776D82 /* MKTShortArgumentGetter.m */,
+				D5E53A8C2D60A837AEA2F592E3E9944E /* MKTShortReturnSetter.h */,
+				56D030EFB6A9EFD0CCD27536DE95D09D /* MKTShortReturnSetter.m */,
+				E165C0CB07EA5DA4FC209D51C5CE813E /* MKTStructArgumentGetter.h */,
+				C9FC3192BB802B78F0AB541B7D18F4B7 /* MKTStructArgumentGetter.m */,
+				7F5637E6641D128AF46B861F33A74385 /* MKTStructReturnSetter.h */,
+				F8F73949CCF24B5D6116F9397D1C08E5 /* MKTStructReturnSetter.m */,
+				1D5B717E91491945D9F320B6AD81D2A1 /* MKTStubbedInvocationMatcher.h */,
+				92EB32179E10E70E032ABEF57B2589E7 /* MKTStubbedInvocationMatcher.m */,
+				FCFEECC0DBCF94B53B100C6D4164BA8D /* MKTTestLocation.h */,
+				CFCB101AC328341393AE64DB12E42830 /* MKTTestLocation.m */,
+				F3EBE6A6D65B417F889AF08604661031 /* MKTThrowsException.h */,
+				4180A15989E593F38979EA12D5DDBAAB /* MKTThrowsException.m */,
+				5118A17D8632BF16CF67E8A99BF23AF7 /* MKTUnsignedCharArgumentGetter.h */,
+				BE679235B757A8C5CF4D3BF141A1D8C0 /* MKTUnsignedCharArgumentGetter.m */,
+				43CF0A91875CC279E5EE0DD8AB9D277D /* MKTUnsignedCharReturnSetter.h */,
+				14B8FA2C118CD50ECD601573E1E3DC51 /* MKTUnsignedCharReturnSetter.m */,
+				F539766CE9E89544881E84D25286F1BB /* MKTUnsignedIntArgumentGetter.h */,
+				10932177D9D5082A58EB395F98C4892D /* MKTUnsignedIntArgumentGetter.m */,
+				F5520734814A72B4F4AFEFB6A9999C59 /* MKTUnsignedIntReturnSetter.h */,
+				E20999AF9733EE426B4839CDD7821F1E /* MKTUnsignedIntReturnSetter.m */,
+				CCF272F07026590B37CCC3CE4A26270E /* MKTUnsignedLongArgumentGetter.h */,
+				B2A4C3D143D0F35002FFB2FA41AF0A04 /* MKTUnsignedLongArgumentGetter.m */,
+				0BA10814176F9742BDFCDD78452F392B /* MKTUnsignedLongLongArgumentGetter.h */,
+				9CF671B47036E32BA2BDD685605C5805 /* MKTUnsignedLongLongArgumentGetter.m */,
+				557CA22E606A0F6864ED68854296E0F4 /* MKTUnsignedLongLongReturnSetter.h */,
+				FC2B39F424F1F689AD1BEF1FBCA2ADCF /* MKTUnsignedLongLongReturnSetter.m */,
+				C967866E9D29C13C46CDCC938B4221E0 /* MKTUnsignedLongReturnSetter.h */,
+				B8808A3FDAB7BB0086E0999E2213C52A /* MKTUnsignedLongReturnSetter.m */,
+				7FEB10853C8EAD6831F8B52AAEBE93D5 /* MKTUnsignedShortArgumentGetter.h */,
+				DD8E56F10358A3AD37053B1D7D1D0158 /* MKTUnsignedShortArgumentGetter.m */,
+				8E1BBF02F2AAD3362E549401EF15306B /* MKTUnsignedShortReturnSetter.h */,
+				F4D8C0A9A1E6F4834F4CD0082747F739 /* MKTUnsignedShortReturnSetter.m */,
+				E4F7A6B14FA811A7B5446736304F2AA6 /* MKTVerificationData.h */,
+				9D142DDA479DF8D17B3214BC95DE7F22 /* MKTVerificationData.m */,
+				0D103D2E98AF89C9ED2851A5D8AC7228 /* MKTVerificationMode.h */,
+				0C7BFCEC35A7CE2A4EA227478A283753 /* NSInvocation+OCMockito.h */,
+				42811EC0A1075581581811CFBD44AB23 /* NSInvocation+OCMockito.m */,
+				983AAA90B9B64C392A95C37B45104916 /* OCMockito.h */,
+				3286FC10BB6BB65F48E0E9564EDEBC50 /* OCMockito.m */,
+				B7130EFE33BFD0AA21F713681890B3AC /* Support Files */,
+			);
+			path = OCMockito;
+			sourceTree = "<group>";
+		};
+		6E2A1120316C4F68100BCE4C51F4E555 /* Pods-FBKVOControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDC02C339776B48ED709BC7323B6B23 /* Pods-FBKVOControllerTests-acknowledgements.markdown */,
+				4C31AFAF3EE79C4EADDC7D72A9B9B950 /* Pods-FBKVOControllerTests-acknowledgements.plist */,
+				CF421AF8D0279F305DCEE38F3DD040F6 /* Pods-FBKVOControllerTests-dummy.m */,
+				5F88C44EAF8C621FF4C7B5A47B31F075 /* Pods-FBKVOControllerTests.debug.xcconfig */,
+				827A41D8297DB5AE8902CE5F536DA915 /* Pods-FBKVOControllerTests.release.xcconfig */,
+			);
+			name = "Pods-FBKVOControllerTests";
+			path = "Target Support Files/Pods-FBKVOControllerTests";
+			sourceTree = "<group>";
+		};
+		7F10BF5B846A43C0CCF2721B79CDDC69 /* OCHamcrest */ = {
+			isa = PBXGroup;
+			children = (
+				6CBE16754FDAE22666A9D2F873282C9A /* HCAllOf.h */,
+				658A9A9AFC61310947C35C4E78A4CD15 /* HCAllOf.m */,
+				165F26B976C03455C5681B437CB544F1 /* HCAnyOf.h */,
+				8F46C2FFE6E83CAB93E67B646CC40D55 /* HCAnyOf.m */,
+				6939098DC6100ECC0A7261EA0A35FDE4 /* HCArgumentCaptor.h */,
+				8A96791263D2D60A33A4AFB7FF792D63 /* HCArgumentCaptor.m */,
+				BD223BF4D7DD9423ECF8BB08C24638CD /* HCAssertThat.h */,
+				0501E4FAA95A3FDA038A2FEADC183260 /* HCAssertThat.m */,
+				EC08D62EAC37F760DF3B8071C81DC6F3 /* HCBaseDescription.h */,
+				05759887048BF50BB3C3B5CB77CBBB59 /* HCBaseDescription.m */,
+				23E5E9AEAE5DEDCEE8D52CA21A532EDF /* HCBaseMatcher.h */,
+				90A36C77FD2194FA67F7F3DE97221D73 /* HCBaseMatcher.m */,
+				2B9992BA9CEFAA24D8AD6BBABC130907 /* HCBoolReturnGetter.h */,
+				654D84BBAF8393D02CDB2A77514CFE85 /* HCBoolReturnGetter.m */,
+				02AC94E6143E22BB4A1DF35740F80C62 /* HCCharReturnGetter.h */,
+				9C5023C2975BC7F5DF5E5E6D4329E768 /* HCCharReturnGetter.m */,
+				07C351664CC9F63883E0CF19E1AB04FE /* HCClassMatcher.h */,
+				8500FA2BB1960121912865DD5AC5E12D /* HCClassMatcher.m */,
+				C8E2C32F35A113107ECED655550A0258 /* HCCollect.h */,
+				CED78703203C5295EB746932916F167C /* HCCollect.m */,
+				1A8E98C96AF59AAD1E54709DED999171 /* HCConformsToProtocol.h */,
+				78723F4643A6032A1C2A23FA27BDA8AC /* HCConformsToProtocol.m */,
+				59841BBAF8931EC7BF6C408CE1D94809 /* HCDescribedAs.h */,
+				32C9A4A24642F510405B881351FF27AA /* HCDescribedAs.m */,
+				2956D45F9A5E9FB9D45EC8065D59C0ED /* HCDescription.h */,
+				FAFCD5B58B72570CDDBA2AF28DFC1287 /* HCDiagnosingMatcher.h */,
+				E418E2C6B89E3F89C900C02D0DA4870F /* HCDiagnosingMatcher.m */,
+				C4EEDD81D4CAD21476B1A46FC5397D8C /* HCDoubleReturnGetter.h */,
+				DB515FF3396A2EAF21681ACD4CB255F0 /* HCDoubleReturnGetter.m */,
+				1BB830B71A50342907A5C699ECA03A81 /* HCEvery.h */,
+				AF839556A4CA695DA22D77BEDE3FBAAC /* HCEvery.m */,
+				F574501EF05D371FC5EB2EC61DC19305 /* HCFloatReturnGetter.h */,
+				6668F0E885C59D5512A903B26AD4EF18 /* HCFloatReturnGetter.m */,
+				6B5D24FFDEE03AFE5D9F8F8B9CEC25DA /* HCGenericTestFailureReporter.h */,
+				50F7BA26890B7362F78B899F108A5C49 /* HCGenericTestFailureReporter.m */,
+				CB0FEAAD17957B986244F1ACA3392A3C /* HCHasCount.h */,
+				7521E69DC331E2A072088A34D3D732DC /* HCHasCount.m */,
+				B41F046719B73659FB195890A6ED1615 /* HCHasDescription.h */,
+				A0417022507A9BFA9E7B5BAB1C023A52 /* HCHasDescription.m */,
+				854F403A92E8E0B764A4527329BBBCDF /* HCHasProperty.h */,
+				09EF687B09E2C13B69B0AD6AF759702B /* HCHasProperty.m */,
+				B12EC599A4B6A9FC6561A8E26963EEAB /* HCIntReturnGetter.h */,
+				A35514BA8D5D25773F5CD9F32ADB8E69 /* HCIntReturnGetter.m */,
+				EFCA5BA526D15F49F7D97587767E5DB2 /* HCInvocationMatcher.h */,
+				9DC8AE64C5C96D64DC679D1AFE736577 /* HCInvocationMatcher.m */,
+				B0FDC495B90120BB2274AFBDAA38415A /* HCIs.h */,
+				A06818B220470857A92F1B382EA06C97 /* HCIs.m */,
+				49A5FD0A208B22BE509690F169CE0E05 /* HCIsAnything.h */,
+				C82814FED927CC6212246D94ECFEAA55 /* HCIsAnything.m */,
+				C1A11F8AB0EF4EAFEE4BB145EF70F6D6 /* HCIsCloseTo.h */,
+				49C281DE32B917529A2B5D5420FCBEBE /* HCIsCloseTo.m */,
+				92799383EAB15EA58932346A0B5035F5 /* HCIsCollectionContaining.h */,
+				5B3233FDFBAA62CDEDF70412540777E5 /* HCIsCollectionContaining.m */,
+				EFAD12129F5D1CC6063DF079DD69DD64 /* HCIsCollectionContainingInAnyOrder.h */,
+				835F072BF1CD4BBE9E000B6912BA3AC4 /* HCIsCollectionContainingInAnyOrder.m */,
+				32DA5467B8778FAB18BEB26857E1996F /* HCIsCollectionContainingInOrder.h */,
+				3BED9F3A817192C1EFD8B2EB24D22513 /* HCIsCollectionContainingInOrder.m */,
+				FF7E4FFBE7A24D1073C7930FA0A3374C /* HCIsCollectionContainingInRelativeOrder.h */,
+				724CD10404939D27F486F88B8C2D0F68 /* HCIsCollectionContainingInRelativeOrder.m */,
+				494EAB3CBB769D25585B163552C7DAAD /* HCIsCollectionOnlyContaining.h */,
+				D4ABD222FF5C840368FEA242E2F9F53B /* HCIsCollectionOnlyContaining.m */,
+				33FE2738A61B8AD2DEC40F4217D8A9BC /* HCIsDictionaryContaining.h */,
+				7255B5BA982B31208BC48CFDE93E26E7 /* HCIsDictionaryContaining.m */,
+				57863ED00FD6E1A03E0173AE9E43B78C /* HCIsDictionaryContainingEntries.h */,
+				D53729C5442D1E903A07278C5B7AA4A2 /* HCIsDictionaryContainingEntries.m */,
+				3D53855030DF5DEE023817967C07B520 /* HCIsDictionaryContainingKey.h */,
+				DD2CAAC83C84BC76B83A27600826CFD2 /* HCIsDictionaryContainingKey.m */,
+				89B293A1F34B3671412937F699938E60 /* HCIsDictionaryContainingValue.h */,
+				21FDAADC8046004518D061A4D799C073 /* HCIsDictionaryContainingValue.m */,
+				94B82C0B1D589BB200668D3439F0ACA7 /* HCIsEmptyCollection.h */,
+				0629D86D25C030F3C80AD48E16261423 /* HCIsEmptyCollection.m */,
+				3A47B9AC7307DC96A40B7D23ECCD1628 /* HCIsEqual.h */,
+				022317A4FCD94F07EC719AA6CA2AD2F1 /* HCIsEqual.m */,
+				BEA978D249C9945A755D11C1C0111891 /* HCIsEqualIgnoringCase.h */,
+				5A612DF7118E12A8E716015B1F88CA8A /* HCIsEqualIgnoringCase.m */,
+				9A8F20D9D31C8248B6458F34F1378A7D /* HCIsEqualIgnoringWhiteSpace.h */,
+				B19CBC25505BC9853A0BE15D8E8DB98D /* HCIsEqualIgnoringWhiteSpace.m */,
+				E2CD8183A81A814DCE2DD1CA9DF0EF38 /* HCIsEqualToNumber.h */,
+				FC1FEA472D64684E05829C16F0F6B6FE /* HCIsEqualToNumber.m */,
+				7C7C8ABD1C5B2F15E06511662EEED886 /* HCIsIn.h */,
+				EB6D72411AAC6FF6BA5B30AAEC6E199E /* HCIsIn.m */,
+				363D63C553AEFF2199F81B1296259158 /* HCIsInstanceOf.h */,
+				B7048F205EEAFCF80680CC5D42CFCCC4 /* HCIsInstanceOf.m */,
+				C2DA22427B5769FDD3FE4D4DCA97C2D5 /* HCIsNil.h */,
+				2CF69E38073A4B680D62786F80BC57EB /* HCIsNil.m */,
+				C23CEFF7F386AC31BAC9E7B472CC0401 /* HCIsNot.h */,
+				0A7B8AEFBC83B54D106A281BDBB4F5F4 /* HCIsNot.m */,
+				E3E59233F45B0C04FF99C48AFCAB32F7 /* HCIsSame.h */,
+				0023D5DC5956C9F664193BBFEBF68E55 /* HCIsSame.m */,
+				C2EF0D4C68705873535645D77D7F26E0 /* HCIsTrueFalse.h */,
+				0213B527FB0EF9BFA1F8E540BE94BC76 /* HCIsTrueFalse.m */,
+				0B61F68E7028D4A69531EC1CA7F573A4 /* HCIsTypeOf.h */,
+				DA3FE2334228DC36D2E759E35D455083 /* HCIsTypeOf.m */,
+				3BD679DBE077004EE3A11E9DB11A8D90 /* HCLongLongReturnGetter.h */,
+				EA08ACF247922B3973244D64BFF3D1AB /* HCLongLongReturnGetter.m */,
+				E52EF0FBE171D5F7791BDC36B100CF77 /* HCLongReturnGetter.h */,
+				0338CAEC3872F72DD810E185BA549218 /* HCLongReturnGetter.m */,
+				ABE96D0433D50A588C9369C5D7D07079 /* HCMatcher.h */,
+				E7238FBDE4A67D5E6E6CA0E064247B47 /* HCNumberAssert.h */,
+				FDE0C0C14E3C4433C5D259F919757EC8 /* HCNumberAssert.m */,
+				B5E2647E153D3507A1EA8F2A7DED1275 /* HCObjectReturnGetter.h */,
+				23E86ABD07224A7A931B34188388AD4B /* HCObjectReturnGetter.m */,
+				79A31F8543AB4C1731305566475C1E72 /* HCOrderingComparison.h */,
+				D4EFC6CC569C8DA140D0853C5BB494FC /* HCOrderingComparison.m */,
+				4FDF66B1C434A742E39AAF815B7C717D /* HCRequireNonNilObject.h */,
+				88EEC0429361CEC93B3C0E5F61FA4D46 /* HCRequireNonNilObject.m */,
+				A29C4E986BE4B5857552DBCFB9A1A181 /* HCReturnTypeHandlerChain.h */,
+				78B791D4EEC9D34D025C27FD512F2BCE /* HCReturnTypeHandlerChain.m */,
+				841783ACE76E0184790ADD053A22ED03 /* HCReturnValueGetter.h */,
+				F7C992CA3A8EB886AE34AD7CD9EF7BD3 /* HCReturnValueGetter.m */,
+				5264197C7835C97D9227C72ADCF65426 /* HCSelfDescribing.h */,
+				DCCD5144F2DE2D898F434C448456E5CC /* HCSenTestFailureReporter.h */,
+				C1FE7934A05E723F40200863E01DFE39 /* HCSenTestFailureReporter.m */,
+				E59E45A9D1DBA368854DFBC229CB3E5B /* HCShortReturnGetter.h */,
+				5FAC0F5A436CE951D8B3F540077EAFEF /* HCShortReturnGetter.m */,
+				9C59FEDA0A66CCB3EFCE465D2A2C6B19 /* HCStringContains.h */,
+				D3647A941409684FFAEABCA0C95EF440 /* HCStringContains.m */,
+				792A45061B5BFB52C984AD97A53167C4 /* HCStringContainsInOrder.h */,
+				54ECA84E1A9DBF35F19A53D4697413EA /* HCStringContainsInOrder.m */,
+				967281E0D0BA896553E123AB75EC3A5F /* HCStringDescription.h */,
+				E9543AE9927AEEF4CCBBF26E414FF82C /* HCStringDescription.m */,
+				E1F0779A8235A83D5EB6BBBEBE813E80 /* HCStringEndsWith.h */,
+				F1DEF92F060924C96BF46B153F153139 /* HCStringEndsWith.m */,
+				0435B5F28017197618C6BAC95D4E318D /* HCStringStartsWith.h */,
+				D15A60FB3F55A756EEDACB26EEE11AB5 /* HCStringStartsWith.m */,
+				BB85A41A54384EDE1E4596F05D9FF22F /* HCSubstringMatcher.h */,
+				6650C3E1CF9D46EAF7301CDADC518F2D /* HCSubstringMatcher.m */,
+				5ED1DECE5D14770DB689F5AD359E42B4 /* HCTestFailure.h */,
+				04426D5A7DAC9A16FC55FC96E3B7DFD1 /* HCTestFailure.m */,
+				96C1BF13606F492BB92C12C6096C820A /* HCTestFailureHandler.h */,
+				A177AB9137F10A886951D2EA2F776FD5 /* HCTestFailureHandlerChain.h */,
+				5766F177DEAF3A6A7378AA5666BFAF76 /* HCTestFailureHandlerChain.m */,
+				2122CDA03AA94F505E95B5051389E43E /* HCTestFailureReporter.h */,
+				6836788E75E0C794C07460C3485F8A71 /* HCTestFailureReporter.m */,
+				C98EB95A8F255705247C6A43E52FD794 /* HCTestFailureReporterChain.h */,
+				A0D419742BF0A886213845FC033EF252 /* HCTestFailureReporterChain.m */,
+				2984040932A0A81C1E8209DC1F80B5C0 /* HCThrowsException.h */,
+				34B15C5238353A883052E28ED3431CDE /* HCThrowsException.m */,
+				EE7D9B091F5973751C554BAE2499FAF5 /* HCUnsignedCharReturnGetter.h */,
+				C068D9B6AEE21620D739EA7B4CD62026 /* HCUnsignedCharReturnGetter.m */,
+				D957EC283FA757FC8CE8453FE5C28456 /* HCUnsignedIntReturnGetter.h */,
+				1EB8BBAEF12A929F1BCA657F43FD90BB /* HCUnsignedIntReturnGetter.m */,
+				86AD94BC9AEADC124302CA9D6FAB7694 /* HCUnsignedLongLongReturnGetter.h */,
+				4A5474F124CA85D6881511EB649A4799 /* HCUnsignedLongLongReturnGetter.m */,
+				A0EB75C13A9002A01EED2ABF6349FE99 /* HCUnsignedLongReturnGetter.h */,
+				809862EAE323E3B8419788EDA475D81C /* HCUnsignedLongReturnGetter.m */,
+				F1412D3AF2D0A8581000CB447BFA6A2F /* HCUnsignedShortReturnGetter.h */,
+				F8D81FC073304F1A15DFA9D739A321F5 /* HCUnsignedShortReturnGetter.m */,
+				14369E73C3A8A4D7CDC17942788E09F2 /* HCWrapInMatcher.h */,
+				EBC74EE9E59EF18B00D4FFD39214887D /* HCWrapInMatcher.m */,
+				9B99EF144007D347F240F2BC80771BF0 /* HCXCTestFailureReporter.h */,
+				761DA0F303FDAC5E7CD7C3FEA4D020BD /* HCXCTestFailureReporter.m */,
+				4336DF91DEF112D1DE0A9ABD4DEE4000 /* NSInvocation+OCHamcrest.h */,
+				23AD7BB19290605C65DCC3F36C0165B7 /* NSInvocation+OCHamcrest.m */,
+				3931F80F6946F4DEA6331EA86C401FF0 /* OCHamcrest.h */,
+				0EC410C6BA6F1547B0707B2D61629DBA /* Support Files */,
+			);
+			path = OCHamcrest;
+			sourceTree = "<group>";
+		};
+		B7130EFE33BFD0AA21F713681890B3AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6C15D53DA64021C87FA5602424D5547 /* OCMockito-dummy.m */,
+				AA4A4F61FDFF77601BE477BAA071B98E /* OCMockito-prefix.pch */,
+				C8DB60AD9009EE9FDF931AC9F0A03AA7 /* OCMockito.debug.xcconfig */,
+				E2F0C1001D11A5FCDB819C9A0ED8A07B /* OCMockito.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCMockito";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1B0EA85286D6EC61A7EDE86F7E2C7882 /* Pods */,
+				E23367D19A21B1FA5508A68518685A21 /* Products */,
+				3395A9285684C07226ED040791A69EEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E23367D19A21B1FA5508A68518685A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E9DB656AB852B52134EA8B5DE55D5C /* libOCHamcrest.a */,
+				7DDE13FAD087C4C94416C87926291DA9 /* libOCMockito.a */,
+				B264DA698831F051D5955F26FDC2D3C6 /* libPods-FBKVOControllerTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1992F7B0CF85A4AEA54DE23967344B23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDAE4E848FB6CA901FC991CFCD3D13E /* HCAllOf.h in Headers */,
+				DAFC16B2CAC3C046908D8FD56C6E38D4 /* HCAnyOf.h in Headers */,
+				C8105888F8941806425DF1C0CD08D8F3 /* HCArgumentCaptor.h in Headers */,
+				B09F2229E2BA6041CF5C23BF36211ECF /* HCAssertThat.h in Headers */,
+				41421DEF1D7D81E25E2B66F2E06B9D44 /* HCBaseDescription.h in Headers */,
+				39268E6ADFBAB714F1FE75AC14927687 /* HCBaseMatcher.h in Headers */,
+				7E01DF9A06747E8A461BD91E2503E99B /* HCBoolReturnGetter.h in Headers */,
+				3C475C53C2FFE6DDD38D93A7BCFB8A40 /* HCCharReturnGetter.h in Headers */,
+				2515F2A68C72357A3B74695ADCD00325 /* HCClassMatcher.h in Headers */,
+				55AA813C5EFB743661D4ECB9F75ED85B /* HCCollect.h in Headers */,
+				134914AD0C7B588E93C81B0575961C46 /* HCConformsToProtocol.h in Headers */,
+				E9A9E924C96E786192F64C8499AF334E /* HCDescribedAs.h in Headers */,
+				11438854F2CC82407CBC85F83AB86D2D /* HCDescription.h in Headers */,
+				E01EDA3B9633117EDFCD6B0CEDA87101 /* HCDiagnosingMatcher.h in Headers */,
+				E6F99D5D6E4DC2C648ACF8B90F109C4E /* HCDoubleReturnGetter.h in Headers */,
+				E9377CF91A8F0ADD8954D27B8E33110F /* HCEvery.h in Headers */,
+				83B0010F2224F803215F5E68D7651AAF /* HCFloatReturnGetter.h in Headers */,
+				69F527AE78BCBA8EE57EC13B290AEAC4 /* HCGenericTestFailureReporter.h in Headers */,
+				E71561EAC7C7D71AE54484FC609C70AF /* HCHasCount.h in Headers */,
+				36821FF79F32C9C3FAFE0CF31BB410BE /* HCHasDescription.h in Headers */,
+				07DB2B67778583AFB6CC4FCB463321EE /* HCHasProperty.h in Headers */,
+				4C5A07B1BDE1E8BDE58C61CF37FF290F /* HCIntReturnGetter.h in Headers */,
+				2A948B740A7DCB34CC5C9216C2E1A911 /* HCInvocationMatcher.h in Headers */,
+				1FAE938B741B6C0F4A626CD8F4C3F101 /* HCIs.h in Headers */,
+				A8E2ACA7B7193794A9FB6B654AB7CE47 /* HCIsAnything.h in Headers */,
+				CE1D07C0BFE92416148F6ED17CAEC86A /* HCIsCloseTo.h in Headers */,
+				35CE8358B921A0D582767CC664F1995B /* HCIsCollectionContaining.h in Headers */,
+				614D4B0EB8A9BFA8E4286D901521E7CA /* HCIsCollectionContainingInAnyOrder.h in Headers */,
+				0EB55C5E00FD1554F20D3519F75784F8 /* HCIsCollectionContainingInOrder.h in Headers */,
+				D439BDFCB248749A37D450E930451B60 /* HCIsCollectionContainingInRelativeOrder.h in Headers */,
+				6CF0E42FAF51039BCBCBC8E65C7D1323 /* HCIsCollectionOnlyContaining.h in Headers */,
+				B5B0AD0404689901B01298E4A1C3AF6F /* HCIsDictionaryContaining.h in Headers */,
+				D884F30AA2674D3807E5531A2C1B0005 /* HCIsDictionaryContainingEntries.h in Headers */,
+				A0B236332563762259C18DEDC3A60920 /* HCIsDictionaryContainingKey.h in Headers */,
+				7DB0E59549CB47B455B08F9F874C8BD5 /* HCIsDictionaryContainingValue.h in Headers */,
+				9C72EA57A9522E3003AF391F92D7E55A /* HCIsEmptyCollection.h in Headers */,
+				4CD410BDF19B893D4E72B32F39161A9C /* HCIsEqual.h in Headers */,
+				555339242734CE77FD0D308F94D8BEAB /* HCIsEqualIgnoringCase.h in Headers */,
+				1901B8D0A2ECD6B52AC08014DA50990E /* HCIsEqualIgnoringWhiteSpace.h in Headers */,
+				29A25D4503CAA0393E40C9EBB1AE8EE3 /* HCIsEqualToNumber.h in Headers */,
+				E68FACED7766BC973BC68F9AE759159A /* HCIsIn.h in Headers */,
+				9A4CF37DF314EB0E4031BEC13A79F013 /* HCIsInstanceOf.h in Headers */,
+				2ABB260F36520C31DB4414852FFDCCAB /* HCIsNil.h in Headers */,
+				A4D87B48D01FA0C0A8406F27DD7DCA33 /* HCIsNot.h in Headers */,
+				5FC8AD5ED8CBB002BA5AE874FB60DD51 /* HCIsSame.h in Headers */,
+				B0AB0C7ED06DB801EB54795293AED508 /* HCIsTrueFalse.h in Headers */,
+				F745EDEAA4A6B32F5D3C317AB9076C74 /* HCIsTypeOf.h in Headers */,
+				8EF665CBDA0C2813F65C49227120805E /* HCLongLongReturnGetter.h in Headers */,
+				4CE08A1C5CD5B2A9AD1AF332C62F40BC /* HCLongReturnGetter.h in Headers */,
+				EDA1432BE90B2F490FED45DFE30BC420 /* HCMatcher.h in Headers */,
+				CEB4D98A83F601D5224B29EF994573D0 /* HCNumberAssert.h in Headers */,
+				A4060D72F2A4595D208DADBE4E464687 /* HCObjectReturnGetter.h in Headers */,
+				1E4BEBC4A4954623A0A78DEA546D1D53 /* HCOrderingComparison.h in Headers */,
+				F7F52A051369F33D42846910417F9C9A /* HCRequireNonNilObject.h in Headers */,
+				7F3528DEB9C22AD76225D74A70AB3FD6 /* HCReturnTypeHandlerChain.h in Headers */,
+				C0002C300214B9026A05931D0EB0179F /* HCReturnValueGetter.h in Headers */,
+				CA8626F589193465563E9BB60F11E086 /* HCSelfDescribing.h in Headers */,
+				90D3C83E2AE857B5AFC0EC81B388894D /* HCSenTestFailureReporter.h in Headers */,
+				3F3001CF85BCDFEB473631E95BAB55BE /* HCShortReturnGetter.h in Headers */,
+				A0793163FF0D30D32D24622DF392D590 /* HCStringContains.h in Headers */,
+				E5B56505F7938A774C0F61451B2D6C5B /* HCStringContainsInOrder.h in Headers */,
+				555F4764B980094AF0B7EEA3D26BB936 /* HCStringDescription.h in Headers */,
+				C82683661D1B3F2CA7ADEB07F717B4A0 /* HCStringEndsWith.h in Headers */,
+				BF74E3D6EA47978CE858FB1AE0257579 /* HCStringStartsWith.h in Headers */,
+				A6F2A586935EDC7B26444593A9844C6B /* HCSubstringMatcher.h in Headers */,
+				66DDB65A8C0DA60733FDA3C3ED7CE664 /* HCTestFailure.h in Headers */,
+				DA93BDBDFF8F44B4B2A8B3A5FCDDD374 /* HCTestFailureHandler.h in Headers */,
+				6C1409233B1A016EA630386F0D1C000A /* HCTestFailureHandlerChain.h in Headers */,
+				01A317A924A0C7D9551D3B1E188086BB /* HCTestFailureReporter.h in Headers */,
+				85DE2704A697800879ACB82BA2FE0227 /* HCTestFailureReporterChain.h in Headers */,
+				32DC83B713957F78108536741BD1A6BF /* HCThrowsException.h in Headers */,
+				398ED6F2056CF51CF3CE9CCD545AC93B /* HCUnsignedCharReturnGetter.h in Headers */,
+				610F1E5BD932F7EBD223F97200E7A1A5 /* HCUnsignedIntReturnGetter.h in Headers */,
+				C970564CCDA6197348C7F4325237F560 /* HCUnsignedLongLongReturnGetter.h in Headers */,
+				086BC33DC62E6FD710118854DACA5690 /* HCUnsignedLongReturnGetter.h in Headers */,
+				EE554DDDFD842DA749E303FA05083F04 /* HCUnsignedShortReturnGetter.h in Headers */,
+				DEC93FBEFB0F982E2FCD172A21DA83F8 /* HCWrapInMatcher.h in Headers */,
+				702787E357CFBF66344F31C879E099B3 /* HCXCTestFailureReporter.h in Headers */,
+				C346F5A25C254382E257819D52864776 /* NSInvocation+OCHamcrest.h in Headers */,
+				600ED8074693D0F5BF7E4EB786CE7D5E /* OCHamcrest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0680F12FA47984E1A012DB62EA47984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EA16C9AFDEC289D69AFF201CE26E22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55278D4CC7BC84D57CF5B2E58AC9F44 /* MKT_TPDWeakProxy.h in Headers */,
+				33CB886AD2077057A84F38D7B9D6F479 /* MKTAnswer.h in Headers */,
+				CB83E2392E793174523F8C0215326F58 /* MKTArgumentCaptor.h in Headers */,
+				10A15C5052D5AF0B7AF0B5A9DDC09920 /* MKTArgumentGetter.h in Headers */,
+				D1356585B2BD10DA58409452ABC70CDC /* MKTArgumentGetterChain.h in Headers */,
+				4FAFC54F1FE759884046CD8613FC70BF /* MKTAtLeastTimes.h in Headers */,
+				D857BD0DCCE7C0AC4A505EAA67C033A8 /* MKTBaseMockObject.h in Headers */,
+				BEA227B6353E7643EFAFD087A51BF535 /* MKTBlockArgumentGetter.h in Headers */,
+				92538870E9AE697B2C36E768C681F57E /* MKTBoolArgumentGetter.h in Headers */,
+				9F13DFA1EAA4A842F76372FA4CCEF39A /* MKTBoolReturnSetter.h in Headers */,
+				1DA255A355C9E27D170E2E652A2547BA /* MKTCapturingMatcher.h in Headers */,
+				34A63FF6FF807ED7A0EA231B97C4C7CE /* MKTCharArgumentGetter.h in Headers */,
+				7CF95667E38F68A9538D6AFED8EF9E6F /* MKTCharReturnSetter.h in Headers */,
+				5E3A041F5F30CAC466F87A036D322A08 /* MKTClassArgumentGetter.h in Headers */,
+				755364FC69C9C1E63F91F3B36D6A4A39 /* MKTClassObjectMock.h in Headers */,
+				062BDD4BBFC220F9070F31DDF12AEB0D /* MKTClassReturnSetter.h in Headers */,
+				488FFEA9838B20D6476983148A9BCC83 /* MKTDoubleArgumentGetter.h in Headers */,
+				10E62AFE7052D497EA46E41252930542 /* MKTDoubleReturnSetter.h in Headers */,
+				8FE0A3BD3279F21561C31B3E0911B1C6 /* MKTDynamicProperties.h in Headers */,
+				004B3573A2662CA5A09FE6D7F7CAC2FA /* MKTExactTimes.h in Headers */,
+				2693F7C2D284F560811CB0B073FC9746 /* MKTExecutesBlock.h in Headers */,
+				C2CBFCBC3037E28A824E4C36B2B870F2 /* MKTFloatArgumentGetter.h in Headers */,
+				250E4BFBA7B936A522DF185C40BD72D5 /* MKTFloatReturnSetter.h in Headers */,
+				C2A0658AD8DB661BDA9138F9855529F4 /* MKTIntArgumentGetter.h in Headers */,
+				1F10730E0E2810D46CDD2673A2D5342C /* MKTIntReturnSetter.h in Headers */,
+				EDD0BFFCF09EB9708550782C6F26AAEB /* MKTInvocationContainer.h in Headers */,
+				68724E79F15CCB2DCDFA78BBC465E588 /* MKTInvocationMatcher.h in Headers */,
+				811E52963587EEEA8CC9277F2F8D13CD /* MKTLongArgumentGetter.h in Headers */,
+				E18C5D9E421A27E2443F034C3ADC9A7B /* MKTLongLongArgumentGetter.h in Headers */,
+				813CE306AAB11240F08109E456A73BA2 /* MKTLongLongReturnSetter.h in Headers */,
+				E18089E442CE4EF68B7C52624ED525A6 /* MKTLongReturnSetter.h in Headers */,
+				31900B43FF39381B06AACA9BF219E778 /* MKTMockingProgress.h in Headers */,
+				B258B77599A713F1D1C7C59A1384BE5F /* MKTMockitoCore.h in Headers */,
+				C8E324BC19F8455B8306C72868592A01 /* MKTObjectAndProtocolMock.h in Headers */,
+				32AD85674BEBA377F33D7512D3F657D6 /* MKTObjectArgumentGetter.h in Headers */,
+				ED958C5897854590B159439649FC242F /* MKTObjectMock.h in Headers */,
+				BF84EDEF3E8634962A7C1FB8269E46D8 /* MKTObjectReturnSetter.h in Headers */,
+				B58BFE6ADD0A9D87CBCE162C613973FC /* MKTOngoingStubbing.h in Headers */,
+				A595D3E9A19DB9AE0BF0339CC9013698 /* MKTPointerArgumentGetter.h in Headers */,
+				143DA4D09C70C8E093428396246B1B54 /* MKTPrimitiveArgumentMatching.h in Headers */,
+				E17486893774009B3704D537685B8C53 /* MKTProtocolMock.h in Headers */,
+				EB49E618C356BB7DFA087B6C9FC72ED3 /* MKTReturnsValue.h in Headers */,
+				FDF7CB89B74F7CFFF910CED8DC4210FB /* MKTReturnValueSetter.h in Headers */,
+				4A0198C079CD8497032E439E4EE8AA34 /* MKTReturnValueSetterChain.h in Headers */,
+				57D03FDC9ED90FACB84ED7CA7CEF5470 /* MKTSelectorArgumentGetter.h in Headers */,
+				6FE95F42BA61C89427CE3DF3EEC6162D /* MKTShortArgumentGetter.h in Headers */,
+				CC5F24AE026C28BFA9A4A2588C7769EB /* MKTShortReturnSetter.h in Headers */,
+				1D2109FA50B6B2C9240C91F334DE5583 /* MKTStructArgumentGetter.h in Headers */,
+				3076099C9029001B5D60632191A8C9B0 /* MKTStructReturnSetter.h in Headers */,
+				9ECAE9A919BD495776EBE0D2BEA6806E /* MKTStubbedInvocationMatcher.h in Headers */,
+				92EF2C6DEE0CD2F975FE55383921882A /* MKTTestLocation.h in Headers */,
+				0063B1651C7F4C01E4EA2BB07D18A7F7 /* MKTThrowsException.h in Headers */,
+				2492B0B459400C4D82C6A50DE75E7B79 /* MKTUnsignedCharArgumentGetter.h in Headers */,
+				ECC45B7C8A1CEA8E8D491BA5C2B1853A /* MKTUnsignedCharReturnSetter.h in Headers */,
+				A0262E41604A6DB4FE0AAD4A40F554F3 /* MKTUnsignedIntArgumentGetter.h in Headers */,
+				0934186DD28D9469BAD83501580684E5 /* MKTUnsignedIntReturnSetter.h in Headers */,
+				0C1569799EB826E2CC71F300B36DC803 /* MKTUnsignedLongArgumentGetter.h in Headers */,
+				85F759A861C8C8CF7E91427989C3325B /* MKTUnsignedLongLongArgumentGetter.h in Headers */,
+				8146D55D131122E694265809A7C3EE21 /* MKTUnsignedLongLongReturnSetter.h in Headers */,
+				C4E586DD5FAD533BD103B05E49D29793 /* MKTUnsignedLongReturnSetter.h in Headers */,
+				A81E25178FC7DEA7C9FB0FAAF7E1B9C4 /* MKTUnsignedShortArgumentGetter.h in Headers */,
+				5AE7D17E8204C77596F94853B89EF8CE /* MKTUnsignedShortReturnSetter.h in Headers */,
+				53B09F64F702AD53D7C4E929932C1CA3 /* MKTVerificationData.h in Headers */,
+				A84385508810F1C67AE5D73791322854 /* MKTVerificationMode.h in Headers */,
+				D054A696A5DE154642161BBED4998ADA /* NSInvocation+OCMockito.h in Headers */,
+				F5561C9ED17C956C063039F10A2547F0 /* OCMockito.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8094467761B2E923813531849AE7B97A /* OCHamcrest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1A62C057C3522CCC0E6B4C00AF948CB /* Build configuration list for PBXNativeTarget "OCHamcrest" */;
+			buildPhases = (
+				1992F7B0CF85A4AEA54DE23967344B23 /* Headers */,
+				D5E49E714FA2737E12EB97F82A50BBBA /* Sources */,
+				4EA9DEE3E0824100C4A9A3C79D38488A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCHamcrest;
+			productName = OCHamcrest;
+			productReference = 46E9DB656AB852B52134EA8B5DE55D5C /* libOCHamcrest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94B2BC719AA845C573F018EF543D3425 /* Pods-FBKVOControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B482C6E1AFA72D4FF91C996BC8D912 /* Build configuration list for PBXNativeTarget "Pods-FBKVOControllerTests" */;
+			buildPhases = (
+				B0680F12FA47984E1A012DB62EA47984 /* Headers */,
+				CAC30C25DCD96EDBEBAB228220D30B1A /* Sources */,
+				2E22637617E90D6AD4D6AC246B75FC70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4ABC246228435935E0464657CCAF35 /* PBXTargetDependency */,
+				5B96A762ACFF0BE8CCF169F23911A7E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FBKVOControllerTests";
+			productName = "Pods-FBKVOControllerTests";
+			productReference = B264DA698831F051D5955F26FDC2D3C6 /* libPods-FBKVOControllerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AACA30CC7F0FBF6ECAE6A3C4719640F1 /* OCMockito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4306EA9A0B5D5DB0E7494372BA82D09E /* Build configuration list for PBXNativeTarget "OCMockito" */;
+			buildPhases = (
+				E3EA16C9AFDEC289D69AFF201CE26E22 /* Headers */,
+				685C10CD7A59BACB6C62DC1D4547D7B4 /* Sources */,
+				BBAE67F00C09621A01D38C4BF06B8CB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543F6FD36580FFCD8C37FC0FD26F3781 /* PBXTargetDependency */,
+			);
+			name = OCMockito;
+			productName = OCMockito;
+			productReference = 7DDE13FAD087C4C94416C87926291DA9 /* libOCMockito.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E23367D19A21B1FA5508A68518685A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8094467761B2E923813531849AE7B97A /* OCHamcrest */,
+				AACA30CC7F0FBF6ECAE6A3C4719640F1 /* OCMockito */,
+				94B2BC719AA845C573F018EF543D3425 /* Pods-FBKVOControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685C10CD7A59BACB6C62DC1D4547D7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC981701C796C3C07A787DE3D590FA8 /* MKT_TPDWeakProxy.m in Sources */,
+				C28017058637034ABBAD8611AFF86083 /* MKTArgumentCaptor.m in Sources */,
+				3C21C73062BC132E6961741C02690F08 /* MKTArgumentGetter.m in Sources */,
+				C407F03F8207CC69ACCB627B811D3650 /* MKTArgumentGetterChain.m in Sources */,
+				1E7E8C64B10A78DAAB4528E49F3884C8 /* MKTAtLeastTimes.m in Sources */,
+				30C277EBDF8B56940A1C893C07EA948E /* MKTBaseMockObject.m in Sources */,
+				92BBF2ECF73AA0C24589103426915DA6 /* MKTBlockArgumentGetter.m in Sources */,
+				5A0A814718756C2139071E5FAF1FE8E0 /* MKTBoolArgumentGetter.m in Sources */,
+				30C1CABCFC1F90450111B1186E014854 /* MKTBoolReturnSetter.m in Sources */,
+				928B9BA1EEE1BC942A37306748C9B8B2 /* MKTCapturingMatcher.m in Sources */,
+				EC5E327B0C5CA471C54C1C8CCE5B81F6 /* MKTCharArgumentGetter.m in Sources */,
+				1F3D55021E0D326C9F83BD82FE9FDAC5 /* MKTCharReturnSetter.m in Sources */,
+				225E0D482B2E36B6EC5B504781FA61CB /* MKTClassArgumentGetter.m in Sources */,
+				4523739501B73D77525BCFDC987FC7E3 /* MKTClassObjectMock.m in Sources */,
+				1A109A7B6AE86C6842D29AD03F43300C /* MKTClassReturnSetter.m in Sources */,
+				BA55560DEAE97B9AA4500EFDEFFEE0A4 /* MKTDoubleArgumentGetter.m in Sources */,
+				99B7F34199AE41A9EF9F8FBDF7ECA99B /* MKTDoubleReturnSetter.m in Sources */,
+				C264BDF9E17D93E243ABD4460FB2C7C4 /* MKTDynamicProperties.m in Sources */,
+				5C19A120BE19883941165BEACC0DBFE9 /* MKTExactTimes.m in Sources */,
+				9E928967D4036D56944AAD63D74F2938 /* MKTExecutesBlock.m in Sources */,
+				5E999DCE9ACFC5D30C79795AE6F0D193 /* MKTFloatArgumentGetter.m in Sources */,
+				76713ADE02B3CD4A867232E25AFD8213 /* MKTFloatReturnSetter.m in Sources */,
+				0D2278696B4C2E3E996D1B1A72E36E3E /* MKTIntArgumentGetter.m in Sources */,
+				0AC6C64FADEE21E9C1EDE6411205688A /* MKTIntReturnSetter.m in Sources */,
+				AAB61E79C6A98AA4829007D0A4D6FA19 /* MKTInvocationContainer.m in Sources */,
+				52DB1E73503A93E38ED871A29BF6D7A7 /* MKTInvocationMatcher.m in Sources */,
+				814E917268C7D2A5D2AC24356B1876D1 /* MKTLongArgumentGetter.m in Sources */,
+				796ACB51D0B5AF166DE4B015E0F123CB /* MKTLongLongArgumentGetter.m in Sources */,
+				2D7FCAD52E2A70B7839DAB77FA08D67D /* MKTLongLongReturnSetter.m in Sources */,
+				CE2E41BC80881528B9EF80C801BB3BFA /* MKTLongReturnSetter.m in Sources */,
+				A483A956C2C655667CBCC8BC9BFC39AD /* MKTMockingProgress.m in Sources */,
+				AE4985129D711A68772A07FB7CADBB04 /* MKTMockitoCore.m in Sources */,
+				6CA2B25DA21F37844FE8ED350E333B68 /* MKTObjectAndProtocolMock.m in Sources */,
+				2E21C42B5B2047448336FB7C4F351254 /* MKTObjectArgumentGetter.m in Sources */,
+				208AFF45347799206D00C8DB1C5FE0D0 /* MKTObjectMock.m in Sources */,
+				7E16B81EA50849E779F0AB3A83A95D11 /* MKTObjectReturnSetter.m in Sources */,
+				00006B967E3E1BC615A177018F909D3F /* MKTOngoingStubbing.m in Sources */,
+				11F7E6E0C8879562C5A2C55D5EC46D08 /* MKTPointerArgumentGetter.m in Sources */,
+				7FD918BF76D896C64BDB2E74471889C0 /* MKTProtocolMock.m in Sources */,
+				29B9DEBF75F9F9A1E59E9423C06B8510 /* MKTReturnsValue.m in Sources */,
+				93C7AC9D3B7BE54CB8801B3FCDFD75AF /* MKTReturnValueSetter.m in Sources */,
+				F35311B1F8E1C889BAA6499C1EBCC55B /* MKTReturnValueSetterChain.m in Sources */,
+				DDCC62B41156E8EC2AEE494320E5662C /* MKTSelectorArgumentGetter.m in Sources */,
+				BF98491D127ACF430A7897B41CB3C987 /* MKTShortArgumentGetter.m in Sources */,
+				5A03D8076A06E09E6D3136287DC23FB0 /* MKTShortReturnSetter.m in Sources */,
+				B98525CCB7C1E9D7BEC99FBA4BBBC132 /* MKTStructArgumentGetter.m in Sources */,
+				2DB52A2E22841D424EF0A8CF910432B1 /* MKTStructReturnSetter.m in Sources */,
+				F723A4A25486F3FD68C647D25723B1BD /* MKTStubbedInvocationMatcher.m in Sources */,
+				783B0F354323C9A87A14AB01B66D5BD2 /* MKTTestLocation.m in Sources */,
+				3509214BC98D31AA308524C9DFB02B9C /* MKTThrowsException.m in Sources */,
+				34500C70335D67EEA41857F190085A5E /* MKTUnsignedCharArgumentGetter.m in Sources */,
+				8026A471C7C87099686F9B76124BD79A /* MKTUnsignedCharReturnSetter.m in Sources */,
+				41ABDE14E4814FF5BA1B89CFC579D721 /* MKTUnsignedIntArgumentGetter.m in Sources */,
+				DB36B006FA633AD58AE222FFC72C6768 /* MKTUnsignedIntReturnSetter.m in Sources */,
+				9EAEF20A787D5C22112717A840C9ECE8 /* MKTUnsignedLongArgumentGetter.m in Sources */,
+				497E5EF25C16412A865EDEAB8AF7BE42 /* MKTUnsignedLongLongArgumentGetter.m in Sources */,
+				00F2DFA3437431D0B167D33CC17326A0 /* MKTUnsignedLongLongReturnSetter.m in Sources */,
+				A81D5F9D0EBF512484172B60726F3F38 /* MKTUnsignedLongReturnSetter.m in Sources */,
+				03AAD167F88728463A57E4B55D6C892F /* MKTUnsignedShortArgumentGetter.m in Sources */,
+				B3D9A26B0FD39E98513E928C177E6C55 /* MKTUnsignedShortReturnSetter.m in Sources */,
+				6E03112F460D9B009E54CE098F602742 /* MKTVerificationData.m in Sources */,
+				30AF26F3D1BC00377CC02266AE672446 /* NSInvocation+OCMockito.m in Sources */,
+				D67EED8FC556B59FA1E9A6E6D1EFC51E /* OCMockito.m in Sources */,
+				55782873AD9768670A121F0A6DD4A5B0 /* OCMockito-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC30C25DCD96EDBEBAB228220D30B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E552C69A420E455E5E1A0E689FA7DDB3 /* Pods-FBKVOControllerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E49E714FA2737E12EB97F82A50BBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60F3C63665EC26F62E6D89C57FE438B /* HCAllOf.m in Sources */,
+				7C1135A49827AEB5F83AE934AC656CE4 /* HCAnyOf.m in Sources */,
+				9BF529294BEB5B6F616C94ED4819AB86 /* HCArgumentCaptor.m in Sources */,
+				00D4FE026845ED36D0F14988F6E0C665 /* HCAssertThat.m in Sources */,
+				586E525CC04E5EBBDAD18FC6183B9E43 /* HCBaseDescription.m in Sources */,
+				9BDF941A9AF95498F4A3F47295E28E11 /* HCBaseMatcher.m in Sources */,
+				4FDEE6E01E957EE8747E3E903D917551 /* HCBoolReturnGetter.m in Sources */,
+				7768D53172D9C196CE35E644CB133409 /* HCCharReturnGetter.m in Sources */,
+				CA55859250318B0A299D422383965256 /* HCClassMatcher.m in Sources */,
+				46A420AF02B90DF8BDB9F9FA96C5E5B4 /* HCCollect.m in Sources */,
+				562F2DC995772C33D26855C656DBEDFC /* HCConformsToProtocol.m in Sources */,
+				6637D478060C519CBC1AB06B1439BC3A /* HCDescribedAs.m in Sources */,
+				BD32A3BFEFCEA3F7B5EC774A1E1BD2B7 /* HCDiagnosingMatcher.m in Sources */,
+				974C24178F323EDAF305A5DDED0BFB47 /* HCDoubleReturnGetter.m in Sources */,
+				0DB6B7C7F6D871F795F57BA67916AE2E /* HCEvery.m in Sources */,
+				9934B20FADAA760FDB228DA781B57869 /* HCFloatReturnGetter.m in Sources */,
+				C4A440C242EA00A43B6FE78C7172985A /* HCGenericTestFailureReporter.m in Sources */,
+				7E12619F89BA4C302108C7C05FC39343 /* HCHasCount.m in Sources */,
+				1B2B9FB0A1A1E05CBDAB433E452D110E /* HCHasDescription.m in Sources */,
+				F11AA31EE74B1A8610676CF9B1848381 /* HCHasProperty.m in Sources */,
+				8CDFAC6175C8FEED2218082088AD4589 /* HCIntReturnGetter.m in Sources */,
+				783061C84C1C186B2B66EA148F50CD76 /* HCInvocationMatcher.m in Sources */,
+				00BD1709101E064AE703110F34724816 /* HCIs.m in Sources */,
+				4B315603861B7286438D76BED3DBC72C /* HCIsAnything.m in Sources */,
+				F9DD67EBFECEB4D28B67E4068E4A8E30 /* HCIsCloseTo.m in Sources */,
+				8430EE3C042404572B4D24A5E75CF3F0 /* HCIsCollectionContaining.m in Sources */,
+				8A47CF3631F129E07F386FD4D90BD298 /* HCIsCollectionContainingInAnyOrder.m in Sources */,
+				02E2E4F92374E01AF3FCEDD455383077 /* HCIsCollectionContainingInOrder.m in Sources */,
+				7F4B754454CCCD28333E2A68AE7537BA /* HCIsCollectionContainingInRelativeOrder.m in Sources */,
+				EA3A03A0F797312B01B7A5BA2216B3D1 /* HCIsCollectionOnlyContaining.m in Sources */,
+				7C6A6339947494F2AC267DCE3B593BC4 /* HCIsDictionaryContaining.m in Sources */,
+				E11BFF702042583C1DF7D8D67F9EA838 /* HCIsDictionaryContainingEntries.m in Sources */,
+				18991A39E92EB8864332503A15DDFECD /* HCIsDictionaryContainingKey.m in Sources */,
+				1C5F94C9DBE5297C0A84E3E5C24A045A /* HCIsDictionaryContainingValue.m in Sources */,
+				7F2A8F37B2AA920F19A816491379C251 /* HCIsEmptyCollection.m in Sources */,
+				BFD35710F537FEC7D4C5E9A094D60DFD /* HCIsEqual.m in Sources */,
+				CAD8245B4262777C8B7B7AEBB5DE63A9 /* HCIsEqualIgnoringCase.m in Sources */,
+				902162C756FA4CFD716C8A28EB4FB5CC /* HCIsEqualIgnoringWhiteSpace.m in Sources */,
+				EAA7E0D4F8CBEC35F8FAFF093ED57787 /* HCIsEqualToNumber.m in Sources */,
+				E12797421B9F5BF8A01AA4DCE34B0D8E /* HCIsIn.m in Sources */,
+				C5E3BEAC8DBEDD038344CCA9F7FB6267 /* HCIsInstanceOf.m in Sources */,
+				B0FC434C45B3875A4EC68675D6826873 /* HCIsNil.m in Sources */,
+				3A6B88A3495FD40A9330C20517E11A41 /* HCIsNot.m in Sources */,
+				98F615DB12B2D7F7E02E1C344B70B397 /* HCIsSame.m in Sources */,
+				0E040F20F69FC891BD9F9745CE9193EC /* HCIsTrueFalse.m in Sources */,
+				F996F148DBF099084A8983C2F586B92C /* HCIsTypeOf.m in Sources */,
+				11DBF3C4232558AAE0B2596B31ABEC50 /* HCLongLongReturnGetter.m in Sources */,
+				E811A2917B7A3965819912EE5A896D98 /* HCLongReturnGetter.m in Sources */,
+				21DB2A045177DC96812940181CB2B6C1 /* HCNumberAssert.m in Sources */,
+				0D70A5B9FF892F0C6C31779F3011080B /* HCObjectReturnGetter.m in Sources */,
+				B8195D4EF24FCBF4279A367FC80D294D /* HCOrderingComparison.m in Sources */,
+				2C213F00944FF7866323099A4A254EB2 /* HCRequireNonNilObject.m in Sources */,
+				635CE899E6A0EA7766694B0522E12881 /* HCReturnTypeHandlerChain.m in Sources */,
+				EF750CFF574C10A5033CF72D3C94CB8D /* HCReturnValueGetter.m in Sources */,
+				4929CEFB5785F323835921C2F610D307 /* HCSenTestFailureReporter.m in Sources */,
+				427CDD2A1B7AFE9D7F98C7E0912705AA /* HCShortReturnGetter.m in Sources */,
+				E4057AFC5660E94991847E1839D796E1 /* HCStringContains.m in Sources */,
+				6721F54B366BD0DEBC061AE24C8C13D5 /* HCStringContainsInOrder.m in Sources */,
+				61015CA6319CF2D0D16B43B0AE652A9C /* HCStringDescription.m in Sources */,
+				CD948D1943F21968B909332A6EA719B1 /* HCStringEndsWith.m in Sources */,
+				3A7F6A61E7F8A11E93951BA772F32281 /* HCStringStartsWith.m in Sources */,
+				BE7FF55CFA08059E3F8623D88783C24F /* HCSubstringMatcher.m in Sources */,
+				C5F951FF0C5B243EAB7F9404300745ED /* HCTestFailure.m in Sources */,
+				EED296C2E1419ECF03776F2B26EFEB3B /* HCTestFailureHandlerChain.m in Sources */,
+				960F29D2A05006BDB9A34A4DB49C1E53 /* HCTestFailureReporter.m in Sources */,
+				9F59184BFA95B9AE4EE0260EAB903CA8 /* HCTestFailureReporterChain.m in Sources */,
+				D4737A6E9E6D061AA1E4FBA3ECB1C6F7 /* HCThrowsException.m in Sources */,
+				066D3BF5B2034D8DECB64A89C616A126 /* HCUnsignedCharReturnGetter.m in Sources */,
+				19BE62AD6CABFDCD677484EE7A954B82 /* HCUnsignedIntReturnGetter.m in Sources */,
+				DC90BAA2CBCB3A5D2E200A21BB796E42 /* HCUnsignedLongLongReturnGetter.m in Sources */,
+				85D1162AF394A3A2D978BDE44992DB31 /* HCUnsignedLongReturnGetter.m in Sources */,
+				A9775536AE97E18004B35C8278B3F35C /* HCUnsignedShortReturnGetter.m in Sources */,
+				1C1803A3C862F917BF318AC8389A75A6 /* HCWrapInMatcher.m in Sources */,
+				B66E3D2FB77CC46A49206A79F851BD60 /* HCXCTestFailureReporter.m in Sources */,
+				64965FAB587D10990588B72E968B4C17 /* NSInvocation+OCHamcrest.m in Sources */,
+				89D2D8C7E887DE6BE29DF89DD852A7EE /* OCHamcrest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543F6FD36580FFCD8C37FC0FD26F3781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCHamcrest;
+			target = 8094467761B2E923813531849AE7B97A /* OCHamcrest */;
+			targetProxy = 91E63D13F908E39A1102E173EA23FD2E /* PBXContainerItemProxy */;
+		};
+		5B96A762ACFF0BE8CCF169F23911A7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockito;
+			target = AACA30CC7F0FBF6ECAE6A3C4719640F1 /* OCMockito */;
+			targetProxy = E749EB040019D36A4E6D65E1FF8A4D3B /* PBXContainerItemProxy */;
+		};
+		BD4ABC246228435935E0464657CCAF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCHamcrest;
+			target = 8094467761B2E923813531849AE7B97A /* OCHamcrest */;
+			targetProxy = 253296056CD9411D266B4C459C6B4792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043A60EC3C1B8947C671B3257ADA347F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827A41D8297DB5AE8902CE5F536DA915 /* Pods-FBKVOControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9126E1C4EF05F07AAC9652D975A37BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71846965864CD490A8BFC061EA2AF53 /* OCHamcrest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OCHamcrest;
+				PRODUCT_NAME = OCHamcrest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC5656431A55D4D3DD3150E4C500EAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F0C1001D11A5FCDB819C9A0ED8A07B /* OCMockito.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OCMockito;
+				PRODUCT_NAME = OCMockito;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC604852A4B3F76ED7B1216A5DB3B467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F88C44EAF8C621FF4C7B5A47B31F075 /* Pods-FBKVOControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4460910D23D3513A33AC487DD0D8CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DB60AD9009EE9FDF931AC9F0A03AA7 /* OCMockito.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OCMockito;
+				PRODUCT_NAME = OCMockito;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F564588ABC29DE26DCD4ECEC47493CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF42FC544E0FABCD4624733FF541AA74 /* OCHamcrest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OCHamcrest;
+				PRODUCT_NAME = OCHamcrest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4306EA9A0B5D5DB0E7494372BA82D09E /* Build configuration list for PBXNativeTarget "OCMockito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4460910D23D3513A33AC487DD0D8CD3 /* Debug */,
+				AC5656431A55D4D3DD3150E4C500EAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B482C6E1AFA72D4FF91C996BC8D912 /* Build configuration list for PBXNativeTarget "Pods-FBKVOControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC604852A4B3F76ED7B1216A5DB3B467 /* Debug */,
+				043A60EC3C1B8947C671B3257ADA347F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1A62C057C3522CCC0E6B4C00AF948CB /* Build configuration list for PBXNativeTarget "OCHamcrest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9126E1C4EF05F07AAC9652D975A37BA0 /* Debug */,
+				F564588ABC29DE26DCD4ECEC47493CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
