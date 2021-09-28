@@ -34,7 +34,4 @@ static LGPerson *_instance = nil;
 
 
 
-// 解决，添加
-// - (void)dealloc{}
-
 @end
