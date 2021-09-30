@@ -10,10 +10,12 @@ import UIKit
 
 class Cate: NSObject{
     
-    @objc dynamic var nick = 51
+    @objc dynamic var age = 51
+    
+    @objc dynamic var money = 15
     
     var k: String{
-        "nick"
+        "age"
     }
 }
 
@@ -23,10 +25,20 @@ class ViewController: UIViewController {
 
     let cat = Cate()
     
+    var moneyObservation: NSKeyValueObservation?
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         cat.addObserver(self, forKeyPath: cat.k, options: .new, context: nil)
+        
+        //
+        
+        moneyObservation = cat.observe(\.money, changeHandler: { cat, change in
+            print("money :  ", cat.money)
+        })
     }
 
 
@@ -34,7 +46,7 @@ class ViewController: UIViewController {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
         if let dict = change{
-            print(dict[.newKey] ?? "ha ha")
+            print("age :   ", dict[.newKey] ?? "ha ha")
         }
         
         
@@ -44,11 +56,15 @@ class ViewController: UIViewController {
     deinit{
         
         cat.removeObserver(self, forKeyPath: cat.k, context: nil)
+        moneyObservation = nil
     }
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        cat.nick += 3
+        print("\n\n下一局:")
+        cat.age += 3
+        cat.money += 1
+        
     }
 }
 
